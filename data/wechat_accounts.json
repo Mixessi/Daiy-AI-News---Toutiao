@@ -1,0 +1,11 @@
+{
+  "_comment": "微信公众号对照列表。真实源由 Wechat2RSS 部署自动同步（见 wechat2rss_sync.py），此文件是人工维护的对照/兜底清单：feed_id 为 Wechat2RSS 中该公众号的 feed 标识，name 为公众号名。若配置了 WECHAT2RSS_BASE_URL，运行时会自动拉取并合并覆盖此列表。",
+  "accounts": [
+    { "name": "机器之心", "feed_id": "", "tags": ["ai"] },
+    { "name": "量子位", "feed_id": "", "tags": ["ai"] },
+    { "name": "新智元", "feed_id": "", "tags": ["ai"] },
+    { "name": "InfoQ", "feed_id": "", "tags": ["tech"] },
+    { "name": "晚点LatePost", "feed_id": "", "tags": ["business"] },
+    { "name": "字节跳动技术团队", "feed_id": "", "tags": ["tech", "bytedance"] }
+  ]
+}
