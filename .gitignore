@@ -1,0 +1,18 @@
+# Secrets — never commit real keys.
+.env
+*.env
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Local run artifacts (the archived snapshots in daily_filtered/ ARE committed)
+filtered_news.json
+analysis_output.json
+*.log
+.DS_Store

@@ -1,0 +1,20 @@
+{
+  "_comment": "Substack 类 newsletter 源（每个 Substack 都自带 /feed）。种子列表，按需扩充到 ~55 个。",
+  "feeds": [
+    { "name": "Import AI (Jack Clark)", "url": "https://importai.substack.com/feed", "tags": ["ai", "policy"] },
+    { "name": "The Batch (DeepLearning.AI)", "url": "https://www.deeplearning.ai/the-batch/feed/", "tags": ["ai"] },
+    { "name": "Ben's Bites", "url": "https://bensbites.beehiiv.com/feed", "tags": ["ai", "product"] },
+    { "name": "The Neuron", "url": "https://www.theneurondaily.com/feed", "tags": ["ai"] },
+    { "name": "AI Supremacy", "url": "https://aisupremacy.substack.com/feed", "tags": ["ai", "analysis"] },
+    { "name": "One Useful Thing (Ethan Mollick)", "url": "https://www.oneusefulthing.org/feed", "tags": ["ai", "usage"] },
+    { "name": "Interconnects (Nathan Lambert)", "url": "https://www.interconnects.ai/feed", "tags": ["ai", "research"] },
+    { "name": "SemiAnalysis", "url": "https://www.semianalysis.com/feed", "tags": ["ai", "hardware", "supplychain"] },
+    { "name": "Stratechery (public)", "url": "https://stratechery.com/feed/", "tags": ["tech", "strategy"] },
+    { "name": "Exponential View (Azeem Azhar)", "url": "https://www.exponentialview.co/feed", "tags": ["tech", "future"] },
+    { "name": "Last Week in AI", "url": "https://lastweekin.ai/feed", "tags": ["ai"] },
+    { "name": "The Sequence", "url": "https://thesequence.substack.com/feed", "tags": ["ai", "research"] },
+    { "name": "Latent Space", "url": "https://www.latent.space/feed", "tags": ["ai", "engineering"] },
+    { "name": "Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed", "tags": ["engineering"] },
+    { "name": "Turner's AI (placeholder)", "url": "https://www.aitidbits.ai/feed", "tags": ["ai", "product"] }
+  ]
+}

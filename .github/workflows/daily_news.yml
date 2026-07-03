@@ -1,0 +1,87 @@
+name: Daily AI News Analysis
+
+# 主流水线：初筛 → 归档 → (可选)发布雷达 → 深度分析写日报 → 提交归档
+# Cron 48 1 * * * (UTC) → 每天 09:48 北京时间
+on:
+  schedule:
+    - cron: "48 1 * * *"
+  workflow_dispatch:
+    inputs:
+      disable_feishu_write:
+        description: "置 1 只产出本地 JSON、不写飞书（安全试跑）"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-news
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180   # 正常一天 1 小时+，给足余量
+    env:
+      # ---- ARK / 豆包 ----
+      VOLC_API_KEY: ${{ secrets.VOLC_API_KEY }}
+      VOLC_ENDPOINT: ${{ secrets.VOLC_ENDPOINT }}
+      # ---- 飞书 ----
+      FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+      FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+      FEISHU_BITABLE_URL: ${{ secrets.FEISHU_BITABLE_URL }}
+      FEISHU_KNOWLEDGE_BASE_URL: ${{ secrets.FEISHU_KNOWLEDGE_BASE_URL }}
+      FEISHU_DAILY_REPORT_URL: ${{ secrets.FEISHU_DAILY_REPORT_URL }}
+      # ---- Wechat2RSS ----
+      WECHAT2RSS_BASE_URL: ${{ secrets.WECHAT2RSS_BASE_URL }}
+      WECHAT2RSS_TOKEN: ${{ secrets.WECHAT2RSS_TOKEN }}
+      # ---- 增强（缺则自动跳过）----
+      VOLC_ASR_APPID: ${{ secrets.VOLC_ASR_APPID }}
+      VOLC_ASR_TOKEN: ${{ secrets.VOLC_ASR_TOKEN }}
+      VOLC_ASR_RESOURCE_ID: ${{ secrets.VOLC_ASR_RESOURCE_ID }}
+      PODCAST_ADMIN_EMAIL: ${{ secrets.PODCAST_ADMIN_EMAIL }}
+      SOCIALDATA_API_KEY: ${{ secrets.SOCIALDATA_API_KEY }}
+      AI_NEWS_RADAR_DEPLOY_KEY: ${{ secrets.AI_NEWS_RADAR_DEPLOY_KEY }}
+      AI_TO_C_MODEL: ${{ secrets.AI_TO_C_MODEL }}
+      # 手动触发可覆盖
+      DISABLE_FEISHU_WRITE: ${{ github.event.inputs.disable_feishu_write }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: 1) RSS 抓取 + 24h 过滤 + 豆包初筛 + 写飞书多维表格
+        run: python rss_filter.py
+
+      - name: 2) 归档当天结果到 daily_filtered/
+        run: python archive_daily.py
+
+      - name: 3) (可选) Publish AI News Radar
+        continue-on-error: true
+        if: ${{ env.AI_NEWS_RADAR_DEPLOY_KEY != '' }}
+        run: |
+          echo "AI_NEWS_RADAR_DEPLOY_KEY 已配置，此处执行前端雷达发布（占位）。"
+          echo "未配置时本步骤会被 if 跳过，不影响主流水线。"
+
+      - name: 4) 豆包深度分析 → 写飞书日报
+        run: python news_analyzer.py --feishu
+
+      - name: 5) 提交 daily_filtered/ 回仓库
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add daily_filtered/
+          if git diff --cached --quiet; then
+            echo "无归档变更，跳过提交。"
+          else
+            git commit -m "chore(daily): archive $(date -u +%Y-%m-%d) filtered news"
+            git push
+          fi

@@ -1,0 +1,12 @@
+{
+  "_comment": "Twitter/X KOL 名单，供 kol_digest.py 使用（需 SOCIALDATA_API_KEY，缺则整块跳过）。",
+  "kols": [
+    { "handle": "sama", "name": "Sam Altman", "tags": ["openai"] },
+    { "handle": "AndrewYNg", "name": "Andrew Ng", "tags": ["research"] },
+    { "handle": "karpathy", "name": "Andrej Karpathy", "tags": ["research"] },
+    { "handle": "ylecun", "name": "Yann LeCun", "tags": ["research", "meta"] },
+    { "handle": "demishassabis", "name": "Demis Hassabis", "tags": ["deepmind"] },
+    { "handle": "DrJimFan", "name": "Jim Fan", "tags": ["nvidia", "robotics"] },
+    { "handle": "swyx", "name": "Shawn Wang", "tags": ["engineering"] }
+  ]
+}

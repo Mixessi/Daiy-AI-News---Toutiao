@@ -1,0 +1,63 @@
+name: Biweekly AI Report
+
+# 汇总近两周归档 → 豆包深度分析 → 写飞书双周报
+# Cron 0 13 * * 3 (UTC) → 每周三 21:00 北京时间。
+# 通过 ISO 周次奇偶做「隔周」闸门（手动触发默认强制执行）。
+on:
+  schedule:
+    - cron: "0 13 * * 3"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "强制执行（忽略隔周闸门），填 1"
+        required: false
+        default: "1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: biweekly-report
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.force }}" = "1" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            WEEK=$(date -u +%V)      # ISO 周次
+            if [ $((10#$WEEK % 2)) -eq 1 ]; then
+              echo "run=true" >> "$GITHUB_OUTPUT"   # 奇数周执行（隔周）
+            else
+              echo "run=false" >> "$GITHUB_OUTPUT"
+              echo "本周为偶数周，跳过双周报。"
+            fi
+          fi
+
+  run:
+    needs: gate
+    if: ${{ needs.gate.outputs.run == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      VOLC_API_KEY: ${{ secrets.VOLC_API_KEY }}
+      VOLC_ENDPOINT: ${{ secrets.VOLC_ENDPOINT }}
+      FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+      FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+      FEISHU_BIWEEKLY_REPORT_URL: ${{ secrets.FEISHU_BIWEEKLY_REPORT_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Biweekly report
+        run: python biweekly_analyzer.py

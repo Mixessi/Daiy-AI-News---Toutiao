@@ -1,0 +1,25 @@
+{
+  "_comment": "科技/AI 媒体 RSS 源。name 用于展示与去重分组，url 为 feed 地址，tags 便于后续筛选。可自由增删。",
+  "feeds": [
+    { "name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "tags": ["ai", "tech"] },
+    { "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "tags": ["tech"] },
+    { "name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "tags": ["tech"] },
+    { "name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "tags": ["ai"] },
+    { "name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/", "tags": ["ai", "research"] },
+    { "name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "tags": ["tech"] },
+    { "name": "Wired", "url": "https://www.wired.com/feed/rss", "tags": ["tech"] },
+    { "name": "Engadget", "url": "https://www.engadget.com/rss.xml", "tags": ["tech", "consumer"] },
+    { "name": "The Information (public)", "url": "https://www.theinformation.com/feed", "tags": ["tech", "business"] },
+    { "name": "Hacker News (front)", "url": "https://hnrss.org/frontpage", "tags": ["tech", "community"] },
+    { "name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "tags": ["ai", "vendor"] },
+    { "name": "OpenAI Blog", "url": "https://openai.com/blog/rss.xml", "tags": ["ai", "vendor"] },
+    { "name": "DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml", "tags": ["ai", "vendor"] },
+    { "name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "tags": ["ai", "opensource"] },
+    { "name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/feed/", "tags": ["ai", "hardware"] },
+    { "name": "arXiv cs.AI", "url": "http://export.arxiv.org/rss/cs.AI", "tags": ["ai", "research"] },
+    { "name": "arXiv cs.CL", "url": "http://export.arxiv.org/rss/cs.CL", "tags": ["ai", "research", "nlp"] },
+    { "name": "36Kr", "url": "https://36kr.com/feed", "tags": ["cn", "tech", "business"] },
+    { "name": "机器之心 (via feed)", "url": "https://www.jiqizhixin.com/rss", "tags": ["cn", "ai"] },
+    { "name": "量子位 (placeholder)", "url": "https://www.qbitai.com/feed", "tags": ["cn", "ai"] }
+  ]
+}
