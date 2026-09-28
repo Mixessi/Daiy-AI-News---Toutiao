@@ -10,18 +10,32 @@
 """
 from __future__ import annotations
 
+import calendar
 import json
+import re
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 
 import feedparser
+import requests
 
 import config
 from logging_utils import get_logger
 from wechat2rss_sync import sync_wechat_feeds
 
 log = get_logger("fetch")
+
+# 很多站点（Substack / Cloudflare 后的博客）会对非浏览器 UA 返回 HTML 挑战页，
+# feedparser 解析时报 "not well-formed (invalid token)"。用常见浏览器 UA 并声明接受 RSS。
+_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+    ),
+    "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+}
 
 
 def _load_feed_file(path) -> list[dict]:
@@ -47,8 +61,8 @@ def _entry_timestamp(entry) -> float | None:
         val = entry.get(key)
         if val:
             try:
-                return time.mktime(val) - time.timezone  # struct_time(UTC) → unix
-            except (OverflowError, ValueError):
+                return float(calendar.timegm(val))  # feedparser 给的是 UTC struct_time
+            except (OverflowError, ValueError, TypeError):
                 continue
     return None
 
@@ -56,19 +70,24 @@ def _entry_timestamp(entry) -> float | None:
 def _clean_summary(entry) -> str:
     raw = entry.get("summary") or entry.get("description") or ""
     # 去 HTML 标签，压缩空白
-    import re
-
     text = re.sub(r"<[^>]+>", " ", raw)
     text = re.sub(r"\s+", " ", text).strip()
     return text[:600]
+
+
+def _download(url: str) -> bytes:
+    """带超时下载 feed（feedparser 自带的抓取没有超时，单个慢源会卡死整条流水线）。"""
+    resp = requests.get(url, headers=_HEADERS, timeout=config.FETCH_TIMEOUT)
+    resp.raise_for_status()
+    return resp.content
 
 
 def fetch_one(source: dict, cutoff_ts: float) -> list[dict]:
     url = source["url"]
     name = source.get("name", url)
     try:
-        parsed = feedparser.parse(url, request_headers={"User-Agent": "Mozilla/5.0 (AI-News-Tracker)"})
-    except Exception as exc:  # feedparser 一般不抛，但网络层可能抛
+        parsed = feedparser.parse(_download(url))
+    except Exception as exc:
         log.warning("抓取失败 %s: %s", name, exc)
         return []
 
@@ -97,6 +116,13 @@ def fetch_one(source: dict, cutoff_ts: float) -> list[dict]:
                 "published": datetime.fromtimestamp(ts, tz=timezone.utc).isoformat() if ts else "",
             }
         )
+
+    # 单源上限：防止 arXiv 这类高产源（一天数百篇）淹没其它源、拖慢初筛
+    cap = int(source.get("max_items") or config.MAX_ITEMS_PER_SOURCE)
+    if len(items) > cap:
+        items.sort(key=lambda x: x["published_ts"] or 0, reverse=True)
+        log.info("  %s 近窗口内 %d 条，截取最新 %d 条", name, len(items), cap)
+        items = items[:cap]
     return items
 
 

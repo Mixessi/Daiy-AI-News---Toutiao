@@ -70,6 +70,8 @@ except ValueError:
 # 单条 feed 抓取超时（秒）与全局并发
 FETCH_TIMEOUT = int(_get("FETCH_TIMEOUT", "20") or "20")
 FETCH_WORKERS = int(_get("FETCH_WORKERS", "8") or "8")
+# 单个源最多保留多少条（数据源里可用 max_items 单独覆盖）
+MAX_ITEMS_PER_SOURCE = int(_get("MAX_ITEMS_PER_SOURCE", "40") or "40")
 
 # 豆包初筛的批大小（一次请求评估多少条标题+摘要）
 FILTER_BATCH_SIZE = int(_get("FILTER_BATCH_SIZE", "15") or "15")

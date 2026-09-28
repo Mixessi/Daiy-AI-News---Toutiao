@@ -1,20 +1,293 @@
 {
-  "_comment": "Substack 类 newsletter 源（每个 Substack 都自带 /feed）。种子列表，按需扩充到 ~55 个。",
+  "_comment": "Newsletter 源（Substack / Ghost / beehiiv 等，大多自带 /feed）。目标规模约 55 个，可用 python feed_check.py 体检后增删。",
   "feeds": [
-    { "name": "Import AI (Jack Clark)", "url": "https://importai.substack.com/feed", "tags": ["ai", "policy"] },
-    { "name": "The Batch (DeepLearning.AI)", "url": "https://www.deeplearning.ai/the-batch/feed/", "tags": ["ai"] },
-    { "name": "Ben's Bites", "url": "https://bensbites.beehiiv.com/feed", "tags": ["ai", "product"] },
-    { "name": "The Neuron", "url": "https://www.theneurondaily.com/feed", "tags": ["ai"] },
-    { "name": "AI Supremacy", "url": "https://aisupremacy.substack.com/feed", "tags": ["ai", "analysis"] },
-    { "name": "One Useful Thing (Ethan Mollick)", "url": "https://www.oneusefulthing.org/feed", "tags": ["ai", "usage"] },
-    { "name": "Interconnects (Nathan Lambert)", "url": "https://www.interconnects.ai/feed", "tags": ["ai", "research"] },
-    { "name": "SemiAnalysis", "url": "https://www.semianalysis.com/feed", "tags": ["ai", "hardware", "supplychain"] },
-    { "name": "Stratechery (public)", "url": "https://stratechery.com/feed/", "tags": ["tech", "strategy"] },
-    { "name": "Exponential View (Azeem Azhar)", "url": "https://www.exponentialview.co/feed", "tags": ["tech", "future"] },
-    { "name": "Last Week in AI", "url": "https://lastweekin.ai/feed", "tags": ["ai"] },
-    { "name": "The Sequence", "url": "https://thesequence.substack.com/feed", "tags": ["ai", "research"] },
-    { "name": "Latent Space", "url": "https://www.latent.space/feed", "tags": ["ai", "engineering"] },
-    { "name": "Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed", "tags": ["engineering"] },
-    { "name": "Turner's AI (placeholder)", "url": "https://www.aitidbits.ai/feed", "tags": ["ai", "product"] }
+    {
+      "name": "Import AI (Jack Clark)",
+      "url": "https://importai.substack.com/feed",
+      "tags": [
+        "ai",
+        "policy"
+      ]
+    },
+    {
+      "name": "Ben's Bites",
+      "url": "https://www.bensbites.com/feed",
+      "tags": [
+        "ai",
+        "product"
+      ]
+    },
+    {
+      "name": "The Neuron",
+      "url": "https://www.theneurondaily.com/feed",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "TLDR AI",
+      "url": "https://tldr.tech/api/rss/ai",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "AI Supremacy",
+      "url": "https://www.ai-supremacy.com/feed",
+      "tags": [
+        "ai",
+        "analysis"
+      ]
+    },
+    {
+      "name": "One Useful Thing (Ethan Mollick)",
+      "url": "https://www.oneusefulthing.org/feed",
+      "tags": [
+        "ai",
+        "product"
+      ]
+    },
+    {
+      "name": "Interconnects (Nathan Lambert)",
+      "url": "https://www.interconnects.ai/feed",
+      "tags": [
+        "ai",
+        "research"
+      ]
+    },
+    {
+      "name": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/feed",
+      "tags": [
+        "ai",
+        "infra"
+      ]
+    },
+    {
+      "name": "Stratechery",
+      "url": "https://stratechery.com/feed/",
+      "tags": [
+        "strategy"
+      ]
+    },
+    {
+      "name": "Exponential View (Azeem Azhar)",
+      "url": "https://www.exponentialview.co/feed",
+      "tags": [
+        "ai",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Last Week in AI",
+      "url": "https://lastweekin.ai/feed",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "The Sequence",
+      "url": "https://thesequence.substack.com/feed",
+      "tags": [
+        "ai",
+        "research"
+      ]
+    },
+    {
+      "name": "Latent Space",
+      "url": "https://www.latent.space/feed",
+      "tags": [
+        "ai",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/feed",
+      "tags": [
+        "engineering"
+      ]
+    },
+    {
+      "name": "AI Tidbits",
+      "url": "https://www.aitidbits.ai/feed",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "tags": [
+        "ai",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Understanding AI (Timothy B. Lee)",
+      "url": "https://www.understandingai.org/feed",
+      "tags": [
+        "ai",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Ahead of AI (Sebastian Raschka)",
+      "url": "https://magazine.sebastianraschka.com/feed",
+      "tags": [
+        "ai",
+        "research"
+      ]
+    },
+    {
+      "name": "AI as Normal Technology",
+      "url": "https://www.normaltech.ai/feed",
+      "tags": [
+        "ai",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Gary Marcus",
+      "url": "https://garymarcus.substack.com/feed",
+      "tags": [
+        "ai",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Don't Worry About the Vase (Zvi)",
+      "url": "https://thezvi.substack.com/feed",
+      "tags": [
+        "ai",
+        "analysis"
+      ]
+    },
+    {
+      "name": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/feed",
+      "tags": [
+        "ai",
+        "podcast"
+      ]
+    },
+    {
+      "name": "Hyperdimensional",
+      "url": "https://www.hyperdimensional.co/feed",
+      "tags": [
+        "ai",
+        "policy"
+      ]
+    },
+    {
+      "name": "Air Street Press (State of AI)",
+      "url": "https://press.airstreet.com/feed",
+      "tags": [
+        "ai",
+        "vc"
+      ]
+    },
+    {
+      "name": "Big Technology (Alex Kantrowitz)",
+      "url": "https://www.bigtechnology.com/feed",
+      "tags": [
+        "tech",
+        "strategy"
+      ]
+    },
+    {
+      "name": "Platformer (Casey Newton)",
+      "url": "https://www.platformer.news/rss/",
+      "tags": [
+        "platform",
+        "social"
+      ]
+    },
+    {
+      "name": "Garbage Day",
+      "url": "https://www.garbageday.email/feed",
+      "tags": [
+        "social",
+        "culture"
+      ]
+    },
+    {
+      "name": "Lowpass (Janko Roettgers)",
+      "url": "https://www.lowpass.cc/feed",
+      "tags": [
+        "video",
+        "streaming"
+      ]
+    },
+    {
+      "name": "Mobile Dev Memo (Eric Seufert)",
+      "url": "https://mobiledevmemo.com/feed/",
+      "tags": [
+        "apps",
+        "ads"
+      ]
+    },
+    {
+      "name": "Creator Economy (Peter Yang)",
+      "url": "https://creatoreconomy.so/feed",
+      "tags": [
+        "ai",
+        "product"
+      ]
+    },
+    {
+      "name": "Lenny's Newsletter",
+      "url": "https://www.lennysnewsletter.com/feed",
+      "tags": [
+        "product"
+      ]
+    },
+    {
+      "name": "Not Boring",
+      "url": "https://www.notboring.co/feed",
+      "tags": [
+        "strategy"
+      ]
+    },
+    {
+      "name": "The Diff",
+      "url": "https://www.thediff.co/feed",
+      "tags": [
+        "strategy",
+        "finance"
+      ]
+    },
+    {
+      "name": "Newcomer",
+      "url": "https://www.newcomer.co/feed",
+      "tags": [
+        "vc",
+        "business"
+      ]
+    },
+    {
+      "name": "ChinaTalk",
+      "url": "https://www.chinatalk.media/feed",
+      "tags": [
+        "china",
+        "ai",
+        "policy"
+      ]
+    },
+    {
+      "name": "ChinAI (Jeffrey Ding)",
+      "url": "https://chinai.substack.com/feed",
+      "tags": [
+        "china",
+        "ai"
+      ]
+    },
+    {
+      "name": "Benedict Evans",
+      "url": "https://www.ben-evans.com/benedictevans?format=rss",
+      "tags": [
+        "strategy"
+      ]
+    }
   ]
 }
