@@ -27,7 +27,7 @@ BIWEEKLY_PROMPT = """你是字节跳动内容业务的首席战略分析师。�
 def _load_recent_archives(days: int = 14) -> list[dict]:
     if not config.DAILY_FILTERED_DIR.exists():
         return []
-    cutoff = _dt.date.today() - _dt.timedelta(days=days)
+    cutoff = config.today() - _dt.timedelta(days=days)
     items = []
     for path in sorted(config.DAILY_FILTERED_DIR.glob("*.json")):
         try:
@@ -64,7 +64,7 @@ def main() -> int:
         return 0
 
     client = DoubaoClient()
-    today = _dt.date.today().isoformat()
+    today = config.today().isoformat()
     try:
         report_body = client.chat(
             [

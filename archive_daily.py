@@ -20,7 +20,7 @@ def archive(date_str: str | None = None) -> str:
         log.error("未找到 %s，无法归档。", config.FILTERED_NEWS_PATH.name)
         raise SystemExit(1)
 
-    date_str = date_str or _dt.date.today().isoformat()
+    date_str = date_str or config.today().isoformat()
     config.DAILY_FILTERED_DIR.mkdir(parents=True, exist_ok=True)
     target = config.DAILY_FILTERED_DIR / f"{date_str}.json"
 

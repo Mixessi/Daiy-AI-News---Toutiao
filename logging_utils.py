@@ -76,3 +76,18 @@ def alert_overdue(logger: logging.Logger, detail: str = "") -> None:
         level="error",
     )
     gha_error("VOLC ARK AccountOverdueError: 火山方舟账户欠费，流水线中止。请充值。")
+
+
+def alert_missing_config(logger: logging.Logger, names: list[str], purpose: str) -> None:
+    """必需配置缺失：打印横幅 + 让 workflow 标红，并告诉用户去哪里配。"""
+    banner(
+        logger,
+        f"缺少必需配置，无法{purpose}",
+        [f"未配置：{', '.join(names)}"]
+        + [
+            "GitHub：Settings → Secrets and variables → Actions → New repository secret",
+            "本地：复制 .env.example 为 .env 并填写",
+        ],
+        level="error",
+    )
+    gha_error(f"缺少必需配置 {', '.join(names)}，无法{purpose}。请在仓库 Secrets 中配置。")

@@ -33,6 +33,8 @@ jobs:
       FEISHU_BITABLE_URL: ${{ secrets.FEISHU_BITABLE_URL }}
       FEISHU_KNOWLEDGE_BASE_URL: ${{ secrets.FEISHU_KNOWLEDGE_BASE_URL }}
       FEISHU_DAILY_REPORT_URL: ${{ secrets.FEISHU_DAILY_REPORT_URL }}
+      FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+      FEISHU_WEBHOOK_SECRET: ${{ secrets.FEISHU_WEBHOOK_SECRET }}
       # ---- Wechat2RSS ----
       WECHAT2RSS_BASE_URL: ${{ secrets.WECHAT2RSS_BASE_URL }}
       WECHAT2RSS_TOKEN: ${{ secrets.WECHAT2RSS_TOKEN }}
@@ -48,9 +50,9 @@ jobs:
       DISABLE_FEISHU_WRITE: ${{ github.event.inputs.disable_feishu_write }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip
@@ -71,17 +73,19 @@ jobs:
           echo "AI_NEWS_RADAR_DEPLOY_KEY 已配置，此处执行前端雷达发布（占位）。"
           echo "未配置时本步骤会被 if 跳过，不影响主流水线。"
 
-      - name: 4) 豆包深度分析 → 写飞书日报
+      - name: 4) 豆包深度分析 → 日报（reports/ + 运行摘要页 + 飞书文档/群机器人）
         run: python news_analyzer.py --feishu
 
-      - name: 5) 提交 daily_filtered/ 回仓库
+      - name: 5) 提交 daily_filtered/ 与 reports/ 回仓库
+        # 飞书写入失败时日报本身已生成，仍要归档（初筛失败时无变更会自动跳过）
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add daily_filtered/
+          git add daily_filtered/ reports/
           if git diff --cached --quiet; then
             echo "无归档变更，跳过提交。"
           else
-            git commit -m "chore(daily): archive $(date -u +%Y-%m-%d) filtered news"
+            git commit -m "chore(daily): archive $(TZ=Asia/Shanghai date +%Y-%m-%d) AI news"
             git push
           fi

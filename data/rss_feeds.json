@@ -32,10 +32,11 @@
       ]
     },
     {
-      "name": "VentureBeat AI",
-      "url": "https://venturebeat.com/category/ai/feed/",
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/feed/",
       "tags": [
-        "ai"
+        "ai",
+        "tech"
       ]
     },
     {

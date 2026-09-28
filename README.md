@@ -5,7 +5,8 @@
 1. 从科技媒体 RSS + 微信公众号（via Wechat2RSS）+ Substack 抓取最近 24h 文章
 2. 用火山方舟 ARK **豆包**模型做相关性初筛（只留 AI / 短视频 / 网文 / 短剧等战略相关内容，面向今日头条、番茄小说、红果短剧等产品视角）
 3. 再用豆包做深度分析、生成日报
-4. 结果写入**飞书多维表格 + 飞书日报文档**，并归档到 `daily_filtered/YYYY-MM-DD.json`
+4. 结果写入**飞书多维表格 + 飞书日报文档**（可选推送飞书群机器人），并归档到
+   `daily_filtered/YYYY-MM-DD.json`，日报 Markdown 存到 `reports/YYYY-MM-DD.md`、同时显示在 Actions 运行摘要页
 
 > 本仓库按《ByteDance-AI-News 交接与复现指南》的**路径2（按规格从零重建）**实现——原仓库已 404，源码不可得。所有凭证使用你**自己的**火山方舟账户、飞书自建应用与飞书表/文档，通过 GitHub Secrets 注入，代码里不含任何明文 key。
 
@@ -17,6 +18,7 @@
 rss_filter.py          主入口：抓 RSS + 24h 过滤 + 豆包初筛 + 写飞书多维表格（幂等）
 news_analyzer.py       深度分析 + 写飞书日报（--model 可换模型，--feishu 才写飞书）
 archive_daily.py       归档当天结果到 daily_filtered/
+feed_check.py          数据源体检（只抓取不调模型），逐源报告可用性
 kol_digest.py          workflow 入口：Twitter KOL 摘要
 biweekly_analyzer.py   workflow 入口：双周深度报告
 
@@ -25,7 +27,8 @@ wechat2rss_sync.py     微信公众号源自动同步（打印「自动同步成
 doubao_client.py       火山 ARK（OpenAI 兼容）客户端 + 欠费显式告警
 feishu_auth.py         飞书鉴权 + URL 解析
 feishu_bitable.py      飞书多维表格 API（clear→重写，保证幂等）
-feishu_integration.py  飞书文档 API（Markdown → docx 块）
+feishu_integration.py  飞书文档 API（Markdown → docx 块，新一期插在文档顶部）
+feishu_webhook.py      飞书群机器人推送（可选，只需 webhook 地址）
 podcast_processor.py   播客 + 火山 ASR 转录（缺 key 自动跳过）
 twitter_fetcher.py     Twitter 抓取 via SocialData（缺 key 自动跳过）
 twitter_opinions.py    Twitter 舆情增强
@@ -38,7 +41,8 @@ data/                  数据源清单（可自由增删）
   wechat_accounts.json   微信公众号对照表
   twitter_kol.json       Twitter KOL 名单
 daily_filtered/        每日初筛结果快照（由 workflow commit 回仓库）
-.github/workflows/     3 个定时任务
+reports/               每日日报 Markdown（由 workflow commit 回仓库）
+.github/workflows/     3 个定时任务 + 数据源体检
 ```
 
 ## 定时任务
@@ -49,17 +53,26 @@ daily_filtered/        每日初筛结果快照（由 workflow commit 回仓库�
 | Daily Twitter KOL Digest | `kol_digest.yml` | `30 0 * * *` → 08:30 | 抓 KOL 动态生成摘要写飞书 |
 | Biweekly AI Report | `biweekly_report.yml` | `0 13 * * 3` → 隔周三 21:00 | 双周深度报告（ISO 周次奇偶做隔周闸门） |
 
-三个都支持 **workflow_dispatch** 手动触发。
+| Feed Health Check | `feed_check.yml` | 改动 `data/` 时自动 | 逐源体检，失效源以 warning 标出 |
+
+都支持 **workflow_dispatch** 手动触发。
 
 ---
 
 ## 快速上手
 
-### 1. 飞书侧准备（手动做一次）
+### 0. 最小可跑配置（先看到日报再说）
+只配 **`VOLC_API_KEY`** 一个 Secret，手动 Run 一次 `Daily AI News Analysis`：
+初筛与日报会照常生成，日报出现在该次运行的 **Summary 页**，并提交到 `reports/`。
+飞书相关 Secret 缺失时对应写入步骤会告警跳过，不影响日报生成。
+想推到飞书群，再加一个 `FEISHU_WEBHOOK_URL`（群设置 → 群机器人 → 自定义机器人）即可。
+
+### 1. 飞书侧准备（写多维表格 / 文档时需要）
 1. 在 [open.feishu.cn](https://open.feishu.cn/app) 创建**自建应用**，拿 App ID / App Secret。
 2. 新建/复制你自己的：多维表格（初筛结果）、日报文档、（可选）知识库表、KOL 文档、双周报文档。
 3. 给应用开通对应表/文档的**编辑权限**，并开启 `bitable`、`docx`、`wiki` 相关 scope。
-4. 多维表格建议包含列：`标题 / 链接 / 来源 / 摘要 / 相关性理由 / 评分 / 发布时间 / 标签`（列名与 `feishu_bitable.news_items_to_records` 对应，可按需改）。
+4. 多维表格的列 `标题 / 链接 / 来源 / 摘要 / 相关性理由 / 评分 / 发布时间 / 标签` 缺失时**自动创建**
+   （定义见 `feishu_bitable.NEWS_FIELD_SCHEMA`）；若手工建列，「评分」须为数字列。
 
 ### 2. 火山方舟准备
 - 火山控制台 → 火山方舟 → 开通豆包模型、创建 **API Key**。
@@ -79,6 +92,7 @@ daily_filtered/        每日初筛结果快照（由 workflow commit 回仓库�
 | `FEISHU_DAILY_REPORT_URL` | 深度分析 | 每日报告文档 URL |
 | `FEISHU_KOL_DIGEST_URL` | KOL | KOL 摘要文档 URL |
 | `FEISHU_BIWEEKLY_REPORT_URL` | 双周 | 双周报文档 URL |
+| `FEISHU_WEBHOOK_URL` / `FEISHU_WEBHOOK_SECRET` | 群推送 | 飞书群自定义机器人 webhook / 签名密钥；不配则跳过 |
 | `WECHAT2RSS_BASE_URL` / `WECHAT2RSS_TOKEN` | 公众号 | 你的 Wechat2RSS 部署地址/令牌 |
 | `VOLC_ASR_APPID` / `VOLC_ASR_TOKEN` / `VOLC_ASR_RESOURCE_ID` | 播客 | 火山录音文件识别；不配则跳过 |
 | `SOCIALDATA_API_KEY` | Twitter | socialdata.tools；不配则跳过 |
@@ -115,6 +129,12 @@ python news_analyzer.py --feishu
   1. `doubao_client` 识别欠费 → 抛 `AccountOverdueError` → 主脚本非零退出；
   2. `rss_filter.health_check` 产出低于地板值（默认 40）时醒目告警 + `::error::` 标红。
 - **健康区间**：正常一天运行 1 小时+、产出 150~220 条；远低于此视为异常。
+
+- **数据源维护**：`python feed_check.py` 或 Actions 里的 Feed Health Check 查看每个源是否可用、
+  多久没更新。抓取会在 403/429/HTML 挑战页时自动换 UA 重试；但 `*.substack.com` 子域名对 GitHub
+  Actions 的 IP 一律 403，newsletter 请优先用作者自定义域名或镜像（如 Import AI 用 jack-clark.net）。
+- **单源上限**：arXiv 这类源一天数百篇，默认每源最多 40 条（`MAX_ITEMS_PER_SOURCE`，源内 `max_items` 可覆盖）。
+- **日期按北京时间**：GitHub 定时任务常延迟数小时，归档/日报文件名统一用 `Asia/Shanghai` 日期。
 
 ### 排查命令
 ```bash

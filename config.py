@@ -5,8 +5,10 @@
 """
 from __future__ import annotations
 
+import datetime as _dt
 import os
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 # 本地运行时自动加载 .env（CI 里环境变量由 Actions 注入，没有 .env 也没关系）
 try:
@@ -99,6 +101,27 @@ AI_TO_C_MODEL = _get("AI_TO_C_MODEL")
 # 开关
 # ---------------------------------------------------------------------------
 DISABLE_FEISHU_WRITE = _flag("DISABLE_FEISHU_WRITE")
+
+
+# 日报 Markdown 存档目录（随 workflow commit 回仓库，不配飞书也能看日报）
+REPORTS_DIR = ROOT / "reports"
+
+# 飞书群机器人（可选，最轻量的推送方式：群设置 → 群机器人 → 自定义机器人）
+FEISHU_WEBHOOK_URL = _get("FEISHU_WEBHOOK_URL")
+FEISHU_WEBHOOK_SECRET = _get("FEISHU_WEBHOOK_SECRET")  # 机器人开启「签名校验」时填
+
+
+# 报告日期按北京时间计（GitHub 定时任务可能延迟数小时，UTC 日期会错位）
+REPORT_TZ = ZoneInfo(_get("REPORT_TZ", "Asia/Shanghai") or "Asia/Shanghai")
+
+
+def today() -> _dt.date:
+    return _dt.datetime.now(REPORT_TZ).date()
+
+
+def missing(*names: str) -> list[str]:
+    """返回未配置（为空）的环境变量名。"""
+    return [n for n in names if not _get(n)]
 
 
 def has_ark() -> bool:

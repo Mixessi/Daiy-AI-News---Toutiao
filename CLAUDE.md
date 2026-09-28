@@ -14,8 +14,10 @@ GitHub Actions 每天定时：抓 RSS + 微信公众号（Wechat2RSS）+ Substac
   `archive_daily.py`、`kol_digest.py`、`biweekly_analyzer.py`。
 - 抓取：`feed_fetcher.py`（24h 窗+去重）、`wechat2rss_sync.py`（公众号自动同步）。
 - 大模型：`doubao_client.py`（火山 ARK，OpenAI 兼容 `/chat/completions`）。
-- 飞书：`feishu_auth.py`（token + URL 解析）、`feishu_bitable.py`（多维表格，幂等）、
-  `feishu_integration.py`（docx，Markdown→块）。
+- 飞书：`feishu_auth.py`（token + URL 解析）、`feishu_bitable.py`（多维表格，幂等，缺列自动建）、
+  `feishu_integration.py`（docx，Markdown→块，新一期插顶部）、`feishu_webhook.py`（群机器人，可选）。
+- 日报落地：`reports/YYYY-MM-DD.md` + `$GITHUB_STEP_SUMMARY`，不依赖飞书配置。
+- 数据源体检：`feed_check.py` / `feed_check.yml`（只抓取，改 `data/` 自动跑）。
 - 增强（缺 key 自动跳过）：`podcast_processor.py`、`twitter_fetcher.py`、`twitter_opinions.py`。
 - 基建：`config.py`（全部配置从环境变量读）、`logging_utils.py`（告警）。
 - 数据源清单：`data/*.json`。Workflow：`.github/workflows/*.yml`。
@@ -52,8 +54,9 @@ python news_analyzer.py     # 产出 analysis_output.json
 > 逻辑正确性可用注入数据验证（见提交历史里的离线测试）。
 
 ## 待接入 / 可扩展
-- `data/rss_feeds.json`、`substack_feeds.json` 目前是**种子清单**，需扩到指南所述规模
-  （公众号约 70、Substack 约 55）。公众号真实源建议通过 `WECHAT2RSS_BASE_URL` 自动同步。
+- `data/rss_feeds.json`（~39）、`substack_feeds.json`（~28，`*.substack.com` 子域名在 GH runner 上 403，只用自定义域名）已经 runner 体检；Newsletter 可继续
+  扩到指南所述约 55。公众号对照清单约 31 个但 `feed_id` 为空，真实源需通过 `WECHAT2RSS_BASE_URL` 同步。
+- 本 sandbox 无法访问外网 feed；验证数据源请推送后看 Feed Health Check 的日志。
 - `podcast_processor._transcribe` 与 `twitter_fetcher` 是最小可用骨架，接真实源时按
   火山语音 / SocialData 文档补全。
 - AI News Radar 前端发布在 `daily_news.yml` 是占位步骤（`continue-on-error`，缺

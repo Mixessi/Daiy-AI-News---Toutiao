@@ -5,7 +5,6 @@
 """
 from __future__ import annotations
 
-import datetime as _dt
 import json
 import sys
 
@@ -47,7 +46,7 @@ def main() -> int:
         return 0
 
     client = DoubaoClient()
-    today = _dt.date.today().isoformat()
+    today = config.today().isoformat()
     try:
         digest = client.chat(
             [

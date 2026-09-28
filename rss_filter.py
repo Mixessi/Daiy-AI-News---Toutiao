@@ -16,6 +16,7 @@ from doubao_client import DoubaoClient
 from feed_fetcher import fetch_recent
 from logging_utils import (
     AccountOverdueError,
+    alert_missing_config,
     banner,
     get_logger,
     gha_error,
@@ -162,6 +163,11 @@ def write_outputs(kept: list[dict]) -> None:
 
 def main() -> int:
     log.info("=== RSS 初筛流水线开始 ===")
+    lacking = config.missing("VOLC_API_KEY")
+    if lacking:
+        # 先检查再抓取：缺 key 时直接给出清晰指引，而不是抓完再抛 traceback
+        alert_missing_config(log, lacking, "调用豆包初筛")
+        return 1
     try:
         raw = fetch_recent()
         kept = filter_news(raw)
