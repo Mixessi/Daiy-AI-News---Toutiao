@@ -26,16 +26,16 @@ from wechat2rss_sync import sync_wechat_feeds
 
 log = get_logger("fetch")
 
-# 很多站点（Substack / Cloudflare 后的博客）会对非浏览器 UA 返回 HTML 挑战页，
-# feedparser 解析时报 "not well-formed (invalid token)"。用常见浏览器 UA 并声明接受 RSS。
-_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-    ),
-    "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
-    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-}
+# 不同站点对 UA 的偏好相反：Cloudflare 后的博客会对非浏览器 UA 返回 HTML 挑战页
+# （feedparser 报 "not well-formed"），而 *.substack.com 对数据中心 IP 上的浏览器 UA
+# 返回 403。所以按顺序尝试，被拒（403/429）或拿到 HTML 时换下一个。
+_USER_AGENTS = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Feedly/1.0 (+http://www.feedly.com/fetcher.html; like FeedFetcher-Google)",
+    "feedparser/6.0 +https://github.com/kurtmckee/feedparser/",
+)
+_ACCEPT = "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5"
 
 
 def _load_feed_file(path) -> list[dict]:
@@ -75,9 +75,20 @@ def _clean_summary(entry) -> str:
     return text[:600]
 
 
+def _looks_like_html(resp: requests.Response) -> bool:
+    ctype = resp.headers.get("Content-Type", "").lower()
+    head = resp.content[:512].lstrip().lower()
+    return "text/html" in ctype and (head.startswith(b"<!doctype html") or head.startswith(b"<html"))
+
+
 def _download(url: str) -> bytes:
     """带超时下载 feed（feedparser 自带的抓取没有超时，单个慢源会卡死整条流水线）。"""
-    resp = requests.get(url, headers=_HEADERS, timeout=config.FETCH_TIMEOUT)
+    resp = None
+    for ua in _USER_AGENTS:
+        resp = requests.get(url, headers={"User-Agent": ua, "Accept": _ACCEPT}, timeout=config.FETCH_TIMEOUT)
+        if resp.status_code in (403, 429) or (resp.ok and _looks_like_html(resp)):
+            continue
+        break
     resp.raise_for_status()
     return resp.content
 

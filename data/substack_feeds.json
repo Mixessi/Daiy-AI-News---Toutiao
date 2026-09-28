@@ -109,13 +109,6 @@
       ]
     },
     {
-      "name": "AI Tidbits",
-      "url": "https://www.aitidbits.ai/feed",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
       "name": "Simon Willison",
       "url": "https://simonwillison.net/atom/everything/",
       "tags": [
@@ -204,27 +197,11 @@
       ]
     },
     {
-      "name": "Garbage Day",
-      "url": "https://www.garbageday.email/feed",
-      "tags": [
-        "social",
-        "culture"
-      ]
-    },
-    {
       "name": "Lowpass (Janko Roettgers)",
-      "url": "https://www.lowpass.cc/feed",
+      "url": "https://www.lowpass.cc/rss/",
       "tags": [
         "video",
         "streaming"
-      ]
-    },
-    {
-      "name": "Mobile Dev Memo (Eric Seufert)",
-      "url": "https://mobiledevmemo.com/feed/",
-      "tags": [
-        "apps",
-        "ads"
       ]
     },
     {
@@ -247,14 +224,6 @@
       "url": "https://www.notboring.co/feed",
       "tags": [
         "strategy"
-      ]
-    },
-    {
-      "name": "The Diff",
-      "url": "https://www.thediff.co/feed",
-      "tags": [
-        "strategy",
-        "finance"
       ]
     },
     {

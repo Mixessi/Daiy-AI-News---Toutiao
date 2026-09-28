@@ -130,14 +130,6 @@
       ]
     },
     {
-      "name": "Microsoft AI Blog",
-      "url": "https://blogs.microsoft.com/ai/feed/",
-      "tags": [
-        "ai",
-        "microsoft"
-      ]
-    },
-    {
       "name": "AWS Machine Learning Blog",
       "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
       "tags": [
@@ -193,14 +185,6 @@
       "tags": [
         "china",
         "tech"
-      ]
-    },
-    {
-      "name": "KrASIA",
-      "url": "https://kr-asia.com/feed",
-      "tags": [
-        "china",
-        "asia"
       ]
     },
     {
@@ -260,14 +244,6 @@
       ]
     },
     {
-      "name": "机器之心",
-      "url": "https://www.jiqizhixin.com/rss",
-      "tags": [
-        "cn",
-        "ai"
-      ]
-    },
-    {
       "name": "虎嗅",
       "url": "https://rss.huxiu.com/",
       "tags": [
@@ -307,14 +283,6 @@
         "tech"
       ],
       "max_items": 30
-    },
-    {
-      "name": "品玩",
-      "url": "https://www.pingwest.com/feed",
-      "tags": [
-        "cn",
-        "tech"
-      ]
     },
     {
       "name": "雷峰网",
