@@ -29,6 +29,9 @@ GitHub Actions 每天定时：抓 RSS + 微信公众号（Wechat2RSS）+ Substac
    success，但当天只抓到 ~20 条（正常 150~220）。已有两道防线，改动相关逻辑时务必保留：
    - `doubao_client._looks_overdue` → 抛 `AccountOverdueError` → 入口脚本非零退出；
    - `rss_filter.health_check` 低于 `ANOMALY_FLOOR` 时醒目横幅 + GitHub `::error::` 标红。
+  - `rss_filter.FilterDegradedError`：初筛开头连续 3 批失败或失败超半数即中止（退出码 3），
+    防止「保守保留」把全部未筛新闻冒充初筛结果（2026-09-29 首次运行因 `VOLC_ENDPOINT` 为空踩过）。
+- `config._get` 把空字符串视为未配置：未设置的 GitHub Secret 会以空串注入，不能覆盖默认值。
 3. **幂等**：写飞书多维表格前先 `clear_all_records` 再 `batch_create`。
 4. **容错但告警**：单源/单批失败要跳过并 `warning`，不能让整条流水线崩，但也不能静默。
 5. **`DISABLE_FEISHU_WRITE=1`** 必须始终有效（只产出本地 JSON）。

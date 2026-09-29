@@ -34,7 +34,8 @@ KOL_LIST_PATH = DATA_DIR / "twitter_kol.json"
 
 
 def _get(name: str, default: str = "") -> str:
-    return os.environ.get(name, default).strip()
+    # 未配置的 GitHub Secret 在 workflow 里会以空字符串注入，空值也要回落到默认值
+    return (os.environ.get(name) or "").strip() or default
 
 
 def _flag(name: str) -> bool:
