@@ -57,7 +57,7 @@ def analyze(items: list[dict], model: str, extras: str = "") -> str:
     if not config.has_ark():
         raise ValueError("VOLC_API_KEY 未配置，无法深度分析。")
 
-    client = DoubaoClient()
+    client = DoubaoClient(timeout=600)  # 深度思考 + 长文输出，单次请求可能数分钟
     today = config.today().isoformat()
     user = (
         f"日期：{today}\n今日初筛保留 {len(items)} 条。以下为新闻清单：\n\n"

@@ -63,7 +63,7 @@ def main() -> int:
         log.warning("未配置 VOLC_API_KEY，无法分析。")
         return 0
 
-    client = DoubaoClient()
+    client = DoubaoClient(timeout=600)  # 深度思考 + 长文输出，单次请求可能数分钟
     today = config.today().isoformat()
     try:
         report_body = client.chat(
