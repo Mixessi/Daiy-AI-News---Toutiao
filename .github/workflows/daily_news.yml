@@ -90,5 +90,11 @@ jobs:
             echo "无归档变更，跳过提交。"
           else
             git commit -m "chore(daily): archive $(TZ=Asia/Shanghai date +%Y-%m-%d) AI news"
-            git push
+            # 运行期间分支可能有新提交，先 rebase 再推，失败重试
+            for i in 1 2 3; do
+              git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+              sleep $((i * 5))
+            done
+            echo "::error::归档提交推送失败（重试 3 次）"
+            exit 1
           fi
