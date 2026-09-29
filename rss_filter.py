@@ -93,6 +93,7 @@ def filter_news(items: list[dict]) -> list[dict]:
                 ],
                 model=config.DOUBAO_FILTER_MODEL,
                 temperature=0.2,
+                thinking={"type": config.DOUBAO_FILTER_THINKING},
             )
         except AccountOverdueError:
             # 欠费：致命，直接向上抛（由 main 统一处理并让 workflow 标红）

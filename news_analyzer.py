@@ -73,7 +73,7 @@ def analyze(items: list[dict], model: str, extras: str = "") -> str:
         ],
         model=model,
         temperature=0.4,
-        max_tokens=4000,
+        max_tokens=16000,  # Seed 系列带深度思考，给足输出空间防截断
     )
     header = f"# AI 情报日报 · {today}\n\n> 初筛保留 {len(items)} 条 · 分析模型 {model}\n\n"
     return header + report.strip()

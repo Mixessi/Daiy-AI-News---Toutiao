@@ -50,6 +50,9 @@ VOLC_API_KEY = _get("VOLC_API_KEY")
 VOLC_ENDPOINT = _get("VOLC_ENDPOINT", "https://ark.cn-beijing.volces.com/api/v3")
 DOUBAO_FILTER_MODEL = _get("DOUBAO_FILTER_MODEL", "doubao-1-5-pro-32k-250115")
 DOUBAO_ANALYZE_MODEL = _get("DOUBAO_ANALYZE_MODEL", "doubao-seed-1-6-251015")
+# 初筛只做相关性分类，关闭深度思考可大幅提速降本（Seed 系列默认开启）。
+# 取值 disabled / enabled / auto；置空字符串以外的值原样传给 ARK 的 thinking.type。
+DOUBAO_FILTER_THINKING = _get("DOUBAO_FILTER_THINKING", "disabled")
 
 # ---------------------------------------------------------------------------
 # 飞书
