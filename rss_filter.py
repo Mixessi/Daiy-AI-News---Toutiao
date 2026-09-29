@@ -16,6 +16,7 @@ from doubao_client import DoubaoClient
 from feed_fetcher import fetch_recent
 from logging_utils import (
     AccountOverdueError,
+    alert_missing_config,
     banner,
     get_logger,
     gha_error,
@@ -57,6 +58,16 @@ def _build_user_prompt(batch: list[dict], start_index: int) -> str:
     return "待判断的新闻：\n\n" + "\n\n".join(lines)
 
 
+class FilterDegradedError(RuntimeError):
+    """初筛大面积失败：此时「保守保留」会让全部未筛新闻冒充初筛结果，必须中止。"""
+
+
+# 失败批次占比超过此值即判定初筛整体失效
+FILTER_FAIL_RATIO = 0.5
+# 开头连续失败这么多批就提前中止（多半是配置/鉴权问题，没必要把剩下的批次也跑完）
+FILTER_FAIL_FAST = 3
+
+
 def filter_news(items: list[dict]) -> list[dict]:
     """用豆包对新闻做相关性初筛，返回保留下来的条目（带 score/reason）。"""
     if not items:
@@ -69,6 +80,7 @@ def filter_news(items: list[dict]) -> list[dict]:
     batch_size = config.FILTER_BATCH_SIZE
 
     total_batches = (len(items) + batch_size - 1) // batch_size
+    failed = 0
     for b in range(total_batches):
         start = b * batch_size
         batch = items[start : start + batch_size]
@@ -81,6 +93,7 @@ def filter_news(items: list[dict]) -> list[dict]:
                 ],
                 model=config.DOUBAO_FILTER_MODEL,
                 temperature=0.2,
+                thinking={"type": config.DOUBAO_FILTER_THINKING},
             )
         except AccountOverdueError:
             # 欠费：致命，直接向上抛（由 main 统一处理并让 workflow 标红）
@@ -89,12 +102,17 @@ def filter_news(items: list[dict]) -> list[dict]:
             # 单批失败：容错但告警，保守保留本批（宁可多留，不可静默丢弃）
             log.warning("第 %d/%d 批初筛失败，保守保留本批: %s", b + 1, total_batches, exc)
             gha_warning(f"初筛第 {b+1} 批失败: {exc}")
+            failed += 1
+            if failed == b + 1 >= FILTER_FAIL_FAST:
+                raise FilterDegradedError(f"前 {failed} 批初筛全部失败，最近一次错误: {exc}") from exc
             for it in batch:
                 kept.append({**it, "score": 5, "reason": "初筛异常，保守保留"})
             continue
 
         if not isinstance(result, list):
             log.warning("第 %d 批返回非数组，保守保留本批", b + 1)
+            gha_warning(f"初筛第 {b+1} 批返回无法解析")
+            failed += 1
             for it in batch:
                 kept.append({**it, "score": 5, "reason": "初筛结果解析失败，保守保留"})
             continue
@@ -112,6 +130,11 @@ def filter_news(items: list[dict]) -> list[dict]:
                     }
                 )
         log.info("初筛进度 %d/%d 批，累计保留 %d 条", b + 1, total_batches, len(kept))
+
+    if failed > total_batches * FILTER_FAIL_RATIO:
+        raise FilterDegradedError(f"{total_batches} 批中有 {failed} 批初筛失败")
+    if failed:
+        log.warning("共 %d/%d 批初筛失败并已保守保留。", failed, total_batches)
 
     kept.sort(key=lambda x: x.get("score", 0), reverse=True)
     return kept
@@ -162,6 +185,11 @@ def write_outputs(kept: list[dict]) -> None:
 
 def main() -> int:
     log.info("=== RSS 初筛流水线开始 ===")
+    lacking = config.missing("VOLC_API_KEY")
+    if lacking:
+        # 先检查再抓取：缺 key 时直接给出清晰指引，而不是抓完再抛 traceback
+        alert_missing_config(log, lacking, "调用豆包初筛")
+        return 1
     try:
         raw = fetch_recent()
         kept = filter_news(raw)
@@ -171,6 +199,15 @@ def main() -> int:
         # 欠费告警已在客户端打印；这里确保非零退出让 workflow 标红
         log.error("因火山账户欠费中止（非零退出）。")
         return 2
+    except FilterDegradedError as exc:
+        banner(
+            log,
+            "豆包初筛大面积失败，已中止（不产出未经筛选的结果）",
+            [str(exc), "请检查：VOLC_API_KEY 是否正确、模型是否已开通、VOLC_ENDPOINT 是否有效。"],
+            level="error",
+        )
+        gha_error(f"豆包初筛大面积失败：{exc}")
+        return 3
     log.info("=== 完成：保留 %d 条 ===", len(kept))
     return 0
 

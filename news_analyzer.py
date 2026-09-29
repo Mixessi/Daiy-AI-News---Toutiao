@@ -13,13 +13,13 @@
 from __future__ import annotations
 
 import argparse
-import datetime as _dt
 import json
+import os
 import sys
 
 import config
 from doubao_client import DoubaoClient
-from logging_utils import AccountOverdueError, get_logger, gha_warning
+from logging_utils import AccountOverdueError, alert_missing_config, get_logger, gha_error, gha_warning
 
 log = get_logger("news_analyzer")
 
@@ -57,8 +57,8 @@ def analyze(items: list[dict], model: str, extras: str = "") -> str:
     if not config.has_ark():
         raise ValueError("VOLC_API_KEY 未配置，无法深度分析。")
 
-    client = DoubaoClient()
-    today = _dt.date.today().isoformat()
+    client = DoubaoClient(timeout=600)  # 深度思考 + 长文输出，单次请求可能数分钟
+    today = config.today().isoformat()
     user = (
         f"日期：{today}\n今日初筛保留 {len(items)} 条。以下为新闻清单：\n\n"
         + _compose_news_digest(items)
@@ -73,7 +73,7 @@ def analyze(items: list[dict], model: str, extras: str = "") -> str:
         ],
         model=model,
         temperature=0.4,
-        max_tokens=4000,
+        max_tokens=16000,  # Seed 系列带深度思考，给足输出空间防截断
     )
     header = f"# AI 情报日报 · {today}\n\n> 初筛保留 {len(items)} 条 · 分析模型 {model}\n\n"
     return header + report.strip()
@@ -105,6 +105,30 @@ def _gather_extras() -> str:
     return "\n\n".join(chunks)
 
 
+def _save_report(report_md: str, date_str: str) -> str:
+    """存档日报 Markdown 到 reports/，并写入 GitHub Actions 运行摘要页。"""
+    config.REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    path = config.REPORTS_DIR / f"{date_str}.md"
+    path.write_text(report_md + "\n", encoding="utf-8")
+    log.info("已写出 %s", path.relative_to(config.ROOT))
+
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as fh:
+            fh.write(report_md + "\n")
+    return str(path.relative_to(config.ROOT))
+
+
+def _report_link(rel_path: str) -> str:
+    """GitHub 上该日报文件的链接（仅在 Actions 中可得）。"""
+    server = os.environ.get("GITHUB_SERVER_URL")
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    ref = os.environ.get("GITHUB_REF_NAME")
+    if server and repo and ref:
+        return f"{server}/{repo}/blob/{ref}/{rel_path}"
+    return ""
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="深度分析并生成 AI 日报")
     parser.add_argument("--feishu", action="store_true", help="写入飞书日报文档")
@@ -112,6 +136,10 @@ def main() -> int:
     args = parser.parse_args()
 
     log.info("=== 深度分析开始（模型 %s）===", args.model)
+    lacking = config.missing("VOLC_API_KEY")
+    if lacking:
+        alert_missing_config(log, lacking, "调用豆包深度分析")
+        return 1
     items = _load_filtered()
 
     extras = _gather_extras()
@@ -123,14 +151,17 @@ def main() -> int:
         return 2
 
     # 本地产出
+    date_str = config.today().isoformat()
     out_path = config.ROOT / "analysis_output.json"
     out_path.write_text(
-        json.dumps({"date": _dt.date.today().isoformat(), "report_markdown": report_md}, ensure_ascii=False, indent=2),
+        json.dumps({"date": date_str, "report_markdown": report_md}, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
     log.info("已写出 analysis_output.json")
+    rel_path = _save_report(report_md, date_str)
 
     # 写飞书
+    exit_code = 0
     if args.feishu:
         if config.DISABLE_FEISHU_WRITE:
             log.info("DISABLE_FEISHU_WRITE=1，跳过写飞书日报。")
@@ -140,12 +171,24 @@ def main() -> int:
         else:
             from feishu_integration import FeishuDoc
 
-            doc = FeishuDoc(config.FEISHU_DAILY_REPORT_URL)
-            doc.append_markdown(report_md)
-            log.info("已写入飞书日报文档。")
+            try:
+                FeishuDoc(config.FEISHU_DAILY_REPORT_URL).append_markdown(report_md)
+                log.info("已写入飞书日报文档。")
+            except Exception as exc:
+                # 写文档失败不应拖垮群推送与归档提交，但要让 workflow 标红
+                log.error("写飞书日报文档失败：%s", exc)
+                gha_error(f"写飞书日报文档失败：{exc}")
+                exit_code = 1
+
+        # 飞书群机器人推送（可选，只需一个 webhook 地址）
+        if not config.DISABLE_FEISHU_WRITE and config.FEISHU_WEBHOOK_URL:
+            from feishu_webhook import push_report
+
+            link = config.FEISHU_DAILY_REPORT_URL or _report_link(rel_path)
+            push_report(f"AI 情报日报 · {date_str}", report_md, link=link)
 
     log.info("=== 深度分析完成 ===")
-    return 0
+    return exit_code
 
 
 if __name__ == "__main__":

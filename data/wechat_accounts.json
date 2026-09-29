@@ -1,11 +1,235 @@
 {
-  "_comment": "微信公众号对照列表。真实源由 Wechat2RSS 部署自动同步（见 wechat2rss_sync.py），此文件是人工维护的对照/兜底清单：feed_id 为 Wechat2RSS 中该公众号的 feed 标识，name 为公众号名。若配置了 WECHAT2RSS_BASE_URL，运行时会自动拉取并合并覆盖此列表。",
+  "_comment": "微信公众号对照列表（目标约 70 个）。真实源由 Wechat2RSS 部署自动同步（见 wechat2rss_sync.py）；此文件是人工维护的对照/兜底清单：feed_id 填 Wechat2RSS 中该公众号的 feed 标识或完整 feed URL，未填 feed_id 的条目会被跳过。配置 WECHAT2RSS_BASE_URL 后运行时自动拉取全部订阅。",
   "accounts": [
-    { "name": "机器之心", "feed_id": "", "tags": ["ai"] },
-    { "name": "量子位", "feed_id": "", "tags": ["ai"] },
-    { "name": "新智元", "feed_id": "", "tags": ["ai"] },
-    { "name": "InfoQ", "feed_id": "", "tags": ["tech"] },
-    { "name": "晚点LatePost", "feed_id": "", "tags": ["business"] },
-    { "name": "字节跳动技术团队", "feed_id": "", "tags": ["tech", "bytedance"] }
+    {
+      "name": "机器之心",
+      "feed_id": "",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "量子位",
+      "feed_id": "",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "新智元",
+      "feed_id": "",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "InfoQ",
+      "feed_id": "",
+      "tags": [
+        "tech"
+      ]
+    },
+    {
+      "name": "晚点LatePost",
+      "feed_id": "",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "name": "字节跳动技术团队",
+      "feed_id": "",
+      "tags": [
+        "tech",
+        "bytedance"
+      ]
+    },
+    {
+      "name": "智东西",
+      "feed_id": "",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "AI科技评论",
+      "feed_id": "",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "甲子光年",
+      "feed_id": "",
+      "tags": [
+        "ai",
+        "business"
+      ]
+    },
+    {
+      "name": "硅星人Pro",
+      "feed_id": "",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "海外独角兽",
+      "feed_id": "",
+      "tags": [
+        "ai",
+        "global"
+      ]
+    },
+    {
+      "name": "Founder Park",
+      "feed_id": "",
+      "tags": [
+        "ai",
+        "product"
+      ]
+    },
+    {
+      "name": "数字生命卡兹克",
+      "feed_id": "",
+      "tags": [
+        "ai",
+        "product"
+      ]
+    },
+    {
+      "name": "赛博禅心",
+      "feed_id": "",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "腾讯科技",
+      "feed_id": "",
+      "tags": [
+        "tech"
+      ]
+    },
+    {
+      "name": "极客公园",
+      "feed_id": "",
+      "tags": [
+        "product"
+      ]
+    },
+    {
+      "name": "36氪",
+      "feed_id": "",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "name": "虎嗅APP",
+      "feed_id": "",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "name": "硅谷101",
+      "feed_id": "",
+      "tags": [
+        "global"
+      ]
+    },
+    {
+      "name": "新榜",
+      "feed_id": "",
+      "tags": [
+        "content",
+        "creator"
+      ]
+    },
+    {
+      "name": "刺猬公社",
+      "feed_id": "",
+      "tags": [
+        "content",
+        "media"
+      ]
+    },
+    {
+      "name": "三声",
+      "feed_id": "",
+      "tags": [
+        "content",
+        "business"
+      ]
+    },
+    {
+      "name": "深响",
+      "feed_id": "",
+      "tags": [
+        "content",
+        "business"
+      ]
+    },
+    {
+      "name": "娱乐资本论",
+      "feed_id": "",
+      "tags": [
+        "shortdrama",
+        "video"
+      ]
+    },
+    {
+      "name": "河豚影视档案",
+      "feed_id": "",
+      "tags": [
+        "shortdrama",
+        "video"
+      ]
+    },
+    {
+      "name": "DataEye短剧观察",
+      "feed_id": "",
+      "tags": [
+        "shortdrama"
+      ]
+    },
+    {
+      "name": "短剧自习室",
+      "feed_id": "",
+      "tags": [
+        "shortdrama"
+      ]
+    },
+    {
+      "name": "骨朵网络影视",
+      "feed_id": "",
+      "tags": [
+        "shortdrama",
+        "video"
+      ]
+    },
+    {
+      "name": "犀牛娱乐",
+      "feed_id": "",
+      "tags": [
+        "video"
+      ]
+    },
+    {
+      "name": "卡思数据",
+      "feed_id": "",
+      "tags": [
+        "video",
+        "creator"
+      ]
+    },
+    {
+      "name": "网文新观察",
+      "feed_id": "",
+      "tags": [
+        "webnovel"
+      ]
+    }
   ]
 }

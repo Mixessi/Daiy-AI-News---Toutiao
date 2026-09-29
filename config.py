@@ -5,8 +5,10 @@
 """
 from __future__ import annotations
 
+import datetime as _dt
 import os
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 # 本地运行时自动加载 .env（CI 里环境变量由 Actions 注入，没有 .env 也没关系）
 try:
@@ -32,7 +34,8 @@ KOL_LIST_PATH = DATA_DIR / "twitter_kol.json"
 
 
 def _get(name: str, default: str = "") -> str:
-    return os.environ.get(name, default).strip()
+    # 未配置的 GitHub Secret 在 workflow 里会以空字符串注入，空值也要回落到默认值
+    return (os.environ.get(name) or "").strip() or default
 
 
 def _flag(name: str) -> bool:
@@ -47,6 +50,9 @@ VOLC_API_KEY = _get("VOLC_API_KEY")
 VOLC_ENDPOINT = _get("VOLC_ENDPOINT", "https://ark.cn-beijing.volces.com/api/v3")
 DOUBAO_FILTER_MODEL = _get("DOUBAO_FILTER_MODEL", "doubao-1-5-pro-32k-250115")
 DOUBAO_ANALYZE_MODEL = _get("DOUBAO_ANALYZE_MODEL", "doubao-seed-1-6-251015")
+# 初筛只做相关性分类，关闭深度思考可大幅提速降本（Seed 系列默认开启）。
+# 取值 disabled / enabled / auto；置空字符串以外的值原样传给 ARK 的 thinking.type。
+DOUBAO_FILTER_THINKING = _get("DOUBAO_FILTER_THINKING", "disabled")
 
 # ---------------------------------------------------------------------------
 # 飞书
@@ -70,6 +76,8 @@ except ValueError:
 # 单条 feed 抓取超时（秒）与全局并发
 FETCH_TIMEOUT = int(_get("FETCH_TIMEOUT", "20") or "20")
 FETCH_WORKERS = int(_get("FETCH_WORKERS", "8") or "8")
+# 单个源最多保留多少条（数据源里可用 max_items 单独覆盖）
+MAX_ITEMS_PER_SOURCE = int(_get("MAX_ITEMS_PER_SOURCE", "40") or "40")
 
 # 豆包初筛的批大小（一次请求评估多少条标题+摘要）
 FILTER_BATCH_SIZE = int(_get("FILTER_BATCH_SIZE", "15") or "15")
@@ -97,6 +105,27 @@ AI_TO_C_MODEL = _get("AI_TO_C_MODEL")
 # 开关
 # ---------------------------------------------------------------------------
 DISABLE_FEISHU_WRITE = _flag("DISABLE_FEISHU_WRITE")
+
+
+# 日报 Markdown 存档目录（随 workflow commit 回仓库，不配飞书也能看日报）
+REPORTS_DIR = ROOT / "reports"
+
+# 飞书群机器人（可选，最轻量的推送方式：群设置 → 群机器人 → 自定义机器人）
+FEISHU_WEBHOOK_URL = _get("FEISHU_WEBHOOK_URL")
+FEISHU_WEBHOOK_SECRET = _get("FEISHU_WEBHOOK_SECRET")  # 机器人开启「签名校验」时填
+
+
+# 报告日期按北京时间计（GitHub 定时任务可能延迟数小时，UTC 日期会错位）
+REPORT_TZ = ZoneInfo(_get("REPORT_TZ", "Asia/Shanghai") or "Asia/Shanghai")
+
+
+def today() -> _dt.date:
+    return _dt.datetime.now(REPORT_TZ).date()
+
+
+def missing(*names: str) -> list[str]:
+    """返回未配置（为空）的环境变量名。"""
+    return [n for n in names if not _get(n)]
 
 
 def has_ark() -> bool:

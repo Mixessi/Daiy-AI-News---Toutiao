@@ -1,0 +1,32 @@
+name: Feed Health Check
+
+# 数据源体检：只抓取、不调大模型、不写飞书，列出每个源是否可用。
+# 改动数据源清单时自动跑；也可手动触发。
+on:
+  push:
+    paths:
+      - "data/**"
+      - "feed_fetcher.py"
+      - "feed_check.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      WECHAT2RSS_BASE_URL: ${{ secrets.WECHAT2RSS_BASE_URL }}
+      WECHAT2RSS_TOKEN: ${{ secrets.WECHAT2RSS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Check feeds
+        run: python feed_check.py

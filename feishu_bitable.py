@@ -43,6 +43,46 @@ class FeishuBitable:
             page_token = data["data"].get("page_token", "")
         return ids
 
+    # ---- 字段（列）：缺失的列自动创建，免去手工建表 ----------------------
+    def list_field_names(self) -> set[str]:
+        names: set[str] = set()
+        page_token = ""
+        while True:
+            params = {"page_size": 100}
+            if page_token:
+                params["page_token"] = page_token
+            resp = requests.get(
+                f"{self._base}/fields", headers=auth_headers(), params=params, timeout=config.FETCH_TIMEOUT
+            )
+            data = resp.json()
+            if data.get("code") != 0:
+                raise RuntimeError(f"列举字段失败: {data}")
+            names.update(f["field_name"] for f in data.get("data", {}).get("items", []) or [])
+            if not data["data"].get("has_more"):
+                return names
+            page_token = data["data"].get("page_token", "")
+
+    def ensure_fields(self, schema: dict[str, int]) -> list[str]:
+        """确保表格含 schema 中的列（列名 → 飞书字段类型），缺失的自动创建。"""
+        existing = self.list_field_names()
+        created = []
+        for name, field_type in schema.items():
+            if name in existing:
+                continue
+            resp = requests.post(
+                f"{self._base}/fields",
+                headers=auth_headers(),
+                json={"field_name": name, "type": field_type},
+                timeout=config.FETCH_TIMEOUT,
+            )
+            data = resp.json()
+            if data.get("code") != 0:
+                raise RuntimeError(f"创建字段「{name}」失败: {data}")
+            created.append(name)
+        if created:
+            log.info("已在多维表格中自动创建列：%s", "、".join(created))
+        return created
+
     # ---- 删（清空，保证幂等）--------------------------------------------
     def clear_all_records(self) -> int:
         ids = self.list_record_ids()
@@ -89,8 +129,30 @@ class FeishuBitable:
 
     def replace_all(self, records: list[dict]) -> int:
         """幂等写入：先清空再写。"""
+        self.ensure_fields(NEWS_FIELD_SCHEMA)
         self.clear_all_records()
         return self.batch_create(records)
+
+
+# 初筛结果表的列定义（飞书字段类型：1 多行文本，2 数字，15 超链接）。
+# 已有同名列时不会改动，请保证类型一致（尤其「评分」须为数字列）。
+NEWS_FIELD_SCHEMA = {
+    "标题": 1,
+    "链接": 15,
+    "来源": 1,
+    "摘要": 1,
+    "相关性理由": 1,
+    "评分": 2,
+    "发布时间": 1,
+    "标签": 1,
+}
+
+
+def _as_number(value) -> float:
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return 0.0
 
 
 def news_items_to_records(items: list[dict]) -> list[dict]:
@@ -107,7 +169,7 @@ def news_items_to_records(items: list[dict]) -> list[dict]:
                     "来源": it.get("source", ""),
                     "摘要": it.get("summary", ""),
                     "相关性理由": it.get("reason", ""),
-                    "评分": it.get("score", 0),
+                    "评分": _as_number(it.get("score", 0)),  # 模型偶尔返回 "8" 这样的字符串
                     "发布时间": it.get("published", ""),
                     "标签": ", ".join(it.get("tags", []) or []),
                 }
