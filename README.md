@@ -85,6 +85,9 @@ reports/               每日日报 Markdown（由 workflow commit 回仓库）
 |---|---|---|
 | `VOLC_API_KEY` | ★ | 火山方舟 API Key |
 | `VOLC_ENDPOINT` | 否 | 默认 `https://ark.cn-beijing.volces.com/api/v3` |
+
+> 模型 ID 不是 Secret，而是仓库 **Variables**（同页面的 Variables 标签）：`DOUBAO_FILTER_MODEL`（初筛）、
+> `DOUBAO_ANALYZE_MODEL`（深度分析），填火山方舟「开通管理」里已开通模型的 Model ID；不填用代码默认值。
 | `FEISHU_APP_ID` | ★ | 飞书自建应用 App ID |
 | `FEISHU_APP_SECRET` | ★ | 飞书自建应用 App Secret |
 | `FEISHU_BITABLE_URL` | ★ | 初筛结果多维表格 URL |
