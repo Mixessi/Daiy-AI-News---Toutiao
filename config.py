@@ -31,10 +31,11 @@ WECHAT_ACCOUNTS_PATH = DATA_DIR / "wechat_accounts.json"
 KOL_LIST_PATH = DATA_DIR / "twitter_kol.json"
 
 
- def _get(name: str, default: str = "") -> str:
-       """读取环境变量；未设置或仅为空白时回退到默认值。"""
-       value = os.environ.get(name, "").strip()
-       return value or default
+def _get(name: str, default: str = "") -> str:
+    """读取环境变量；未设置或仅为空白时回退到默认值。"""
+    value = os.environ.get(name, "").strip()
+    return value or default
+
 
 
 def _flag(name: str) -> bool:
