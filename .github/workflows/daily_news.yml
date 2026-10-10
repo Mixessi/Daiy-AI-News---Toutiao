@@ -4,7 +4,7 @@ name: Daily AI News Analysis
 # Cron 48 1 * * * (UTC) → 每天 09:48 北京时间
 on:
   schedule:
-    - cron: "48 1 * * *"
+    - cron: "0 2 * * *"
   workflow_dispatch:
     inputs:
       disable_feishu_write:
@@ -32,7 +32,7 @@ jobs:
       FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
       FEISHU_BITABLE_URL: ${{ secrets.FEISHU_BITABLE_URL }}
       FEISHU_KNOWLEDGE_BASE_URL: ${{ secrets.FEISHU_KNOWLEDGE_BASE_URL }}
-      FEISHU_DAILY_REPORT_URL: ${{ secrets.FEISHU_DAILY_REPORT_URL }}
+      FEISHU_DAILY_REPORT_URL: https://bytedance.larkoffice.com/wiki/Zyd6wcrg8iyIrZkTxSbc7X9tn9d
       # ---- Wechat2RSS ----
       WECHAT2RSS_BASE_URL: ${{ secrets.WECHAT2RSS_BASE_URL }}
       WECHAT2RSS_TOKEN: ${{ secrets.WECHAT2RSS_TOKEN }}
