@@ -37,8 +37,10 @@ GitHub Actions 每天定时：抓 RSS + 微信公众号（Wechat2RSS）+ Substac
 5. **`DISABLE_FEISHU_WRITE=1`** 必须始终有效（只产出本地 JSON）。
 
 ## 模型
-- 初筛：`doubao-1-5-pro-32k-250115`（`DOUBAO_FILTER_MODEL`）
-- 深度分析：`doubao-seed-1-6-251015`（`DOUBAO_ANALYZE_MODEL`，`news_analyzer.py --model` 可覆盖）
+- 初筛：`doubao-seed-2-0-lite-260428`（`DOUBAO_FILTER_MODEL`）
+- 深度分析：`doubao-seed-2-1-pro-260915`（`DOUBAO_ANALYZE_MODEL`，`news_analyzer.py --model` 可覆盖）
+- 旧默认 doubao-1-5-pro-32k / doubao-seed-1-6 已下线（404 InvalidEndpointOrModel.NotFound）。
+  仓库 Variables `DOUBAO_FILTER_MODEL` / `DOUBAO_ANALYZE_MODEL` 可覆盖默认值；Seed 系列初筛默认关闭深度思考。
 - Endpoint 默认 `https://ark.cn-beijing.volces.com/api/v3`
 
 ## Prompt 位置
