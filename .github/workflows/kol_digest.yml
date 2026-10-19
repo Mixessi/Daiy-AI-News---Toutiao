@@ -21,13 +21,16 @@ jobs:
     env:
       VOLC_API_KEY: ${{ secrets.VOLC_API_KEY }}
       VOLC_ENDPOINT: ${{ secrets.VOLC_ENDPOINT }}
+      # 模型 ID 用仓库 Variables 配置（Settings → Secrets and variables → Actions → Variables），不填用代码默认值
+      DOUBAO_FILTER_MODEL: ${{ vars.DOUBAO_FILTER_MODEL }}
+      DOUBAO_ANALYZE_MODEL: ${{ vars.DOUBAO_ANALYZE_MODEL }}
       FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
       FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
       FEISHU_KOL_DIGEST_URL: ${{ secrets.FEISHU_KOL_DIGEST_URL }}
       SOCIALDATA_API_KEY: ${{ secrets.SOCIALDATA_API_KEY }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip

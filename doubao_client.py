@@ -113,6 +113,12 @@ class DoubaoClient:
                 time.sleep(wait)
                 continue
 
+            # ---- 模型不支持 thinking 参数：去掉该参数再试一次 ----
+            if resp.status_code == 400 and "thinking" in payload and "thinking" in body.lower():
+                log.warning("模型 %s 不支持 thinking 参数，去掉后重试。", model)
+                payload.pop("thinking")
+                continue
+
             # ---- 其它 4xx：不重试 ----
             raise RuntimeError(f"ARK 调用失败 HTTP {resp.status_code}: {body[:300]}")
 
