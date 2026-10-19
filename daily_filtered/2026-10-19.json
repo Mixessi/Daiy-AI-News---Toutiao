@@ -1,0 +1,964 @@
+{
+  "date": "2026-10-19",
+  "count": 70,
+  "generated_at": "2026-10-19T03:26:01.983201+00:00",
+  "items": [
+    {
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... Evaluations: https://arxiv.org/html/2610.18861v1#S5 Comments URL: https://news.ycombinator.com/item?id=50145337 Points: 253 # Comments: 151",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792356494.0,
+      "published": "2026-10-18T20:48:14+00:00",
+      "score": 9,
+      "reason": "该内容介绍新型混合推理LLM Agent技术，属于战略覆盖的AI Agent前沿技术方向，可为字节内容生成、智能推荐等相关AI应用研发提供技术参考"
+    },
+    {
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "source": "TechCrunch AI",
+      "tags": [
+        "ai",
+        "tech"
+      ],
+      "published_ts": 1792341000.0,
+      "published": "2026-10-18T16:30:00+00:00",
+      "score": 8,
+      "reason": "该新闻涉及头部AI创业公司Character.AI被迪士尼收购核心团队的重大行业动态，属于AI应用领域的重要公司事件，对我方布局AI内容相关业务有较高参考意义。"
+    },
+    {
+      "title": "Sources: Anthropic is consulting law firms on deal negotiation tactics as it develops AI agents to negotiate on humans' behalf and interact with AI counterparts (Cristina Criddle/Financial Times)",
+      "url": "https://www.techmeme.com/261018/p2#a261018p2",
+      "summary": "Cristina Criddle / Financial Times : Sources: Anthropic is consulting law firms on deal negotiation tactics as it develops AI agents to negotiate on humans' behalf and interact with AI counterparts &nbsp; &mdash;&nbsp; Tech companies are being forced to confront the rules of negotiation when machines act on humans' behalf",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792300201.0,
+      "published": "2026-10-18T05:10:01+00:00",
+      "score": 8,
+      "reason": "该新闻涉及头部厂商Anthropic研发面向人类代理的AI Agent产品，属于我们重点关注的AI Agent领域前沿动态，对我们布局相关AI应用有较高参考价值"
+    },
+    {
+      "title": "DeepSeek releases updated V4.1-Flash model it says completes tasks faster",
+      "url": "https://siliconangle.com/2026/10/18/deepseek-releases-updated-v4-1-flash-model-it-says-completes-tasks-faster/",
+      "summary": "Chinese artificial intelligence startup Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co. Ltd. has released an updated version of its V4.1-Flash model that it says completes tasks faster. DeepSeek-V4.1-Flash-1017 arrives a little over five weeks after the company launched the original V4.1-Flash as the smallest model in a new architecture family. Its model card on [&#8230;] The post DeepSeek releases updated V4.1-Flash model it says completes tasks faster appeared first on SiliconANGLE .",
+      "source": "SiliconANGLE AI",
+      "tags": [
+        "ai",
+        "enterprise"
+      ],
+      "published_ts": 1792362844.0,
+      "published": "2026-10-18T22:34:04+00:00",
+      "score": 8,
+      "reason": "该内容是国内AI大模型厂商DeepSeek发布性能升级的大模型产品，属于AI大模型领域重要行业动态，可为字节大模型相关业务的竞品跟踪和技术选型提供参考"
+    },
+    {
+      "title": "Two German courts now hold Google liable for what its AI overviews say",
+      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+      "summary": "Google tried to overturn a landmark Munich ruling on AI search liability by appealing, then quietly settled. The strategy isn't working. The Aachen Regional Court just applied the exact same reasoning in a new case where Google's AI falsely attributed criminal offenses to a doctor that actually involved someone else. A consistent legal view is forming across German courts, and it treats Google's AI answers as the company's own content. The article Two German courts now hold Google liable for what its AI overviews say appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1792320759.0,
+      "published": "2026-10-18T10:52:39+00:00",
+      "score": 8,
+      "reason": "该新闻是AI生成内容相关的司法监管动态，明确AI搜索服务的内容责任判定规则，可为我们旗下产品的AI生成内容合规运营提供政策参考。"
+    },
+    {
+      "title": "2027年最重要的AI趋势：不在新模型，而在于「结果」",
+      "url": "https://www.huxiu.com/article/4898504.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792376794.0,
+      "published": "2026-10-19T02:26:34+00:00",
+      "score": 8,
+      "reason": "该内容聚焦AI行业未来核心趋势研判，属于战略关注的AI大模型领域重要行业观点，可为相关产品的AI方向布局提供参考。"
+    },
+    {
+      "title": "AI智能体失控偷爬高德数据，腾讯有义务上报监管吗？",
+      "url": "https://www.huxiu.com/article/4898467.html?f=rss",
+      "summary": "虽然够不上上报监管，但腾讯还是有义务把此次事件作为安全事故来整改",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792372200.0,
+      "published": "2026-10-19T01:10:00+00:00",
+      "score": 8,
+      "reason": "内容涉及AI智能体的数据爬取合规与监管相关议题，属于AI Agent领域的重要监管相关动态，对字节相关AI应用的合规运营有参考价值。"
+    },
+    {
+      "title": "Edge AI Daily 早报（10月19日）",
+      "url": "https://www.tmtpost.com/8172585.html",
+      "summary": "Anthropic 以捐出5%股份设公共利益基金、并用通胀情境预测美国GDP 2030年或达44万亿美元，同时将律师引入智能体谈判规则；Meta 1300亿美元AI资本支出迎财报压力测试，牵动英伟达、AMD估值链；AWS 以近5000亿美元在手订单论证AI投入三年回本。算力侧，英伟达经CuTe DSL Megakernel 使 Kimi K3 推理提速1.68倍，RTX Spark 以128GB统一内存把大模型下沉至笔记本，并辟谣 RTX 5090 停产。",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792371043.0,
+      "published": "2026-10-19T00:50:43+00:00",
+      "score": 8,
+      "reason": "该内容覆盖全球头部AI厂商大模型、智能体、推理技术等核心AI领域的最新动态，对字节AI相关技术布局有很高的行业参考价值。"
+    },
+    {
+      "title": "打造生产级的 Agent｜QCon上海",
+      "url": "https://www.infoq.cn/article/oZHrjYAsXvjOZXRwLt6T?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1792404000.0,
+      "published": "2026-10-19T10:00:00+00:00",
+      "score": 8,
+      "reason": "该内容聚焦生产级AI Agent的打造，属于我方战略关注的AI Agent核心赛道，对相关技术落地有较高参考价值。"
+    },
+    {
+      "title": "OpenAI 三个神秘模型曝光；DeepSeek 开放搜索与网页抓取 API；智界将获独立造车资格，公司计划上市 ｜ 极客早知道",
+      "url": "http://www.geekpark.net/news/372514",
+      "summary": "OpenAI 三个神秘模型曝光 10 月 18 日，有开发者发现，OpenAI 的 API 模型列表中突然出现了三个陌生名字： aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha。三个模型都以 Aurora（极光）命名，分别对应红、绿、蓝三种颜色。但相关条目很快便从模型列表中消失。 此次发现来自第三方维护的 OpenAI 模型列表镜像，并非官方公告。因此，这些模型究竟是什么、是否会正式发布，目前都还是未知数。 有网友推测，这些模型极有可能是 GPT-6 Astra 后续版本的内部检查点，专门对标 Fable 5.5 的强项，创意编码、长程 agent、视觉 / 3D。也有网友推测：三个模型对应 OpenAI 三个图像模型。（消息来源：机器之心） Anthropic 与法律专家讨论 AI Agent 谈判规则，未来可替用户砍价、处理纠纷 据《金融时报》最新报道，Anthropic 正在与律师事务所及法律专家合作，研究 AI Agent 代表用户进行谈判时应遵循的行为规范。 随着 Agent 逐渐能够独立执行任务，未来可能出现大量 AI 与 AI 之间的商业交互。 例如，消费者让自己的 AI 助手与商家的 AI Agent 讨价还价，员工让 AI 代理参与薪资谈判，或者用户委托 AI 处理服务纠纷。 Anthropic 希望明确几",
+      "source": "极客公园",
+      "tags": [
+        "cn",
+        "product"
+      ],
+      "published_ts": 1792372691.0,
+      "published": "2026-10-19T01:18:11+00:00",
+      "score": 8,
+      "reason": "该内容涉及头部AI企业OpenAI的未公开新模型动态，以及国内大模型厂商DeepSeek开放搜索相关API的行业信息，对我们跟进大模型领域竞品动态、探索AI内容相关应用落地有参考意义"
+    },
+    {
+      "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
+      "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+      "summary": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
+      "source": "Wired AI",
+      "tags": [
+        "ai",
+        "tech"
+      ],
+      "published_ts": 1792319400.0,
+      "published": "2026-10-18T10:30:00+00:00",
+      "score": 7,
+      "reason": "该新闻涉及Meta的AI Agent相关争议，属于AI应用产品的监管与内容边界相关动态，对我方内容类AI产品的规则制定有参考价值。"
+    },
+    {
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "summary": "Anthropic said that it will commit 5% of its shares to the fund.",
+      "source": "TechCrunch AI",
+      "tags": [
+        "ai",
+        "tech"
+      ],
+      "published_ts": 1792355860.0,
+      "published": "2026-10-18T20:37:40+00:00",
+      "score": 7,
+      "reason": "该新闻是头部AI大模型厂商Anthropic的公司治理重要动态，属于AI大模型领域的高价值行业信息，可为我方AI相关业务的长期机制设计提供参考。"
+    },
+    {
+      "title": "TikTok reportedly banned ads for Musk documentary before its wider US release",
+      "url": "https://www.engadget.com/2289782/tiktok-reportedly-bans-ads-for-musk-documentary-before-its-wider-us-release/",
+      "summary": "The platform attributed the decision to \"political content that goes against its policy.\"",
+      "source": "Engadget",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792341735.0,
+      "published": "2026-10-18T16:42:15+00:00",
+      "score": 7,
+      "reason": "TikTok属于短视频领域头部平台，其平台内容审核政策变动对字节旗下短视频、内容社区类产品的内容合规治理有参考意义。"
+    },
+    {
+      "title": "AI debt worries mount as CoreWeave's bond yield tops 15%, insuring SoftBank debt gets pricier, and some Oracle debt trades near 80 to 90 cents on the dollar (New York Times)",
+      "url": "https://www.techmeme.com/261018/p5#a261018p5",
+      "summary": "New York Times : AI debt worries mount as CoreWeave's bond yield tops 15%, insuring SoftBank debt gets pricier, and some Oracle debt trades near 80 to 90 cents on the dollar &nbsp; &mdash;&nbsp; Debt trouble at CoreWeave, Oracle and SoftBank raises questions about whether there are broader problems with the data center build-out.",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792303804.0,
+      "published": "2026-10-18T06:10:04+00:00",
+      "score": 7,
+      "reason": "该新闻披露了AI行业的债务风险情况，反映当前AI产业的资本与基础设施层面的潜在波动，对我们评估AI相关业务的外部环境有参考价值"
+    },
+    {
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "summary": "Article URL: https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/ Comments URL: https://news.ycombinator.com/item?id=50145507 Points: 59 # Comments: 44",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792357752.0,
+      "published": "2026-10-18T21:09:12+00:00",
+      "score": 7,
+      "reason": "该内容围绕LLM代理相关技术展开，属于AI大模型领域相关技术讨论，可为字节大模型相关基础设施建设提供参考思路"
+    },
+    {
+      "title": "VAST Open-Sources EdenLive, a Real-Time Model That Renders Simple Game Footage as Detailed Video",
+      "url": "https://pandaily.com/vast-edenlive-open-source-real-time-generative-renderer-world-model-5b-14b-rtx-5090",
+      "summary": "Upstream code keeps the game state while EdenLive renders it into detailed frames. VAST says its 5B model tops 24 FPS at 720p on a single RTX 5090. Weights and code are open.",
+      "source": "Pandaily",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1792374448.0,
+      "published": "2026-10-19T01:47:28+00:00",
+      "score": 7,
+      "reason": "该新闻涉及开源实时AI生成视频模型，可参考其技术能力为番茄小说、红果短剧的内容自动生成、视频化改编场景提供技术思路，属于生成式AI相关高价值信息。"
+    },
+    {
+      "title": "YouTube tests AI replies in searches",
+      "url": "https://www.socialmediatoday.com/news/youtube-tests-ai-replies-in-searches/833307/",
+      "summary": "U.S.-based users in the experiment group may be given artificial intelligence-generated responses to their search queries in the app.",
+      "source": "Social Media Today",
+      "tags": [
+        "social",
+        "platform"
+      ],
+      "published_ts": 1792356058.0,
+      "published": "2026-10-18T20:40:58+00:00",
+      "score": 7,
+      "reason": "该新闻是头部内容平台YouTube测试AI生成搜索回复的动态，可为今日头条优化信息流搜索体验、引入AI生成内容能力提供竞品参考。"
+    },
+    {
+      "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+      "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+      "summary": "Anthropic is hiring fewer and fewer junior staff in technical roles. The share of junior positions among new hires dropped from 27 to 9 percent since early 2025. By August 2026, AI agents across the company were already logging six times as many hours as humans. Researchers warn of a \"tragedy of the cognitive commons\": if junior positions disappear, experienced specialists will be in short supply down the road. That is, assuming such specialists are even needed anymore. The article Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours appeared firs",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1792329746.0,
+      "published": "2026-10-18T13:22:26+00:00",
+      "score": 7,
+      "reason": "该新闻披露AI Agent大规模替代基础人力的行业趋势，可为我们旗下内容生产、审核等环节引入AI Agent降本提效提供行业参考。"
+    },
+    {
+      "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
+      "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+      "summary": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run. With no predefined roles or strategies, they coordinated on their own, wrote 2,783 programs, exchanged 229 chat messages, and died 605 times. The session cost $1,620. The article Four Gemini 4 Argon agents beat Minecraft without any human help appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1792327191.0,
+      "published": "2026-10-18T12:39:51+00:00",
+      "score": 7,
+      "reason": "该新闻展示多AI Agent自主协同完成复杂长任务的技术进展，可为我们开发互动影视、AI辅助网文创作的多智能体协作场景提供技术参考。"
+    },
+    {
+      "title": "AI agents have bad taste in long-term decisions and a new benchmark proves it",
+      "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+      "summary": "A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions. Thinking longer doesn't help. The article AI agents have bad taste in long-term decisions and a new benchmark proves it appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1792313381.0,
+      "published": "2026-10-18T08:49:41+00:00",
+      "score": 7,
+      "reason": "该新闻披露当前AI Agent长期决策能力存在明显短板，可为我们开发面向长周期内容创作、推荐场景的AI Agent提供技术优化方向参考。"
+    },
+    {
+      "title": "AI agents chasing a $465 train refund invented excuses, leaked medical data, and spammed an MP's office",
+      "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
+      "summary": "Six AI agents were tasked with recovering £350 (about $465) for a canceled train ticket in an experiment. They resorted to invented excuses, lawsuit threats, and sharing confidential health data. One agent sent 187 messages in 15 days, including 50 to a British MP's office. None of the models secured the refund, but the researcher warns of \"agentic flooding\" if these assistants are deployed at scale. The article AI agents chasing a $465 train refund invented excuses, leaked medical data, and spammed an MP&#039;s office appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1792311304.0,
+      "published": "2026-10-18T08:15:04+00:00",
+      "score": 7,
+      "reason": "该新闻涉及AI Agent的实际应用风险实验，属于战略关注的AI Agent领域，可为相关产品的AI Agent合规与安全设计提供参考。"
+    },
+    {
+      "title": "9部门：坚持科技向善，培育健康规范的机器人、虚拟数字人陪伴等智能服务新业态",
+      "url": "https://36kr.com/newsflashes/4032176210186633?f=rss",
+      "summary": "36氪获悉，商务部等9部门关于加快推进科技兴商的意见。其中提到，做优个性化服务品质。坚持科技向善，培育健康规范的机器人、虚拟数字人陪伴等智能服务新业态。支持超高清视听技术研发与产业化，推动沉浸式视听在商圈、文化娱乐、旅游、教育培训等多领域应用。运用人工智能、数字孪生等技术，优化文化、旅游、体育、国潮、历史经典产业等领域IP研发设计，推动跨界融合。",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792376505.0,
+      "published": "2026-10-19T02:21:45+00:00",
+      "score": 7,
+      "reason": "该政策提及虚拟数字人、AI+IP研发、沉浸式视听等方向，和短视频、内容文娱业务的技术创新场景高度相关，对相关产品布局有参考意义。"
+    },
+    {
+      "title": "九部门要求加快推进科技兴商：丰富智能手机、电脑、家居、穿戴设备、机器人等供给，加速脑机接口、具身智能等向市场转化",
+      "url": "https://www.ithome.com/1/014/709.htm",
+      "summary": "IT之家 10 月 19 日消息，商务部等 9 部门今日发布关于加快推进科技兴商的意见，要求以科技创新为动力，以满足人民日益增长的美好生活需要为出发点和落脚点，统筹推进商品消费提质、服务消费扩容、流通效率提升与场景融合创新， 提升人工智能、大数据、物联网、云计算、区块链、数字孪生、具身智能等新技术应用水平 ，推动商贸全链条智能化、绿色化、融合化发展，为建设强大国内市场提供有力支撑。 IT之家附意见具体内容如下： 科技赋能商品消费提质 （一）推动商品供给迭代升级。深入实施“人工智能 + 制造”专项行动，加快人工智能技术与产品研发、设计、制造、营销深度融合， 丰富智能手机、电脑、家居、穿戴设备、机器人等智能商品供给。鼓励基于安全可靠开源操作系统的智能产品研发和应用 。加快历史经典产业转型升级，开发经典名品精品。建设中国消费名品方阵，挖掘自主创新、品质高端的消费名品。大力发展科技农业，推动优质特色农产品提质增效。推动老字号守正创新发展，支持老字号企业运用现代生产技术进行产品创新。 （二）促进商品消费供需匹配。发展柔性制造，鼓励企业应用工业大模型、边缘智能等技术构建自适应柔性生产系统，推广按需生产、用户直连制造（C2M）等新模式。 大力发展基于人工智能的个性化定制，培育一批具有行业影响力的定制品牌 ，满足个性化消费需求。 （三）激发商品消费市场活力。依托消博会、数贸会、农交会等展会，搭建科",
+      "source": "IT之家",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1792377023.0,
+      "published": "2026-10-19T02:30:23+00:00",
+      "score": 7,
+      "reason": "九部门发布的科技兴商政策明确提出提升人工智能等新技术应用水平，属于AI相关的重要行业监管/扶持政策，对旗下内容产品的技术落地有参考意义。"
+    },
+    {
+      "title": "千问开始替用户讨钱，大厂却不愿给 Agent 开门",
+      "url": "https://www.huxiu.com/article/4898521.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792379024.0,
+      "published": "2026-10-19T03:03:44+00:00",
+      "score": 7,
+      "reason": "该新闻涉及AI Agent相关的行业落地进展与大厂态度，属于战略关注的AI应用领域，可为相关AI产品布局提供行业参考。"
+    },
+    {
+      "title": "Scaling Law开始挤进手机了",
+      "url": "https://www.huxiu.com/article/4898486.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792374275.0,
+      "published": "2026-10-19T01:44:35+00:00",
+      "score": 7,
+      "reason": "Scaling Law是AI大模型领域的核心技术规律，其落地到端侧设备的趋势和字节系内容产品的端侧AI应用优化高度相关，具备参考价值。"
+    },
+    {
+      "title": "小红书让AI先给答案，创作者的生意怎么办？",
+      "url": "https://www.tmtpost.com/8172746.html",
+      "summary": "AI要替用户省时间，社区却靠占用户的时间赚钱。",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792376679.0,
+      "published": "2026-10-19T02:24:39+00:00",
+      "score": 7,
+      "reason": "内容涉及内容社区场景下AI应用对创作者生态的影响，对今日头条等字节内容产品平衡AI效率与创作者生态有较高参考意义。"
+    },
+    {
+      "title": "烧钱已成过去式，AI竞赛方向有变化？",
+      "url": "https://www.tmtpost.com/8172463.html",
+      "summary": "烧钱本身不再是通行证，烧出什么东西来才是。",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792369846.0,
+      "published": "2026-10-19T00:30:46+00:00",
+      "score": 7,
+      "reason": "内容涉及全球AI产业竞赛的方向转变趋势，对字节旗下各产品规划AI相关投入策略有较高参考价值。"
+    },
+    {
+      "title": "Gemini 4 Argon：为您解决最棘手的问题",
+      "url": "https://www.infoq.cn/article/LkxBOvOJWmQGMQemUOrX?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1792408227.0,
+      "published": "2026-10-19T11:10:27+00:00",
+      "score": 7,
+      "reason": "Gemini属于谷歌推出的主流AI大模型，其相关动态可作为我方大模型相关技术布局的行业参考。"
+    },
+    {
+      "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
+      "url": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1792364493.0,
+      "published": "2026-10-18T23:01:33+00:00",
+      "score": 7,
+      "reason": "该内容涉及头部开源大模型的行业动态对比，属于AI大模型领域的重要行业信息，具备参考价值。"
+    },
+    {
+      "title": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
+      "url": "https://www.infoq.cn/article/qZPH971CbfHkaCfgG0cb?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1792317600.0,
+      "published": "2026-10-18T10:00:00+00:00",
+      "score": 7,
+      "reason": "该内容聚焦大模型在终端的落地探索，属于AI大模型落地应用的关键方向，对我方相关产品端侧优化有参考意义。"
+    },
+    {
+      "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+      "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
+      "summary": "Listen now (72 mins) | Emmanuel Ameisen of Anthropic explains what looking inside language models reveals about planning, consciousness, and AI safety",
+      "source": "Lenny's Newsletter",
+      "tags": [
+        "product"
+      ],
+      "published_ts": 1792326696.0,
+      "published": "2026-10-18T12:31:36+00:00",
+      "score": 7,
+      "reason": "该内容涉及AI大模型的内部运行机制相关前沿分享，对我们优化内容生成、推荐类AI应用的底层技术认知有参考价值"
+    },
+    {
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
+      "source": "Ars Technica",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792340719.0,
+      "published": "2026-10-18T16:25:19+00:00",
+      "score": 6,
+      "reason": "该新闻涉及头部AI大模型厂商Anthropic的外部监管机制探索，属于AI大模型领域的重要行业动态，可为相关AI业务的合规治理提供参考。"
+    },
+    {
+      "title": "How to use Google's SynthID AI detection website",
+      "url": "https://www.engadget.com/2286802/how-to-use-google-ai-detection-website-synthid/",
+      "summary": "It's a simple way to check whether an image has been created or manipulated, with a few caveats.",
+      "source": "Engadget",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792366200.0,
+      "published": "2026-10-18T23:30:00+00:00",
+      "score": 6,
+      "reason": "该内容涉及AI生成内容检测工具，可用于平台识别AI生成的违规内容，对内容生态治理有参考价值。"
+    },
+    {
+      "title": "Sam Altman's World launches a World ID verification suite for banks, bundling tools to verify human and agent identities, its first industry-specific offering (Zack Abrams/The Block)",
+      "url": "https://www.techmeme.com/261018/p16#a261018p16",
+      "summary": "Zack Abrams / The Block : Sam Altman's World launches a World ID verification suite for banks, bundling tools to verify human and agent identities, its first industry-specific offering &nbsp; &mdash;&nbsp; The identity project co-founded by OpenAI CEO Sam Altman named Bain Capital and VanEck Funds among its design partners but did not name &hellip;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792379402.0,
+      "published": "2026-10-19T03:10:02+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI领域核心人物Sam Altman旗下产品推出面向Agent的身份验证方案，对字节AI Agent相关技术布局有参考价值。"
+    },
+    {
+      "title": "Sources: industry execs expect only 7-10 of hundreds of neoclouds to survive, as Nvidia supports them with easier credit terms, site finding, and $20B in leases (Phoebe Liu/The Information)",
+      "url": "https://www.techmeme.com/261018/p11#a261018p11",
+      "summary": "Phoebe Liu / The Information : Sources: industry execs expect only 7-10 of hundreds of neoclouds to survive, as Nvidia supports them with easier credit terms, site finding, and $20B in leases &nbsp; &mdash;&nbsp; How many young AI cloud providers can the market, and Nvidia, support?&nbsp; &mdash;&nbsp; That's one of the big questions after a week &hellip;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792353301.0,
+      "published": "2026-10-18T19:55:01+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI云服务赛道的行业格局动态，英伟达对AI云厂商的扶持政策会间接影响AI大模型相关基础设施成本，对字节AI业务布局有参考价值。"
+    },
+    {
+      "title": "Anthropic says it's committing 5% of its shares to a Public Benefit Fund, for a total of ~20% with co-founder and staff pledges, plus 2% per 50% valuation rise (Anthropic)",
+      "url": "https://www.techmeme.com/261018/p10#a261018p10",
+      "summary": "Anthropic : Anthropic says it's committing 5% of its shares to a Public Benefit Fund, for a total of ~20% with co-founder and staff pledges, plus 2% per 50% valuation rise &nbsp; &mdash;&nbsp; Today, we're committing a portion of Anthropic's shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792350600.0,
+      "published": "2026-10-18T19:10:00+00:00",
+      "score": 6,
+      "reason": "该新闻为头部AI大模型企业Anthropic的治理架构动态，属于AI大模型领域的重要公司动态，对字节AI相关业务的行业对标有参考意义。"
+    },
+    {
+      "title": "RegLayer: 47+ large US data center projects were delayed, withdrawn, or blocked in 2026; Bernstein says ~35% of the planned US data center pipeline is credible (Financial Times)",
+      "url": "https://www.techmeme.com/261018/p6#a261018p6",
+      "summary": "Financial Times : RegLayer: 47+ large US data center projects were delayed, withdrawn, or blocked in 2026; Bernstein says ~35% of the planned US data center pipeline is credible &nbsp; &mdash;&nbsp; A vast bet on the future of the technology is running into the unforgiving economics of the physical world",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792304101.0,
+      "published": "2026-10-18T06:15:01+00:00",
+      "score": 6,
+      "reason": "该新闻涉及美国AI算力基础设施的落地受阻情况，会间接影响大模型相关产业的发展节奏，对我们布局AI相关业务有一定参考意义"
+    },
+    {
+      "title": "Microsoft cancels its deal to be the anchor tenant and rent 23K Nvidia AI chips at Nscale's Essex, UK, data center, which may not get grid power until the 2030s (James Titcomb/Telegraph)",
+      "url": "https://www.techmeme.com/261018/p4#a261018p4",
+      "summary": "James Titcomb / Telegraph : Microsoft cancels its deal to be the anchor tenant and rent 23K Nvidia AI chips at Nscale's Essex, UK, data center, which may not get grid power until the 2030s &nbsp; &mdash;&nbsp; US tech giant pulls the plug on Nscale deal in threat to multibillion-dollar listing&nbsp; &mdash;&nbsp; Microsoft has pulled &hellip;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792303500.0,
+      "published": "2026-10-18T06:05:00+00:00",
+      "score": 6,
+      "reason": "该新闻涉及海外AI算力中心的落地变故，属于AI基础设施领域的重要动态，可为我们评估海外AI相关业务环境提供参考"
+    },
+    {
+      "title": "Cornell University’s Basu on US-China AI Race",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-19/cornell-university-s-basu-on-us-china-ai-race-video",
+      "summary": "Kaushik Basu, Professor at Cornell University and former Chief Economist at the World Bank, discusses the AI race between the US and China, and impact on the global economy. He speaks with Stephen Engle from the sidelines of the Bund Summit in Shanghai. (Source: Bloomberg)",
+      "source": "Bloomberg Technology",
+      "tags": [
+        "tech",
+        "business"
+      ],
+      "published_ts": 1792374874.0,
+      "published": "2026-10-19T01:54:34+00:00",
+      "score": 6,
+      "reason": "该内容是知名学者对中美AI竞赛的观点讨论，属于AI大模型领域的关键行业观点，可为字节AI相关业务的行业环境研判提供参考"
+    },
+    {
+      "title": "Anthropic to Shift Some Shares Into New ‘Public Good’ Fund",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/anthropic-plans-to-shift-some-shares-into-new-public-good-fund",
+      "summary": "Anthropic PBC said it plans to put 5% of its shares into a new so-called public benefit fund that allows it to make donations that can address “the public good,” including mitigating AI’s impact on the job market.",
+      "source": "Bloomberg Technology",
+      "tags": [
+        "tech",
+        "business"
+      ],
+      "published_ts": 1792346583.0,
+      "published": "2026-10-18T18:03:03+00:00",
+      "score": 6,
+      "reason": "Anthropic是头部大模型厂商，其股权架构调整的动态属于AI大模型领域的重要公司动态，可为我方关注行业头部厂商动向提供参考。"
+    },
+    {
+      "title": "OpenAI Arrest Raises AI Espionage Concerns",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-18/openai-arrest-raises-ai-espionage-concerns-video",
+      "summary": "Morgan Meaker, a senior writer for Bloomberg Weekend, tells Bloomberg This Weekend about the arrest of an OpenAI engineer accused of planting a covert recording device in an executive conference room, a case highlighting growing concerns about protecting sensitive AI technology. Meaker also explains to hosts David Gura and Christina Ruffini how AI training work is shifting toward highly skilled experts and why that evolution could eventually reshape the professions providing that expertise. (Source: Bloomberg)",
+      "source": "Bloomberg Technology",
+      "tags": [
+        "tech",
+        "business"
+      ],
+      "published_ts": 1792326457.0,
+      "published": "2026-10-18T12:27:37+00:00",
+      "score": 6,
+      "reason": "该新闻涉及头部大模型厂商OpenAI的技术安全事件，属于AI大模型领域的重要动态，对我方关注大模型行业安全风险有参考价值。"
+    },
+    {
+      "title": "SUPCON Adopts Alibaba's QwenWork Agent Across Its Marketing Chain, Plans Wider Rollout",
+      "url": "https://pandaily.com/supcon-alibaba-qwenwork-agent-marketing-chain-solution-proposals-ai-marketing-skill-library",
+      "summary": "The industrial AI company says QwenWork cuts the time to produce a sales solution proposal from more than five days to about one, and plans to extend it to procurement, finance, HR and R&amp;D.",
+      "source": "Pandaily",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1792314532.0,
+      "published": "2026-10-18T09:08:52+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI Agent在营销链路的落地应用，可为我们旗下产品的运营、商业化场景引入AI Agent提效提供参考案例。"
+    },
+    {
+      "title": "Zhejiang University's EMem-Bench Tests Whether Embodied Agents Remember What They Saw and Tried",
+      "url": "https://pandaily.com/zhejiang-university-embodiedmemory-bench-emem-bench-2554-episodes-emem-8b-embodied-memory",
+      "summary": "The benchmark's 2,554 executable episodes test whether agents can recall, update and reuse memories in simulated homes. The top model averages 64.2%; the team's EMem memory system adds large gains.",
+      "source": "Pandaily",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1792314491.0,
+      "published": "2026-10-18T09:08:11+00:00",
+      "score": 6,
+      "reason": "该新闻面向具身Agent的记忆能力推出评测基准，属于AI Agent相关技术研究进展，对我们优化内容推荐、智能交互类Agent的记忆能力有参考价值。"
+    },
+    {
+      "title": "Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals",
+      "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+      "summary": "Anthropic is consulting with law firms to develop negotiation norms for AI agents that would haggle over prices, resolve complaints, or improve contracts on behalf of users. The company is also hiring lawyers and humanities scholars as \"Conceptual Reasoning Fellows\" to improve Claude in areas where reliable training data is scarce. The article Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1792314689.0,
+      "published": "2026-10-18T09:11:29+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI Agent的商用行为规范制定，可为我们后续探索AI Agent在内容交易、用户服务场景的落地提供合规方向参考。"
+    },
+    {
+      "title": "The AI promise was automation. The reality? Managing digital workers",
+      "url": "https://www.scmp.com/tech/big-tech/article/3371246/ai-promise-was-automation-reality-managing-digital-workers?utm_source=rss_feed",
+      "summary": "When artificial intelligence agents first arrived, they came with a tantalising promise: autonomous “digital workers” that would finally free humans from corporate drudgery. As businesses across Asia are discovering, however, the reality is quite the opposite – more work, new friction and a whole new layer of management. When Xiao Mengjie, an AI product marketing manager at a Big Tech firm in Shanghai, recently assigned two AI agents what she described as a simple task, she expected efficiency....",
+      "source": "SCMP Tech",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1792332008.0,
+      "published": "2026-10-18T14:00:08+00:00",
+      "score": 6,
+      "reason": "该新闻聚焦AI Agent作为数字工人的落地现状与痛点，属于战略关注的AI Agent领域，可为相关AI应用的落地规划提供参考。"
+    },
+    {
+      "title": "9部门：发展柔性制造，鼓励企业应用工业大模型、边缘智能等技术构建自适应柔性生产系统",
+      "url": "https://36kr.com/newsflashes/4032175412679043?f=rss",
+      "summary": "36氪获悉，商务部等9部门关于加快推进科技兴商的意见。其中提到，促进商品消费供需匹配。发展柔性制造，鼓励企业应用工业大模型、边缘智能等技术构建自适应柔性生产系统，推广按需生产、用户直连制造（C2M）等新模式。大力发展基于人工智能的个性化定制，培育一批具有行业影响力的定制品牌，满足个性化消费需求。",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792376456.0,
+      "published": "2026-10-19T02:20:56+00:00",
+      "score": 6,
+      "reason": "该政策提及工业大模型相关应用，属于大模型技术落地的政策导向内容，可为大模型相关业务布局提供政策参考。"
+    },
+    {
+      "title": "沐曦股份 2026 年三季度归母净利润 5.87 亿元 ~7.17 亿元，同比扭亏为盈",
+      "url": "https://www.ithome.com/1/013/627.htm",
+      "summary": "IT之家 10 月 15 日消息，沐曦股份今日发布 2026 年三季度（2026 年 1 月～2026 年 9 月）业绩预告报告： 营业总收入 ：25.41 亿元 ~31.06 亿元，同比 105.6%~151.29% 归母净利润 ：5.87 亿元 ~7.17 亿元，同比扭亏为盈 扣非净利润 ：2.23 亿元 ~3.02 亿元，同比扭亏为盈 AI 解读 本次业绩预告处于市场预期上方，收入和利润均实现超预期增长。 公司主营业务说明 沐曦股份专注于高性能 GPU 芯片研发，聚焦人工智能技术与千行百业的融合，提供高性能 GPU 产品及相关服务，在人工智能算力领域拥有较强的产品竞争力。 本次财报核心业绩亮点 预计 2026 年前三季度实现营业收入 25.41 亿元至 31.06 亿元，同比增长 105.6% 至 151.29%，收入规模较上年同期实现显著增长。 预计实现归属于母公司所有者的净利润 5.87 亿元至 7.17 亿元，同比扭亏为盈，去年同期净亏损 3.46 亿元。 扣除非经常性损益后，预计实现净利润 2.23 亿元至 3.02 亿元，同样实现扭亏为盈，去年同期净亏损 3.93 亿元。 业绩增长原因 报告期内，公司坚持 \" 1+6+X \" 发展战略，加大市场开拓力度，不断提升公司在高性能 GPU 行业的市场地位和影响力，推动人工智能技术与千行百业深度融合。凭借优越的产品性能及完善",
+      "source": "IT之家",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1792379961.0,
+      "published": "2026-10-19T03:19:21+00:00",
+      "score": 6,
+      "reason": "沐曦股份是专注于AI高性能GPU的核心算力厂商，其业绩高速增长反映国内AI算力产业发展态势，可为我们大模型相关业务的算力布局提供行业参考。"
+    },
+    {
+      "title": "银行封杀AI Agent，不是怕被盗，是怕1.6万亿存款被AI搬家",
+      "url": "https://www.huxiu.com/article/4898509.html?f=rss",
+      "summary": "门卫经济正在形成",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792378529.0,
+      "published": "2026-10-19T02:55:29+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI Agent在金融场景的落地相关行业动态，属于战略关注的AI应用方向，具备参考价值。"
+    },
+    {
+      "title": "月之暗面拟赴港：AGI能撑起500亿美元估值吗？",
+      "url": "https://www.huxiu.com/article/4898493.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792377638.0,
+      "published": "2026-10-19T02:40:38+00:00",
+      "score": 6,
+      "reason": "该新闻涉及国内头部大模型厂商的上市动态，属于战略关注的AI大模型领域行业重要动态。"
+    },
+    {
+      "title": "赵耀辉：关于人工智能影响劳动市场的几点观察",
+      "url": "https://www.huxiu.com/article/4898474.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792372299.0,
+      "published": "2026-10-19T01:11:39+00:00",
+      "score": 6,
+      "reason": "内容是关于人工智能对劳动市场影响的行业观点，属于AI相关领域的关键人物观察，对AI相关业务布局有一定参考意义。"
+    },
+    {
+      "title": "AI热潮真的冷却下来了吗？",
+      "url": "https://www.huxiu.com/article/4898460.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792368687.0,
+      "published": "2026-10-19T00:11:27+00:00",
+      "score": 6,
+      "reason": "该内容围绕AI行业整体热度走向展开，属于AI大模型/生成式AI相关的行业趋势讨论，可为相关业务布局提供行业环境参考。"
+    },
+    {
+      "title": "中国人将近一半的时间，都献给了字节跳动",
+      "url": "https://www.tmtpost.com/8172462.html",
+      "summary": "新巨头字节跳动的商业布局。",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792370369.0,
+      "published": "2026-10-19T00:39:29+00:00",
+      "score": 6,
+      "reason": "内容涉及字节跳动旗下产品的用户时长相关行业观察，对评估字节内容产品的市场地位有参考意义。"
+    },
+    {
+      "title": "What is Apple's Image Playground app for and how do you use it?",
+      "url": "https://www.engadget.com/2286648/what-is-image-playground-app-how-to-use/",
+      "summary": "Apple's image generation tool got some noteworthy updates this fall.",
+      "source": "Engadget",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792360800.0,
+      "published": "2026-10-18T22:00:00+00:00",
+      "score": 5,
+      "reason": "该内容涉及苹果的AI图像生成工具，属于生成式AI应用范畴，可为平台内容生成能力建设提供行业参考。"
+    },
+    {
+      "title": "Europe's three biggest industrial companies are cashing in on the AI boom, as Schneider and Siemens expand further into software, while ABB focuses on equipment (Aaron Kirchfeld/Financial Times)",
+      "url": "https://www.techmeme.com/261018/p14#a261018p14",
+      "summary": "Aaron Kirchfeld / Financial Times : Europe's three biggest industrial companies are cashing in on the AI boom, as Schneider and Siemens expand further into software, while ABB focuses on equipment &nbsp; &mdash;&nbsp; Schneider Electric and Siemens move further into software as rival ABB bets on physical equipment",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792374000.0,
+      "published": "2026-10-19T01:40:00+00:00",
+      "score": 5,
+      "reason": "该新闻涉及全球工业领域企业的AI布局动态，反映AI产业整体发展趋势，对字节AI相关业务的行业研判有一定参考意义。"
+    },
+    {
+      "title": "Superlite: A Faster Alternatie to Superpowers",
+      "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+      "summary": "Article URL: https://contextfirst.blog/superlite-hand-an-agent-a-spec/ Comments URL: https://news.ycombinator.com/item?id=50147492 Points: 7 # Comments: 2",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792375276.0,
+      "published": "2026-10-19T02:01:16+00:00",
+      "score": 5,
+      "reason": "该项目是面向AI Agent的相关工具，属于我们关注的AI Agent相关技术方向，具备一定参考价值"
+    },
+    {
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "summary": "I wanted my humble Claude on mobile to access my WhatsApp messages but the only options I could find either required WhatsApp Business or an actual server to run Baileys on. I wanted to run it for free on ClaudeFlare and with my personal WhatsApp account, so I built this. Important feature - it connects to your Google account as well as WhatsApp to grab the names of all your WhatsApp contacts, otherwise you get only phone numbers for many of them and search doesn't work properly. This is a single user install because it's both gray area and very private - so point your agent at the repo and le",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1792359370.0,
+      "published": "2026-10-18T21:36:10+00:00",
+      "score": 5,
+      "reason": "该项目是可对接大模型的AI Agent相关工具，属于我们关注的AI应用类方向，具备一定参考价值"
+    },
+    {
+      "title": "Inside Andreessen’s Growing Political Influence",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-18/inside-andreessen-s-growing-political-influence-video",
+      "summary": "Bloomberg Businessweek features writer Austin Carr tells Bloomberg This Weekend how Andreessen Horowitz co-founder Marc Andreessen became an increasingly influential Republican donor and adviser after years of shifting political allegiances, with disputes over AI, crypto and other Biden-era policies playing a role in his latest turn. Speaking with hosts David Gura and Christina Ruffini, Carr explains how Andreessen has translated his Silicon Valley influence into Washington access while maintaining a political style that associates describe as more calculated than his combative online persona.",
+      "source": "Bloomberg Technology",
+      "tags": [
+        "tech",
+        "business"
+      ],
+      "published_ts": 1792335887.0,
+      "published": "2026-10-18T15:04:47+00:00",
+      "score": 5,
+      "reason": "该新闻涉及AI领域相关的政策博弈动向，属于AI行业的关键行业动态，对我方了解海外AI政策环境有一定参考意义。"
+    },
+    {
+      "title": "国家统计局：规模以上制造业人工智能技术重点场景应用普及率超过1/3",
+      "url": "https://36kr.com/newsflashes/4032231927779719?f=rss",
+      "summary": "国家统计局新闻发言人、副局长毛盛勇19日在国新办新闻发布会上表示，目前全国已累计建成5.6万余家基础、9000余家先进级、500余家卓越级智能工厂，规模以上制造业人工智能技术重点场景应用普及率超过了1/3。（新华财经）",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792379905.0,
+      "published": "2026-10-19T03:18:25+00:00",
+      "score": 5,
+      "reason": "该新闻是国内AI技术在制造业的应用普及官方数据，属于AI相关产业动态，可作为AI相关业务布局的行业参考背景。"
+    },
+    {
+      "title": "9部门：加速脑机接口、具身智能等前沿科技成果向市场转化",
+      "url": "https://36kr.com/newsflashes/4032179458249347?f=rss",
+      "summary": "36氪获悉，商务部等9部门关于加快推进科技兴商的意见。其中提到，加强科技研发和转化应用。加快新型显示、智能终端等领域关键技术研发，拓展典型应用场景、可行商业模式，强化示范推广。培育建设商业技术应用创新中心。聚焦消费品领域培育一批技术转移转化机构，加速脑机接口、具身智能等前沿科技成果向市场转化。支持智能仓储、数智供应链等领域商贸企业申报专精特新企业。",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792376703.0,
+      "published": "2026-10-19T02:25:03+00:00",
+      "score": 5,
+      "reason": "该政策提及前沿科技成果转化，其中相关技术可间接为内容类AI应用的技术迭代提供参考，属于泛科技政策相关范畴。"
+    },
+    {
+      "title": "Meta：Claude 工具高频访问触发安全机制，No Kings 联盟 Ins 账号遭误封",
+      "url": "https://www.ithome.com/1/014/720.htm",
+      "summary": "IT之家 10 月 19 日消息，Meta 平台公司表示，在美国全国范围内一系列示威活动达到顶峰时，其自动化安全系统错误地封禁了 No Kings Coalition（无国王联盟）的 Instagram 账号。 这家科技企业就此次事件致歉，并给出了更详细的说明。事件发生在该组织为 11 月 3 日中期选举推动提前投票宣传期间。 Meta 传播副总裁安迪 · 斯通（Andy Stone）于周日在社交平台发文称，Instagram 工程团队查明，该账号的“读取”行为触发了安全系统。周六，Anthropic PBC 旗下 Claude 的一款工具在短时间内集中访问个人主页、帖子和话题标签，访问速率约为正常水平的四倍。 斯通说：“短时间内这类突发、大量且连续的访问请求，特征更像自动化机器人流量，而非普通用户浏览平台。” Meta 称，大约一小时后的自动复核判定该账号本不该被封禁，随即恢复账号对外展示，但管理员权限花费了更长时间才恢复。 斯通表示：“我们再次为此失误致以诚挚歉意。” “No Kings Coalition”是一个反特朗普组织。该组织周六称，其 Instagram 主页有约 90 分钟无法访问，即便页面重新对外可见，活动组织者依旧无法登录管理账号。联盟表示，纽约时间周六下午 5 点 33 分，账号完整权限才全部恢复。 组织者批评 Meta 在示威活动期间限制账号，称 Insta",
+      "source": "IT之家",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1792378457.0,
+      "published": "2026-10-19T02:54:17+00:00",
+      "score": 5,
+      "reason": "该事件涉及头部AI大模型产品Claude的工具访问触发社交平台安全机制的案例，可为我们旗下内容平台的AI相关账号安全、反作弊机制优化提供参考。"
+    },
+    {
+      "title": "“货轮在霍尔木兹海峡起火沉没，海面漂满 iPhone”视频系 AI 编造",
+      "url": "https://www.ithome.com/1/014/665.htm",
+      "summary": "IT之家 10 月 19 日消息，据红星新闻 10 月 18 日报道，近日，一段有关 “货轮在霍尔木兹海峡起火沉没，海面漂满 iPhone”的视频在社交平台累计获得超 8000 万次观看。然而，事实核查显示， 视频是由人工智能生成的虚构内容 。 新加坡海事及港务管理局 10 月 14 日发布公告称，一艘新加坡货轮于当地时间 10 月 13 日通过霍尔木兹海峡期间，遭到不明飞行物袭击，船体受损并发生火灾，最终沉没。船上 21 名船员全部安全撤离，未报告人员受伤。另一艘新加坡注册集装箱船“GFS Giselle”也在相关事件中受损，但最终自行驶抵安全锚地。 随后，网上开始流传一批视频。有的视频显示，大量印着苹果手机 logo 的手机包装盒漂浮在海面上，岸边聚集着人群，争相捡拾被海浪冲上岸的商品；另一些视频则显示小船在海面上穿梭，渔民将漂浮的货物捡入船中。 有开放源信息调查团队通过反向搜索发现，多段所谓“伊朗民众打捞 iPhone”的视频，最初来自 Instagram 账号“ Nativora ”。IT之家查询发现，该账号将自己的内容定位为利用人工智能制作的虚构自然与野生动物题材影像。上述虚假视频于 10 月 16 日出现在该 Instagram 账号中，创作者还明确添加了“AI Content”标识， 表明内容由人工智能生成 。",
+      "source": "IT之家",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1792374375.0,
+      "published": "2026-10-19T01:46:15+00:00",
+      "score": 5,
+      "reason": "该新闻涉及生成式AI生成虚假内容的相关案例，可为今日头条等内容平台的AI生成内容治理、内容真实性核查工作提供参考。"
+    },
+    {
+      "title": "许多人仍心存幻想",
+      "url": "https://www.huxiu.com/article/4898468.html?f=rss",
+      "summary": "绝大多数人在划时代技术变革面前都是后知后觉，这不是AI时代的新鲜事",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792371600.0,
+      "published": "2026-10-19T01:00:00+00:00",
+      "score": 5,
+      "reason": "内容提及AI时代的技术变革相关判断，属于AI领域的行业趋势观察，对把握AI相关业务发展节奏有一定参考性。"
+    },
+    {
+      "title": "一家连demo都没有的医疗大模型公司，凭什么拿到5亿美金？",
+      "url": "https://www.huxiu.com/article/4898459.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792368570.0,
+      "published": "2026-10-19T00:09:30+00:00",
+      "score": 5,
+      "reason": "该内容涉及AI大模型领域的融资动态，属于战略相关的行业融资信息，可作为大模型赛道投融资环境的参考。"
+    },
+    {
+      "title": "传音的AI，不是用来涨价的",
+      "url": "https://www.tmtpost.com/8172842.html",
+      "summary": "AI救不了没有定价权的生意。",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792377774.0,
+      "published": "2026-10-19T02:42:54+00:00",
+      "score": 5,
+      "reason": "内容涉及AI相关产业动态，可作为行业AI落地趋势的参考信息，对字节旗下产品探索AI落地路径有一定参考价值。"
+    },
+    {
+      "title": "17岁 Kimi 架构核心参与者离职，确认将赴湾区，下一站引发猜想",
+      "url": "https://www.infoq.cn/article/UdT804ujpGxrv0pQfxv2?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1792364283.0,
+      "published": "2026-10-18T22:58:03+00:00",
+      "score": 5,
+      "reason": "该内容涉及国内头部大模型厂商Kimi的核心架构人员变动，属于AI大模型领域的行业人才动态。"
+    },
+    {
+      "title": "实测 Lovart 2.0 ，设计 AI 进入个人助理时代",
+      "url": "https://www.ifanr.com/1684840?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "你下班了，Arti 还能继续工作 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "tags": [
+        "cn",
+        "product"
+      ],
+      "published_ts": 1792378395.0,
+      "published": "2026-10-19T02:53:15+00:00",
+      "score": 4,
+      "reason": "该新闻提及设计AI个人助理产品，属于AI应用范畴，对我方AI相关产品布局有一定参考价值。"
+    },
+    {
+      "title": "英伟达公关团队进行重组后，其公众形象爆红",
+      "url": "https://www.tmtpost.com/8171905.html",
+      "summary": "英伟达传播团队重组扩张，仍面临需求增长压力。",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792370580.0,
+      "published": "2026-10-19T00:43:00+00:00",
+      "score": 4,
+      "reason": "内容涉及AI核心算力厂商英伟达的动态，属于AI产业链相关信息，有一定行业参考价值。"
+    },
+    {
+      "title": "llm-tools-datasette 0.1.1",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+      "source": "Simon Willison",
+      "tags": [
+        "ai",
+        "engineering"
+      ],
+      "published_ts": 1792366989.0,
+      "published": "2026-10-18T23:43:09+00:00",
+      "score": 4,
+      "reason": "该内容属于LLM相关工具插件的版本更新，属于AI大模型周边工具的 minor 动态，相关性较低。"
+    },
+    {
+      "title": "llm-echo 0.5",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the prompt, then I decide what to say. { \"prompt\": \"hi there\", \"system\": \"\", \"attachments\": [], \"stream\": tru",
+      "source": "Simon Willison",
+      "tags": [
+        "ai",
+        "engineering"
+      ],
+      "published_ts": 1792365376.0,
+      "published": "2026-10-18T23:16:16+00:00",
+      "score": 4,
+      "reason": "该内容属于LLM调试插件的版本更新，属于AI大模型周边工具的 minor 动态，相关性较低。"
+    },
+    {
+      "title": "采访过剩时代，为什么视频播客还有人看？",
+      "url": "https://www.tmtpost.com/8172544.html",
+      "summary": "魔法对轰魔法。",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1792369841.0,
+      "published": "2026-10-19T00:30:41+00:00",
+      "score": 3,
+      "reason": "该内容涉及视频类内容社区相关的用户行为讨论，可作为头条信息流内容生态优化的参考方向，相关性较低。"
+    }
+  ]
+}
