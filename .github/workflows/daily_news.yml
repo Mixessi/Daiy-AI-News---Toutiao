@@ -1,10 +1,10 @@
 name: Daily AI News Analysis
 
 # 主流水线：初筛 → 归档 → (可选)发布雷达 → 深度分析写日报 → 提交归档
-# Cron 48 1 * * * (UTC) → 每天 09:48 北京时间
+# Cron 0 2 * * * (UTC) → 每天 10:00 北京时间
 on:
   schedule:
-    - cron: "48 1 * * *"
+    - cron: "0 2 * * *"
   workflow_dispatch:
     inputs:
       disable_feishu_write:
@@ -35,7 +35,8 @@ jobs:
       FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
       FEISHU_BITABLE_URL: ${{ secrets.FEISHU_BITABLE_URL }}
       FEISHU_KNOWLEDGE_BASE_URL: ${{ secrets.FEISHU_KNOWLEDGE_BASE_URL }}
-      FEISHU_DAILY_REPORT_URL: ${{ secrets.FEISHU_DAILY_REPORT_URL }}
+      # 优先用 Secret；未配置时回落到这份日报文档
+      FEISHU_DAILY_REPORT_URL: ${{ secrets.FEISHU_DAILY_REPORT_URL || 'https://bytedance.larkoffice.com/wiki/Zyd6wcrg8iyIrZkTxSbc7X9tn9d' }}
       FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
       FEISHU_WEBHOOK_SECRET: ${{ secrets.FEISHU_WEBHOOK_SECRET }}
       # ---- Wechat2RSS ----
