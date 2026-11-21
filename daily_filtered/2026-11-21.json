@@ -1,0 +1,1416 @@
+{
+  "date": "2026-11-21",
+  "count": 103,
+  "generated_at": "2026-11-21T08:58:28.731288+00:00",
+  "items": [
+    {
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "summary": "Article URL: https://arxiv.org/abs/2611.21885 Comments URL: https://news.ycombinator.com/item?id=50577265 Points: 398 # Comments: 117",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795192146.0,
+      "published": "2026-11-20T16:29:06+00:00",
+      "score": 9,
+      "reason": "该内容是大模型可自主改写自身权重的前沿技术突破，属于AI大模型核心技术领域，对我方大模型相关技术研发、内容生成等场景的能力升级有极高参考价值。"
+    },
+    {
+      "title": "林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机",
+      "url": "http://www.geekpark.net/news/374299",
+      "summary": "传林俊旸 AI 初创公司完成新融资，估值翻倍至 50 亿美元 据彭博社报道，阿里巴巴集团前 AI 负责人林俊旸创办的语用科技 ( Pragmatik Labs)，已完成新一轮融资，估值达 50 亿美元，短短几个月内估值翻了一倍多。 林俊旸曾是阿里的明星研究员，在离职后于今年夏季创立语用科技。据知情人士称，语用科技在最近结束的一轮融资中筹集了数千万美元资金。今年 8 月，该公司在首次融资中筹集了数亿美元，当时估值为 20 亿美元。 知情人士称，语用科技的新投资者包括华业天成资本、鼎晖投资以及汽车制造商吉利汽车。 语用科技总部位于上海，致力于开发面向数字世界和物理世界的 AI 智能体。该公司首轮融资的投资方包括高榕创投、红杉中国、腾讯以及上海未来产业基金。（来源：凤凰网科技） 网传张楠、谢欣将离职，本人辟谣：信息不准确 11 月 20 日午间，有媒体报道称，原抖音 CEO 张楠、原飞书 CEO 谢欣将从字节跳动离职。字节相关负责人回应称该信息不准确。 谢欣本人则在朋友圈辟谣：「媒体今天发的所谓『独家』的假新闻，浪费我大把时间去回复大家。」 值得注意的是，谢欣还将自己的微信名称改成带有「假新闻」的版本，用最直接的方式进行辟谣。（来源：新浪科技） &nbsp; DeepSeek 千亿级融资落地，梁文锋保留绝对控制权 工商信息显示，DeepSeek 运营主体杭州深度求索人工智能基础技术研究有",
+      "source": "极客公园",
+      "tags": [
+        "cn",
+        "product"
+      ],
+      "published_ts": 1795220230.0,
+      "published": "2026-11-21T00:17:10+00:00",
+      "score": 9,
+      "reason": "该新闻同时覆盖AI智能体初创公司大额融资、丁磊提及短剧爆发冲击游戏产业两大核心信息，分别属于AI应用、短剧两大我方重点战略领域，对相关业务布局有较高参考价值。"
+    },
+    {
+      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a [&#8230;]",
+      "source": "The Verge",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795200619.0,
+      "published": "2026-11-20T18:50:19+00:00",
+      "score": 8,
+      "reason": "该新闻涉及针对AI数据中心的潜在跨境监管政策，属于AI领域的重要政策动态，对我方相关业务的海外布局有较高参考价值。"
+    },
+    {
+      "title": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others",
+      "url": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
+      "summary": "A Bloomberg News analysis of 10 million job postings suggests AI is compounding China's already weak labor market. Entry-level workers and the creative industry are feeling the shift most, with more than 90% of Chinese micro-dramas now produced using AI. Former central bank adviser Cai Fang warns that a larger AI shock is still ahead. The article Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1795190163.0,
+      "published": "2026-11-20T15:56:03+00:00",
+      "score": 8,
+      "reason": "数据显示国内超90%微短剧已使用AI制作，属于短剧领域的重要行业趋势动态，对公司红果短剧相关业务的AI化布局有极高参考价值"
+    },
+    {
+      "title": "腾讯姚顺雨团队：Hy4仍有很大改进空间，计划训练更大规模模型",
+      "url": "https://36kr.com/newsflashes/4078961086764168?f=rss",
+      "summary": "11月21日凌晨，腾讯首席AI科学家姚顺雨带着混元团队出现在海外社交媒体社区，做了一场文字AMA（公开问答）。问答环节，有人直言：字节跳动和Kimi等（参数量）似乎都在往3T甚至5T推，你们为什么停在700B？混元团队回应：“Hy3和Hy4已经证明，较小的模型也能超越较大的模型，而且更便宜。”不过，混元团队也表示，Hy4仍有很大的改进空间，尤其是通过后训练。“我们正投入大量精力进行大规模强化学习，同时继续改善用户体验和模型安全。我们还计划训练更大规模的模型。”（每日经济新闻）",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795232027.0,
+      "published": "2026-11-21T03:33:47+00:00",
+      "score": 8,
+      "reason": "该新闻披露腾讯混元大模型团队的技术路线与后续大模型训练规划，属于头部生成式AI厂商的关键动态，可为我方大模型技术迭代路线提供重要行业参考。"
+    },
+    {
+      "title": "智能体 AI 架构：当前挑战与未来机遇",
+      "url": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795258800.0,
+      "published": "2026-11-21T11:00:00+00:00",
+      "score": 8,
+      "reason": "该内容聚焦智能体AI架构的挑战与机遇，属于战略覆盖的AI Agent领域，可为相关技术布局提供核心参考。"
+    },
+    {
+      "title": "AI 漫剧不缺作品，缺什么？｜QLab直播",
+      "url": "https://www.infoq.cn/article/27xI2tBkStO5qz52VBPw?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795194869.0,
+      "published": "2026-11-20T17:14:29+00:00",
+      "score": 8,
+      "reason": "AI漫剧属于AI生成内容、微短剧相关的衍生内容形态，和红果短剧等产品的内容创新方向高度相关，具备较高参考价值。"
+    },
+    {
+      "title": "Anthropic万亿IPO冲击波：智谱、MiniMax大跌，市场或重估大模型定价逻辑",
+      "url": "https://www.huxiu.com/article/4907377.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795239207.0,
+      "published": "2026-11-21T05:33:27+00:00",
+      "score": 8,
+      "reason": "该新闻涉及AI大模型赛道的行业估值与定价逻辑重估，属于AI大模型领域重要行业动态，可为字节大模型相关业务的战略决策提供行业参考。"
+    },
+    {
+      "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
+      "url": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+      "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that YouTube reached the agreement \"in principle,\" and that the deal would also include new safeguards for teens. The settlement would allow Google to avoid a wave [&#8230;]",
+      "source": "The Verge",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795207432.0,
+      "published": "2026-11-20T20:43:52+00:00",
+      "score": 7,
+      "reason": "该新闻涉及头部内容平台YouTube因成瘾性设计面临监管和解，属于内容社区领域的重要监管相关动态，可为今日头条等信息流产品的青少年保护机制优化提供参考。"
+    },
+    {
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "summary": "Anthropic mathematician Levent Alp&#246;ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [&#8230;]",
+      "source": "The Verge",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795192453.0,
+      "published": "2026-11-20T16:34:13+00:00",
+      "score": 7,
+      "reason": "该新闻展示了大模型Claude在专业科研场景下的突破性应用，属于AI大模型领域的重要进展，可为我方大模型的能力拓展方向提供参考。"
+    },
+    {
+      "title": "Google rolls out new search homepage with AI chat history and no search button",
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "summary": "Google search is making it even easier to access AI tools on the search page.",
+      "source": "Ars Technica",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795211909.0,
+      "published": "2026-11-20T21:58:29+00:00",
+      "score": 7,
+      "reason": "该新闻涉及谷歌搜索端AI工具的产品形态迭代，属于生成式AI应用范畴，可为我方信息流、搜索相关产品的AI功能优化提供行业参考。"
+    },
+    {
+      "title": "The most misunderstood graph in AI just got a major update",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely&#8230;",
+      "source": "MIT Technology Review",
+      "tags": [
+        "ai",
+        "research"
+      ],
+      "published_ts": 1795198515.0,
+      "published": "2026-11-20T18:15:15+00:00",
+      "score": 7,
+      "reason": "该新闻涉及AI大模型能力演进的最新评估研究，可为今日头条、番茄小说等内容产品的AI相关技术迭代提供参考。"
+    },
+    {
+      "title": "Germany seems to be serious about a TikTok Europe takeover",
+      "url": "https://www.engadget.com/2323606/germany-seems-to-be-serious-about-a-tiktok-europe-takeover/",
+      "summary": "The company has called the idea \"nonsense.\"",
+      "source": "Engadget",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795206935.0,
+      "published": "2026-11-20T20:35:35+00:00",
+      "score": 7,
+      "reason": "该新闻涉及海外针对短视频类头部平台的监管收购动向，可为我们相关产品的海外合规布局提供参考。"
+    },
+    {
+      "title": "Industry insiders say new US export rules affect a broader range of chips, including SoCs used in consumer electronics, extending beyond advanced AI chips (Cheng Ting-Fang/Nikkei Asia)",
+      "url": "https://www.techmeme.com/261121/p2#a261121p2",
+      "summary": "Cheng Ting-Fang / Nikkei Asia : Industry insiders say new US export rules affect a broader range of chips, including SoCs used in consumer electronics, extending beyond advanced AI chips &nbsp; &mdash;&nbsp; TAIPEI &mdash; Tighter U.S. export controls introduced Thursday are having a far broader impact on the global semiconductor supply chain &hellip;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795240855.0,
+      "published": "2026-11-21T06:00:55+00:00",
+      "score": 7,
+      "reason": "该内容涉及美国扩大AI相关芯片出口管制的政策变动，会影响我方AI大模型相关业务的供应链布局，具备较高参考价值。"
+    },
+    {
+      "title": "Oracle says it has secured funding for its infrastructure contract with OpenAI and \"any further private discussions with vendors are just additional options\" (@oracle)",
+      "url": "https://www.techmeme.com/261120/p43#a261120p43",
+      "summary": "@oracle : Oracle says it has secured funding for its infrastructure contract with OpenAI and &ldquo;any further private discussions with vendors are just additional options&rdquo; &nbsp; &mdash;&nbsp; Oracle has secured all the funding we need to fulfill our contract with OpenAI. With our final capital raise earlier this month, we became the first hyperscaler fully funded for this investment cycle. The financing we outlined at Oracle Investor Day, including vendor financing, is in...",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795220700.0,
+      "published": "2026-11-21T00:25:00+00:00",
+      "score": 7,
+      "reason": "该内容涉及OpenAI的基础设施合作动态，属于AI大模型领域的重要行业公司动态，具备行业参考价值。"
+    },
+    {
+      "title": "Cursor tells lawmakers it is considering phasing out Chinese open-weight AI models due to \"geopolitical risk\"; Cursor's Composer 2 was built on Kimi K2.5 (Kai Nicol-Schwarz/CNBC)",
+      "url": "https://www.techmeme.com/261120/p39#a261120p39",
+      "summary": "Kai Nicol-Schwarz / CNBC : Cursor tells lawmakers it is considering phasing out Chinese open-weight AI models due to &ldquo;geopolitical risk&rdquo;; Cursor's Composer 2 was built on Kimi K2.5 &nbsp; &mdash;&nbsp; SpaceX's artificial-intelligence coding platform, Cursor, is considering moving away from using of Chinese AI models due to &ldquo;geopolitical risk,&rdquo; CNBC has learned.",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795215601.0,
+      "published": "2026-11-20T23:00:01+00:00",
+      "score": 7,
+      "reason": "该新闻涉及AI大模型领域的地缘政策相关动向，对我方AI相关业务的供应链与合规布局有参考价值。"
+    },
+    {
+      "title": "Artificial Analysis says Inkling 2 Mini, with 5.4B active parameters, matches Qwen3.8 27B (xhigh) on its Intelligence Index with ~5x fewer active parameters (Artificial Analysis)",
+      "url": "https://www.techmeme.com/261120/p37#a261120p37",
+      "summary": "Artificial Analysis : Artificial Analysis says Inkling 2 Mini, with 5.4B active parameters, matches Qwen3.8 27B (xhigh) on its Intelligence Index with ~5x fewer active parameters &nbsp; &mdash;&nbsp; Thinking Machines has released Inkling 2 Mini at 20 on the Artificial Analysis Intelligence Index, an open weights looped transformer &hellip;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795212600.0,
+      "published": "2026-11-20T22:10:00+00:00",
+      "score": 7,
+      "reason": "该新闻披露了新型高效AI大模型的技术突破，小参数模型达到大模型效果，可为我方内容生成、推荐等场景的AI模型选型优化提供参考。"
+    },
+    {
+      "title": "Anthropic goes public, but is it too late to save the AI trade?",
+      "url": "https://siliconangle.com/2026/11/20/anthropic-goes-public-but-is-it-too-late-to-save-the-ai-trade/",
+      "summary": "Anthropic came through with its initial public offering Thursday, but did it just signal a top in the AI trade? The artificial intelligence model maker&#8217;s IPO went almost picture-perfectly, really, producing a 17% pop that wasn&#8217;t so high that it left an excessive amount of money on the table but high enough to call it [&#8230;] The post Anthropic goes public, but is it too late to save the AI trade? appeared first on SiliconANGLE .",
+      "source": "SiliconANGLE AI",
+      "tags": [
+        "ai",
+        "enterprise"
+      ],
+      "published_ts": 1795186854.0,
+      "published": "2026-11-20T15:00:54+00:00",
+      "score": 7,
+      "reason": "该新闻是头部AI大模型厂商Anthropic的IPO相关行业动态，属于AI领域重要公司事件，可辅助我方研判全球AI产业发展趋势。"
+    },
+    {
+      "title": "Cognition in Talks for $75 Billion Value With New Funding",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/cognition-in-talks-for-75-billion-value-with-new-funding",
+      "summary": "Artificial intelligence coding startup Cognition AI Inc. is in funding talks at a $75 billion valuation, just two months after announcing its most recent funding round, according to people familiar with the matter.",
+      "source": "Bloomberg Technology",
+      "tags": [
+        "tech",
+        "business"
+      ],
+      "published_ts": 1795207675.0,
+      "published": "2026-11-20T20:47:55+00:00",
+      "score": 7,
+      "reason": "该新闻是AI初创企业Cognition AI的大额融资动态，属于AI领域的重要行业融资事件，可作为AI赛道发展趋势的参考信息。"
+    },
+    {
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "source": "OpenAI News",
+      "tags": [
+        "ai",
+        "openai"
+      ],
+      "published_ts": 1795168800.0,
+      "published": "2026-11-20T10:00:00+00:00",
+      "score": 7,
+      "reason": "OpenAI发布针对AI模型能力提取的防护方案，属于AI大模型安全领域重要动态，对公司自研或使用大模型的安全防护有参考价值"
+    },
+    {
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+      "summary": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.",
+      "source": "AWS Machine Learning Blog",
+      "tags": [
+        "ai",
+        "aws"
+      ],
+      "published_ts": 1795220066.0,
+      "published": "2026-11-21T00:14:26+00:00",
+      "score": 7,
+      "reason": "该技术可大幅降低自托管大模型的推理成本和延迟，属于AI大模型推理优化的重要技术突破，对公司大模型部署降本增效有较高参考意义"
+    },
+    {
+      "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+      "url": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
+      "summary": "OpenAI has significantly strengthened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol. In adaptive red-teaming tests, the success rate for extracting protected reasoning fell from 54 percent to 0.2 percent. The company is also suspending thousands to tens of thousands of accounts each week over coordinated distillation campaigns. The article OpenAI makes it much harder for attackers to extract how its latest AI models think appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1795206710.0,
+      "published": "2026-11-20T20:31:50+00:00",
+      "score": 7,
+      "reason": "OpenAI大幅升级大模型内部推理逻辑的防护能力，属于AI大模型安全领域重要技术进展，对公司大模型相关业务的安全防护有较高参考价值"
+    },
+    {
+      "title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
+      "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+      "summary": "After Meta, OpenAI, Anthropic, and Google launched their own AI agents, Apple is now building one too - while making it harder for rivals to access its devices. The article Apple joins the race for AI agents that control your device while raising new barriers for competitors appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1795187005.0,
+      "published": "2026-11-20T15:03:25+00:00",
+      "score": 7,
+      "reason": "苹果正式入局设备端AI Agent赛道同时设置竞品准入壁垒，属于AI Agent领域的头部厂商重要动态，对公司布局端侧AI相关业务有参考意义"
+    },
+    {
+      "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
+      "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
+      "summary": "Nvidia is close to acquiring AI startup Inception for at least $500 million, according to The Information. The company is just two years old and builds language models based on diffusion processes, an alternative approach to the token-by-token generation used by models like ChatGPT. The deal would bolster Nvidia's own open-source models and its push into robotics. The article Nvidia bets at least $500 million on Inception&#039;s diffusion models to strengthen its open-source Nemotron lineup appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1795186430.0,
+      "published": "2026-11-20T14:53:50+00:00",
+      "score": 7,
+      "reason": "英伟达拟重金收购AI初创公司补强开源大模型产品线，属于AI大模型领域的重要行业并购动态，可为公司大模型相关技术选型和行业趋势判断提供参考"
+    },
+    {
+      "title": "Tencent’s Hy Team Outlines Larger Models and a 24GB Deployment Roadmap",
+      "url": "https://pandaily.com/tencent-hy-ama-larger-models-flash-lite-24gb-roadmap",
+      "summary": "Tencent’s Hy team discusses larger models, Flash-Lite and 24GB-device plans in an AMA, explaining architecture choices without announcing a release date.",
+      "source": "Pandaily",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1795242590.0,
+      "published": "2026-11-21T06:29:50+00:00",
+      "score": 7,
+      "reason": "该新闻披露腾讯大模型的迭代与端侧部署 roadmap，属于AI大模型领域的重要竞品动态，对我们的大模型落地布局有参考价值。"
+    },
+    {
+      "title": "Inkling 2 Mini",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "summary": "Article URL: https://thinkingmachines.ai/news/inkling-2-mini/ Comments URL: https://news.ycombinator.com/item?id=50581260 Points: 927 # Comments: 173",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795205539.0,
+      "published": "2026-11-20T20:12:19+00:00",
+      "score": 7,
+      "reason": "该内容来自thinkingmachines.ai的AI相关产品Inkling 2 Mini，属于AI大模型/AI产品范畴，可为我方AI相关技术迭代提供参考。"
+    },
+    {
+      "title": "AI agents are getting wallets. Is Hong Kong ready for them?",
+      "url": "https://www.scmp.com/tech/big-tech/article/3375253/ai-agents-are-getting-wallets-hong-kong-ready-them",
+      "summary": "Minds by Animoca Brands, an agentic artificial intelligence platform created by the Web3 firm, is riding on Hong Kong’s push to turn automated agents into everyday shopping tools, piloting live transactions on Visa’s network just as local regulators place agentic commerce on the policy agenda. Unlike conventional chatbots that merely answer user questions about products, agentic commerce relies on autonomous AI systems capable of browsing, comparing options and executing payments on a user’s...",
+      "source": "SCMP Tech",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1795228205.0,
+      "published": "2026-11-21T02:30:05+00:00",
+      "score": 7,
+      "reason": "该新闻涉及AI Agent相关平台的落地试点与监管动向，属于战略关注的AI Agent领域，可为相关业务布局提供参考。"
+    },
+    {
+      "title": "谷歌为 Gemini 上线 GIF 动态图片生成功能，由 Omni 1.2 Flash 模型驱动",
+      "url": "https://www.ithome.com/1/030/381.htm",
+      "summary": "IT之家 11 月 21 日消息，谷歌宣布为 Gemini 上线 GIF 生成功能，相应功能由视频模型 Gemini Omni 1.2 Flash 驱动，可生成循环动态图效和搞笑表情包。 该功能面向所有 Google AI 订阅用户开放，并在美国、日本、韩国、澳大利亚、加拿大、英国、德国和法国免费。用户可在主聊天输入提示词，或在图像与视频工具中选择 GIF 并描述需求，等待片刻即可生成图片。 IT之家注意到，谷歌还于 11 月 18 日推出了 AI 模型 Gemini 4 Neon，主攻复杂编程、科学研究和企业工作流程，更好平衡推理能力、任务处理速度与成本，目前已开始向开发者、企业及部分付费订阅用户开放。 费用方面，Gemini 4 Neon 在 API 调用方面，每 100 万词元输入费用为 3 美元 （IT之家注：现汇率约合 20 元人民币） ，每 100 万词元输出费用为 15 美元 （现汇率约合 100.2 元人民币） ，缓存输入每百万 token 为 0.15 美元 （现汇率约合 1 元人民币） ，并提供 Low、medium、high 以及 xhigh 四种推理级别。用户订阅 Google AI Pro 或 Ultra 后可以在 Gemini 应用中选择使用该模型。",
+      "source": "IT之家",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795246890.0,
+      "published": "2026-11-21T07:41:30+00:00",
+      "score": 7,
+      "reason": "该新闻是谷歌大模型新增AI生成GIF动态图功能的动态，属于生成式AI内容生成领域，可为我们旗下内容产品的AI内容生成能力迭代提供参考方向。"
+    },
+    {
+      "title": "Anthropic上市首日涨17%，市值一度冲至2万亿刀，AI热潮还能持续多久？",
+      "url": "https://36kr.com/p/4077873869099904?f=rss",
+      "summary": "&nbsp; Anthropic与科技巨头们唇齿相依 &nbsp; &nbsp; 文 &nbsp;| &nbsp;刘思洁 封面来源 |&nbsp;Unsplash &nbsp; 11月19日，Anthropic（Nasdaq：ANT） 正式登陆纳斯达克 ，股票发行价最终定在83美元，开盘价111.50美元，盘中最高涨至115.10美元，按完全稀释口径计算，市值一度约 2.08万亿美元，按已发行股份计算约1.51万亿美元， 收盘报97.17美元，收盘时较发行价高约17%。 其募资额也超越SpaceX，为813亿美元，刷新了全球IPO募资纪录。盘中最高时，Anthropic一度成为全球市值第六大的上市公司（ 完全稀释市值口径）， 位于Apple、Microsoft、Nvidia、Alphabet和Amazon之后。 截至2026年9月30日约有5300名员工，按照盘中最高时市值计算，也就是说人均创造了3.925亿美元的市值，约为英伟达的4.7倍。而按照招股书的披露，过去12个月人均创造的营收超过660万美元。按照盘中最高股价计算，其七位联创的身家合计超过1900亿美元。 Anthropic、英伟达、SpaceX三家公司人均创造的市值（数据取11月19日各家最高市值计算） 此前，业内普遍存在一个担忧，Anthropic的上市，预示着AI行业泡沫要破了。 10月，投资者还在谈论Anthro",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795166093.0,
+      "published": "2026-11-20T09:14:53+00:00",
+      "score": 7,
+      "reason": "该新闻是全球头部AI大模型企业Anthropic的上市重要动态，属于AI大模型领域的行业标志性事件，可为我们跟进全球AI产业发展趋势提供重要参考。"
+    },
+    {
+      "title": "美国证券交易委员会据悉正对英伟达潜在会计问题展开调查",
+      "url": "https://36kr.com/newsflashes/4079125046449286?f=rss",
+      "summary": "据美国媒体11月20日引述知情人士消息报道，美国证券交易委员会（SEC）正在对英伟达潜在会计问题展开调查。这一消息进一步加剧英伟达投资者的担忧情绪，英伟达股价当天跌超14%，报125.5美元，较10月高点243.4美元跌超48%，接近腰斩。从单周来看，英伟达股价重挫23%，创2008年10月以来最大单周跌幅，单周市值缩水近9000亿美元（约合人民币超6万亿元）。对比其10月6日的历史最高价，英伟达市值已累计蒸发约2.7万亿美元（约合人民币超18万亿元），最新市值为3.03万亿美元，排在苹果、微软和Alphabet之后。 (央视财经)",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795242034.0,
+      "published": "2026-11-21T06:20:34+00:00",
+      "score": 7,
+      "reason": "英伟达是全球AI算力核心供应商，其被SEC调查及股价大幅波动的动态，直接影响AI大模型相关算力供给市场，对我方算力采购布局有重要参考价值。"
+    },
+    {
+      "title": "马化腾第四次改腾讯AI航道",
+      "url": "https://www.tmtpost.com/8213477.html",
+      "summary": "老板得付第一责任",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795247705.0,
+      "published": "2026-11-21T07:55:05+00:00",
+      "score": 7,
+      "reason": "内容涉及腾讯调整AI战略航道，属于行业头部互联网公司的AI领域重要动态，对我方相关业务布局有参考意义。"
+    },
+    {
+      "title": "Seedance、MiniMax和Qwen image修改能力测试：3轮连改，谁更好用？",
+      "url": "https://www.tmtpost.com/8213159.html",
+      "summary": "看看谁更听指挥",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795237503.0,
+      "published": "2026-11-21T05:05:03+00:00",
+      "score": 7,
+      "reason": "该内容涉及多模态AI大模型修改能力测试，属于AI大模型相关领域，可为旗下内容生成类产品的技术选型提供参考。"
+    },
+    {
+      "title": "清析智研王欢：大模型学完了人类知识，下一步去哪儿？",
+      "url": "https://www.tmtpost.com/8213250.html",
+      "summary": "AI能不能不只“掌握已有知识”，而是进入真实世界，创造新知识？",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795236281.0,
+      "published": "2026-11-21T04:44:41+00:00",
+      "score": 7,
+      "reason": "该内容涉及大模型后续发展方向的行业观点，属于AI大模型相关领域，可为大模型长期技术布局提供参考。"
+    },
+    {
+      "title": "Agent 上岗，你敢放手吗？",
+      "url": "https://www.infoq.cn/video/qafOtORWUX0eD0WfSlYi?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795199142.0,
+      "published": "2026-11-20T18:25:42+00:00",
+      "score": 7,
+      "reason": "该新闻涉及AI Agent相关领域，属于战略关注的AI应用范畴，对今日头条等产品探索AI Agent落地有参考价值。"
+    },
+    {
+      "title": "火山引擎 Agent-Native 团队的上下文管理实践｜AICon北京",
+      "url": "https://www.infoq.cn/article/YTGHxcabs0RI3btLIUxm?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795168800.0,
+      "published": "2026-11-20T10:00:00+00:00",
+      "score": 7,
+      "reason": "该新闻涉及AI Agent的上下文管理技术实践，属于战略关注的AI Agent相关领域，对相关产品技术优化有参考意义。"
+    },
+    {
+      "title": "谷歌重磅论文：内部已实现RSI，Opus经验喂给Gemini，AI拥有进化记忆",
+      "url": "https://www.huxiu.com/article/4907380.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795239923.0,
+      "published": "2026-11-21T05:45:23+00:00",
+      "score": 7,
+      "reason": "该新闻涉及AI大模型的技术进化突破，属于AI大模型相关领域，可为字节系内容产品的AI能力迭代提供行业技术参考。"
+    },
+    {
+      "title": "网易游戏旺季下跌，不全是短剧的锅",
+      "url": "https://www.huxiu.com/article/4907340.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795223856.0,
+      "published": "2026-11-21T01:17:36+00:00",
+      "score": 7,
+      "reason": "该新闻提及短剧对游戏行业的影响，属于短剧赛道的行业动态，可为红果短剧的竞品及行业生态研判提供参考。"
+    },
+    {
+      "title": "当 Kling Image 4.0 自己出设计方案，生图的门槛又变了！",
+      "url": "https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html",
+      "summary": "过去几年，AI 生图模型在真实感、分辨率和光影表现上不断刷新人们的认知。但当这些图片真正被用于海报、广告这些商业场景时仍会面临文字能否准确呈现、局部修改是否能保留原有设计等问题。 这些看似不起眼的要求，至今仍是图像模型的难题。（雷峰网） 今年 3 月，微软研究院发布了一项名为 BizGenEval 的商业视觉生成评测，用 400 条提示词和 8000 道检查题测试主流模型。结果发现，模型已经能生成颇具美感的海报和网页，但在精确布局、多个对象之间的属性对应等方面，仍然存在明显短板。 也正是在这个阶段，以视频生成出圈的可灵在今天推出了 Kling Image 4.0。 Kling Image 4.0 生成 按照官方介绍，新模型将原生分辨率提升至 &nbsp;8K ，单张图片最多支持 &nbsp;2000&nbsp; 字，并能一次生成最多&nbsp; 10 张连贯图片 。更值得关注的是，它采用理解与生成统一的自回归架构，尝试让模型在同一上下文中处理图像理解与生成。 这一次，可灵显然不只想把图片做得更漂亮，也希望让模型处理更复杂的创作要求。 我们从最直观的人像写真开始试试 Kling Image 4.0 的能力，从拍好一张照片，到设计一张海报，再到组织一整套视觉内容，Kling Image 4.0 究竟能替创作者完成多少工作？ 01 从写真到创意海报 Kling Image 4.0 的生图",
+      "source": "雷峰网",
+      "tags": [
+        "cn",
+        "ai"
+      ],
+      "published_ts": 1795229940.0,
+      "published": "2026-11-21T02:59:00+00:00",
+      "score": 7,
+      "reason": "该新闻涉及AI生图生成式AI产品的技术迭代，属于AI内容生成相关领域，可为我方内容生产工具的能力升级提供参考。"
+    },
+    {
+      "title": "Tencent releases Hy4 model weights with million-token context",
+      "url": "https://technode.com/2026/11/20/tencent-releases-hy4-model-weights-with-million-token-context/",
+      "summary": "Tencent released the weights of its flagship Hy4 AI model on Friday, allowing developers to download and deploy the model themselves. The release follows Hy4’s initial launch on November 4 and makes the flagship available under the Apache 2.0 license, which permits commercial use and modification. Hy4 supports text, image and video understanding, with a [&#8230;]",
+      "source": "TechNode",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1795184066.0,
+      "published": "2026-11-20T14:14:26+00:00",
+      "score": 7,
+      "reason": "腾讯开源支持百万token上下文的Hy4大模型，属于AI大模型领域重要动态，可为我方内容生成、长内容理解相关技术迭代提供参考方向。"
+    },
+    {
+      "title": "Alibaba uses its own chips to train next-generation Qwen model",
+      "url": "https://technode.com/2026/11/20/alibaba-uses-its-own-chips-to-train-next-generation-qwen-model/",
+      "summary": "Alibaba is using chips developed by its semiconductor subsidiary T-Head to train its next Qwen model, CEO Eddie Wu said during the company’s quarterly earnings call on Thursday. Alibaba’s Bailian model platform is also providing inference services using Chinese-made chips. The disclosure extends T-Head’s role across both major stages of AI computing: training models and [&#8230;]",
+      "source": "TechNode",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1795184059.0,
+      "published": "2026-11-20T14:14:19+00:00",
+      "score": 7,
+      "reason": "阿里采用自研芯片训练下一代通义千问大模型，属于AI大模型训练技术相关的头部厂商动态，对我方大模型算力布局有参考价值。"
+    },
+    {
+      "title": "Muse Is Unleashing a World of Pettiness on Instagram",
+      "url": "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/",
+      "summary": "Meta’s AI assistant can track and unfollow Instagram users who don’t follow you back—and some people are taking full advantage.",
+      "source": "Wired AI",
+      "tags": [
+        "ai",
+        "tech"
+      ],
+      "published_ts": 1795176000.0,
+      "published": "2026-11-20T12:00:00+00:00",
+      "score": 6,
+      "reason": "该新闻涉及Meta推出的AI助手应用，属于AI应用产品范畴，可为我方内容平台的AI功能迭代提供参考方向。"
+    },
+    {
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president [&#8230;]",
+      "source": "The Verge AI",
+      "tags": [
+        "ai",
+        "tech"
+      ],
+      "published_ts": 1795177847.0,
+      "published": "2026-11-20T12:30:47+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI Agent相关的用户隐私保护动态，属于AI应用领域的行业趋势，可为我方AI产品的隐私合规设计提供参考。"
+    },
+    {
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+      "source": "Ars Technica",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795208348.0,
+      "published": "2026-11-20T20:59:08+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI供应链的数据隐私安全问题，属于AI领域的重要风险点，可为我方大模型训练、内容生成相关业务的数据安全合规提供参考。"
+    },
+    {
+      "title": "YouTube could pay $3 billion to settle social media addiction lawsuits with school districts",
+      "url": "https://www.engadget.com/2323927/youtube-could-pay-3-billion-to-settle-social-media-addiction-lawsuits-with-school-districts/",
+      "summary": "YouTube is facing a growing number of lawsuits alleging that its platform is designed to be addictive and that it has harmed teens.",
+      "source": "Engadget",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795218010.0,
+      "published": "2026-11-20T23:40:10+00:00",
+      "score": 6,
+      "reason": "该新闻涉及海外内容平台因用户成瘾设计面临巨额诉讼的监管相关动态，可为今日头条信息流等内容产品的合规运营提供参考。"
+    },
+    {
+      "title": "Signal now blocks screenshots by default to stymie AI agents",
+      "url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/",
+      "summary": "It describes the fix as incomplete and calls for a simple way for developers to opt out of AI snooping.",
+      "source": "Engadget",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795205889.0,
+      "published": "2026-11-20T20:18:09+00:00",
+      "score": 6,
+      "reason": "该新闻涉及针对AI Agent的反爬取相关技术动向，可为我们内容产品的AI Agent相关功能研发和内容版权保护提供参考。"
+    },
+    {
+      "title": "OpenAI brings its collaborative Space hubs to Plus users",
+      "url": "https://www.engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users/",
+      "summary": "You can upload documents, files and more to the hubs for easy sharing.",
+      "source": "Engadget",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795197600.0,
+      "published": "2026-11-20T18:00:00+00:00",
+      "score": 6,
+      "reason": "该新闻涉及头部AI厂商OpenAI的协作类AI产品功能更新，可为我们内容产品的AI协作相关功能迭代提供参考。"
+    },
+    {
+      "title": "Google boosts Gemini's ability to do 'repetitive tasks' on its Mac app",
+      "url": "https://www.engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app/",
+      "summary": "Google's Gemini app for Mac can now use your computer to list items on eBay, speed up creative tasks and fill out forms for you.",
+      "source": "Engadget",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795178171.0,
+      "published": "2026-11-20T12:36:11+00:00",
+      "score": 6,
+      "reason": "该内容涉及Google Gemini大模型在端侧的Agent类任务能力升级，可为我方AI应用的端侧功能迭代提供参考。"
+    },
+    {
+      "title": "Giving its AI more to read made T-Mobile's answers worse",
+      "url": "https://venturebeat.com/orchestration/giving-its-ai-more-to-read-made-t-mobiles-answers-worse",
+      "summary": "T-Mobile's first attempt to give its AI customer service agents enough context backfired. The agents had access to a large body of support documentation, but conflicting instructions could send them down the wrong path for a customer's request, according to CIO Jeff Simon at VentureBeat's Agentic Infrastructure Stack Summit in October. A subsequent knowledge graph proved too slow and difficult for agents to navigate. Read more",
+      "source": "VentureBeat",
+      "tags": [
+        "ai",
+        "tech"
+      ],
+      "published_ts": 1795211506.0,
+      "published": "2026-11-20T21:51:46+00:00",
+      "score": 6,
+      "reason": "该内容为AI Agent在客服场景下的落地踩坑经验，可为我方内容相关AI Agent的上下文优化提供借鉴。"
+    },
+    {
+      "title": "Ubisoft launches Motherbrain, a subsidiary focused on developing \"smart NPCs with memory and AI game masters that manage large-scale systemic worlds\" (Sophie McEvoy/GamesIndustry.biz)",
+      "url": "https://www.techmeme.com/261121/p1#a261121p1",
+      "summary": "Sophie McEvoy / GamesIndustry.biz : Ubisoft launches Motherbrain, a subsidiary focused on developing &ldquo;smart NPCs with memory and AI game masters that manage large-scale systemic worlds&rdquo; &nbsp; &mdash;&nbsp; Studio is currently developing &ldquo;smart NPCs with memory and AI game masters that manage large-scale systemic worlds&rdquo;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795238100.0,
+      "published": "2026-11-21T05:15:00+00:00",
+      "score": 6,
+      "reason": "该内容涉及具备记忆能力的AI NPC和AI游戏主控技术，可为我方互动影视、短剧的交互体验升级提供参考方向。"
+    },
+    {
+      "title": "Nasdaq 100 fell 5.6% on Friday, taking its loss for the week to 10.4%, its worst run in more than six years, amid fears of a slowdown in the AI investment boom (George Steer/Financial Times)",
+      "url": "https://www.techmeme.com/261120/p42#a261120p42",
+      "summary": "George Steer / Financial Times : Nasdaq 100 fell 5.6% on Friday, taking its loss for the week to 10.4%, its worst run in more than six years, amid fears of a slowdown in the AI investment boom &nbsp; &mdash;&nbsp; Shares in Anthropic and Nvidia tumble as fears over the AI spending boom grip Wall Street&nbsp; &mdash;&nbsp; US tech stocks plunged &hellip;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795218600.0,
+      "published": "2026-11-20T23:50:00+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI投资领域的市场波动情况，属于AI大模型相关行业重要动态，可为我方AI相关业务的行业环境研判提供参考。"
+    },
+    {
+      "title": "Sources: Cognition is considering raising $2B or more at a $75B valuation, after raising over $3B in 2026 so far, including $2B at a $48B valuation in September (Rebecca Torrence/Bloomberg)",
+      "url": "https://www.techmeme.com/261120/p36#a261120p36",
+      "summary": "Rebecca Torrence / Bloomberg : Sources: Cognition is considering raising $2B or more at a $75B valuation, after raising over $3B in 2026 so far, including $2B at a $48B valuation in September &nbsp; &mdash;&nbsp; Artificial intelligence coding startup Cognition AI Inc. is in funding talks at a $75 billion valuation, just two months &hellip;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795210500.0,
+      "published": "2026-11-20T21:35:00+00:00",
+      "score": 6,
+      "reason": "该新闻是头部AI创业公司Cognition的大额融资动态，属于AI大模型领域的重要行业事件，可辅助我方研判AI行业投融资趋势。"
+    },
+    {
+      "title": "Anthropic researcher claims to have proven Riemann hypothesis using Claude",
+      "url": "https://siliconangle.com/2026/11/20/anthropic-researcher-claims-to-have-proven-riemann-hypothesis-using-claude/",
+      "summary": "An Anthropic PBC researcher claims to have used Claude to prove the Riemann hypothesis, which is widely considered to be the most important open question in mathematics. Levent Alpöge announced his discovery today on his personal website. Anthropic has not published an official announcement about the news. The company floated on the Nasdaq a day [&#8230;] The post Anthropic researcher claims to have proven Riemann hypothesis using Claude appeared first on SiliconANGLE .",
+      "source": "SiliconANGLE AI",
+      "tags": [
+        "ai",
+        "enterprise"
+      ],
+      "published_ts": 1795210091.0,
+      "published": "2026-11-20T21:28:11+00:00",
+      "score": 6,
+      "reason": "该新闻展示了Claude大模型在复杂科研任务上的能力边界，可为我方探索AI内容生成的能力上限提供参考。"
+    },
+    {
+      "title": "Anthropic Researcher Claims to Solve Riemann Problem With Claude",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/anthropic-researcher-claims-to-solve-riemann-problem-with-claude",
+      "summary": "On the heels of Anthropic PBC’s record-breaking initial public offering, a researcher at the company said he believes he used its artificial intelligence software to solve a famous number theory problem that has plagued mathematicians for more than 150 years.",
+      "source": "Bloomberg Technology",
+      "tags": [
+        "tech",
+        "business"
+      ],
+      "published_ts": 1795220234.0,
+      "published": "2026-11-21T00:17:14+00:00",
+      "score": 6,
+      "reason": "该新闻再次验证了Claude大模型在高难度复杂任务上的应用能力，可为我方AI内容相关场景的能力拓展提供参考。"
+    },
+    {
+      "title": "Hindlian Advisory CEO on AI & Anthropic Market Sell-off",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-20/hindlian-advisory-ceo-on-ai-anthropic-market-sell-off-video",
+      "summary": "Amanda Hindlian, Founder and CEO of Hindlian Advisory and Former Global Head of Capital Markets at the New York Stock Exchange, says Anthropic’s IPO should be judged separately from a volatile week for markets. She notes that investors had been uncertain about the pricing and overall execution just two weeks earlier, but the offering priced well, drew a significantly oversubscribed book—estimated at five to seven times—and traded strongly on its first day. She speaks with Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
+      "source": "Bloomberg Technology",
+      "tags": [
+        "tech",
+        "business"
+      ],
+      "published_ts": 1795215518.0,
+      "published": "2026-11-20T22:58:38+00:00",
+      "score": 6,
+      "reason": "该新闻涉及头部AI大模型公司Anthropic的IPO市场相关动态，属于AI大模型领域的重要行业动态，可为我方AI相关业务布局提供行业参考。"
+    },
+    {
+      "title": "Odd Lots: Minerva Co-Founder on the Risks of “Abliterated” Models",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-20/minerva-co-founder-on-the-risks-of-abliterated-models-video",
+      "summary": "On this episode of the Odd Lots podcast, Minerva Co-Founder Daniel Saedi joins Joe Weisenthal and Tracy Alloway to unpack how his company mixes and matches AI models for specific use cases and the risk of “abliterated” models. (Source: Bloomberg)",
+      "source": "Bloomberg Technology",
+      "tags": [
+        "tech",
+        "business"
+      ],
+      "published_ts": 1795202110.0,
+      "published": "2026-11-20T19:15:10+00:00",
+      "score": 6,
+      "reason": "内容涉及AI模型的定制化组合使用相关讨论，属于AI大模型领域动态，可为公司相关AI模型选型优化提供参考"
+    },
+    {
+      "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+      "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+      "summary": "AWS Quick is the AI workspace built only for work. Today we're releasing updates that help your team get more done: build and run business-process flows in chat, triage your day in the updated web app, get more complete answers from multiple agents at once, and connect new data sources like Meta ads and Amplitude.",
+      "source": "AWS Machine Learning Blog",
+      "tags": [
+        "ai",
+        "aws"
+      ],
+      "published_ts": 1795223202.0,
+      "published": "2026-11-21T01:06:42+00:00",
+      "score": 6,
+      "reason": "AWS推出支持多智能体协同的AI工作空间更新，属于AI Agent相关产品动态，可为公司内容生产相关的多Agent协作场景提供技术参考"
+    },
+    {
+      "title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
+      "url": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
+      "summary": "Google is rolling out a collapsible sidebar globally on its Desktop Search homepage. In AI Mode, it lets users reopen recent AI searches, search threads, and create notebooks. Temporary threads that aren't saved to history are also launching worldwide. Google Search co-lead Robby Stein says the feature should make it easier for users to continue longer web research. The article Google&#039;s latest homepage update pushes its search engine further toward an AI answer engine appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1795180771.0,
+      "published": "2026-11-20T13:19:31+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI生成式搜索产品的功能迭代，属于AI应用范畴，可为今日头条信息流AI交互功能优化提供行业参考。"
+    },
+    {
+      "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+      "url": "https://scottaaronson.blog/?p=10344",
+      "summary": "Article URL: https://scottaaronson.blog/?p=10344 Comments URL: https://news.ycombinator.com/item?id=50581084 Points: 277 # Comments: 248",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795204987.0,
+      "published": "2026-11-20T20:03:07+00:00",
+      "score": 6,
+      "reason": "该内容涉及大模型相关的技术讨论，属于AI大模型领域范畴，可关注大模型的前沿能力边界相关动态。"
+    },
+    {
+      "title": "Nvidia faces further blow after shock US export permit data release: analysts",
+      "url": "https://www.scmp.com/tech/big-tech/article/3375287/nvidia-faces-further-blow-after-shock-us-export-permit-data-release-analysts",
+      "summary": "US lawmakers have thrown the cross-border semiconductor trade into fresh turmoil after releasing confidential licensing records showing Washington approved the sale of nearly 880,000 advanced AI chips to Chinese tech companies earlier this year. The disclosures, made by a US House committee on Thursday, could prompt Chinese buyers to pivot from Nvidia to Advanced Micro Devices (AMD) in the short term and accelerate their transition to home-made chips over the long run, analysts said. The filing...",
+      "source": "SCMP Tech",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1795222813.0,
+      "published": "2026-11-21T01:00:13+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI芯片跨境贸易的重要行业动态，AI芯片是大模型业务的核心基础设施，相关变动会影响大模型算力供给，具备参考价值。"
+    },
+    {
+      "title": "Baidu fined US$75,000 as China wraps up Joyy antitrust case",
+      "url": "https://www.scmp.com/tech/big-tech/article/3375283/baidu-fined-us75000-china-wraps-joyy-antitrust-case",
+      "summary": "China’s top market regulator has fined Baidu’s Hong Kong unit 500,000 yuan (US$75,000) for proceeding with its acquisition of part of live-streaming platform Joyy’s business before receiving antitrust clearance. The State Administration for Market Regulation (SAMR) said on Friday that Baidu (Hong Kong) had filed a merger notification for the deal as required by law, but implemented the transaction without waiting for official approval. The regulator ruled that the move had violated the...",
+      "source": "SCMP Tech",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1795182614.0,
+      "published": "2026-11-20T13:50:14+00:00",
+      "score": 6,
+      "reason": "该新闻涉及直播领域的反垄断监管处罚案例，属于战略关注的直播内容赛道的监管相关动态，可为相关业务合规提供参考。"
+    },
+    {
+      "title": "手机测试产线部署智元精灵 G2 机器人，智元与蓝思科技达成战略合作",
+      "url": "https://www.ithome.com/1/030/364.htm",
+      "summary": "IT之家 11 月 21 日消息，智元创新（AGIBOT）与蓝思科技达成战略合作， 于手机测试产线部署智元精灵 G2 机器人 ，数十台机器人同时进行测试工位自动上下料、测试设备交互等工作。 据介绍，精灵 G2 可实现手机产品全自动转运、智能分拨与高效上下料。对比传统自动化设备，精灵 G2 通用本体可兼容多条作业产线，大幅降低产线改造成本。同时，精灵 G2 支持全天候不间断作业，可承接重复性工序，有效缓解用工压力，为 3C 精密制造带来降本、提效、提质的综合价值。 官方表示，本次工业部署态落地聚焦手机 MMI、ANT、CAM、CAMCV 等测试，这类岗位具备操作重复性高、机型迭代快等特征，完整跑通工艺适配、产线联调、交付落地全链路，沉淀标准化交付流程与项目实施体系，具备极强的 1-N 规模化复制潜力。 据IT之家此前报道，去年 10 月， 智元发布工业级交互式具身作业机器人智元精灵 G2 ，搭载英伟达 Jetson Thor 芯片，配备高精度力控双臂，拥有 19 自由度的灵巧手和 3D 触觉感知，5 自由度腰腿搭配全向底盘，引入真机 RL 工具链。 今年 6 月 23 日至 28 日，智元精灵 G2 机器人在龙旗科技南昌工厂产线开启“平板量产质检工段全覆盖”真实产线直播， 机器人作业成功率 99.99% 。",
+      "source": "IT之家",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795243175.0,
+      "published": "2026-11-21T06:39:35+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI机器人（属于AI Agent相关落地应用）的产业部署动态，可为我们探索AI相关落地场景提供行业参考。"
+    },
+    {
+      "title": "沐曦股份曦云C系列GPU率先完成腾讯混元Hy4 Day 0适配",
+      "url": "https://36kr.com/newsflashes/4079148232168323?f=rss",
+      "summary": "据沐曦股份消息，11月20日，腾讯混元正式开源Hy4。沐曦股份旗下曦云C系列GPU率先完成Hy4的Day 0适配。（财联社）",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795243449.0,
+      "published": "2026-11-21T06:44:09+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI大模型相关的算力硬件适配进展，混元大模型属于头部生成式AI产品，相关动态可为我方大模型算力适配布局提供参考。"
+    },
+    {
+      "title": "软银孙正义被曝曾考虑1万亿美元收购SK海力士",
+      "url": "https://36kr.com/newsflashes/4078915481179273?f=rss",
+      "summary": "据知情人士透露，软银首席执行官孙正义近期接洽华尔街机构，商议融资推进一笔规模达万亿级美元的收购，目标是存储芯片巨头SK海力士，但软银发言人表示，孙正义现已不再积极推进该交易。软银发言人称：“软银会考察大量机会，这笔交易目前已不再纳入积极评估范围。”倘若软银推进收购，这将是这位OpenAI投资方做出的最大胆布局，让孙正义切入具备极高战略价值的存储芯片市场。孙正义愿意考量这样一项看似遥不可及的交易，足以体现其野心。收购SK海力士的成本极为高昂。韩国SK海力士今年7月在美国上市，当前全球市值5800亿美元，而大约一个月前其估值更高。若按较高市值再加40%常规收购溢价，交易估值将接近1万亿美元。软银此前重仓OpenAI，资产负债表已经承压，目前尚不清楚其该如何筹措这笔收购资金。也没有迹象表明华尔街机构愿意为软银提供这笔融资。（新浪财经）",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795229243.0,
+      "published": "2026-11-21T02:47:23+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI核心算力存储芯片领域的潜在大额收购动态，属于AI产业链上游重要行业事件，对我方算力供应链布局有参考意义。"
+    },
+    {
+      "title": "东南亚AI中间商之死",
+      "url": "https://www.tmtpost.com/8213274.html",
+      "summary": "算力中间商的淘金时代，结束了。",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795237528.0,
+      "published": "2026-11-21T05:05:28+00:00",
+      "score": 6,
+      "reason": "内容涉及东南亚AI算力中间商的行业变化，属于AI相关产业动态，对我方网文、短剧出海布局的当地AI生态环境有参考意义。"
+    },
+    {
+      "title": "从《权游》到《三体》，从实体模型到AI，这位参与20000个视效镜头的大师，道出特效的终极秘密",
+      "url": "https://www.tmtpost.com/8213050.html",
+      "summary": "他的职业生涯，就是现代视觉特效史的缩影",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795236283.0,
+      "published": "2026-11-21T04:44:43+00:00",
+      "score": 6,
+      "reason": "该内容涉及AI在视觉特效领域的应用，可对红果短剧等内容产品的AI视效制作优化提供参考方向。"
+    },
+    {
+      "title": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
+      "url": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795255200.0,
+      "published": "2026-11-21T10:00:00+00:00",
+      "score": 6,
+      "reason": "该内容涉及Agent持续进化的落地实践，属于AI Agent相关领域，可为内容类产品的AI能力迭代提供参考。"
+    },
+    {
+      "title": "史上最大IPO，焐不热AI行情",
+      "url": "https://www.huxiu.com/article/4907361.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795232572.0,
+      "published": "2026-11-21T03:42:52+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI赛道资本市场整体行情动态，属于AI大模型领域重要行业动态，可为字节AI相关业务的投融资判断提供参考。"
+    },
+    {
+      "title": "25万页证明，黎曼猜想被AI“解决”了吗？",
+      "url": "https://www.huxiu.com/article/4907351.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795228712.0,
+      "published": "2026-11-21T02:38:32+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI在数学科研领域的应用进展，属于AI相关技术动态，可为内容业务的AI技术落地提供参考。"
+    },
+    {
+      "title": "Anthropic的数学家宣布用Claude证明了黎曼猜想",
+      "url": "https://www.huxiu.com/article/4907330.html?f=rss",
+      "summary": "给出了1737万行人类看不懂的代码",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795194139.0,
+      "published": "2026-11-20T17:02:19+00:00",
+      "score": 6,
+      "reason": "该新闻涉及头部大模型产品Claude的技术能力突破，属于AI大模型相关领域，可为我方大模型相关技术迭代提供参考。"
+    },
+    {
+      "title": "Anthropic’s IPO in Pictures",
+      "url": "https://www.ai-supremacy.com/p/anthropics-ipo-in-pictures-visual-history-birthdate-of-future-ai",
+      "summary": "American history has become a spectacle rather than an SI reality.",
+      "source": "AI Supremacy",
+      "tags": [
+        "ai",
+        "analysis"
+      ],
+      "published_ts": 1795169442.0,
+      "published": "2026-11-20T10:10:42+00:00",
+      "score": 6,
+      "reason": "该新闻为头部大模型公司Anthropic的IPO相关动态，属于AI大模型领域重要公司动态，具备行业参考价值。"
+    },
+    {
+      "title": "Ex-Qwen chief’s Pragmatik Labs raises funding at $5 billion valuation",
+      "url": "https://technode.com/2026/11/20/ex-qwen-chiefs-pragmatik-labs-raises-funding-at-5-billion-valuation/",
+      "summary": "Pragmatik Labs, the AI startup founded by former Alibaba Qwen leader Lin Junyang, has raised new funding at a $5 billion valuation, Bloomberg reported on Friday, citing people familiar with the matter. The round raised tens of millions of dollars, with new investors including HyT Capital, CDH Investments and automaker Geely. The valuation is 2.5 [&#8230;]",
+      "source": "TechNode",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1795184062.0,
+      "published": "2026-11-20T14:14:22+00:00",
+      "score": 6,
+      "reason": "前通义千问核心成员创办的AI初创公司Pragmatik Labs完成融资估值达50亿美元，属于AI大模型赛道重要创业公司融资动态，是我方行业竞争格局观测的高价值信息。"
+    },
+    {
+      "title": "Google says it’s going to shut off Google Assistant on smart speakers next year",
+      "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+      "summary": "Google is announcing some significant changes to its smart home software. Starting next year, the company will shut down the Nest app in favor of the Google Home app and retire Google Assistant on its smart home devices. The Nest app shutdown takes place on January 25th, 2027, meaning you'll have to manage your Nest [&#8230;]",
+      "source": "The Verge",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795197600.0,
+      "published": "2026-11-20T18:00:00+00:00",
+      "score": 5,
+      "reason": "该新闻涉及谷歌对旗下AI助手产品的战略调整，属于AI应用产品动态，可为我方AI相关产品的运营决策提供参考。"
+    },
+    {
+      "title": "Amazon says attackers' AI agents found and exploited a zero-day in 11 minutes, but no patched release is available",
+      "url": "https://venturebeat.com/security/amazon-says-attackers-ai-agents-found-and-exploited-a-zero-day-in-11-minutes-but-no-patched-release-is-available",
+      "summary": "Attackers' AI agents independently discovered a zero-day in MONAI Label, an open-source medical imaging AI application, and used it to write files outside the intended storage directory in about 11 minutes, Amazon said Friday. The fix has been merged into the source code, but no patched release is available. Read more",
+      "source": "VentureBeat",
+      "tags": [
+        "ai",
+        "tech"
+      ],
+      "published_ts": 1795222211.0,
+      "published": "2026-11-21T00:50:11+00:00",
+      "score": 5,
+      "reason": "该内容涉及AI Agent的漏洞挖掘能力相关安全事件，可为我方AI Agent类产品的安全防护提供参考。"
+    },
+    {
+      "title": "Own, don’t rent: Why agentic AI is pulling cloud computing back on-prem",
+      "url": "https://siliconangle.com/2026/11/20/model-plane-shifts-prem-agentic-ai-favors-owning-compute-sc26/",
+      "summary": "Agentic AI is reviving an argument over renting versus owning compute, and the model plane — the layer that decides where AI models run — sits at the center of it. Open-source efforts such as Upbound Inc.&#8217;s Modelplane route inference across clouds, but many enterprises want the models on hardware they control. That shift favors [&#8230;] The post Own, don&#8217;t rent: Why agentic AI is pulling cloud computing back on-prem appeared first on SiliconANGLE .",
+      "source": "SiliconANGLE AI",
+      "tags": [
+        "ai",
+        "enterprise"
+      ],
+      "published_ts": 1795196793.0,
+      "published": "2026-11-20T17:46:33+00:00",
+      "score": 5,
+      "reason": "该新闻涉及Agentic AI的部署架构趋势，属于我方关注的AI Agent相关领域动态，可为我方AI应用部署选型提供参考。"
+    },
+    {
+      "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
+      "summary": "Amazon SageMaker HyperPod introduces the Global Inference Gateway, one managed endpoint that routes inference requests across your HyperPod clusters in one Region or across Regions. It picks the best cluster, fails over automatically, and authenticates every request with SigV4 and IAM over AWS PrivateLink.",
+      "source": "AWS Machine Learning Blog",
+      "tags": [
+        "ai",
+        "aws"
+      ],
+      "published_ts": 1795214124.0,
+      "published": "2026-11-20T22:35:24+00:00",
+      "score": 5,
+      "reason": "亚马逊推出跨区域大模型推理网关，属于AI大模型部署相关的基础设施动态，可为公司多区域大模型服务部署提供参考"
+    },
+    {
+      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+      "summary": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "source": "AWS Machine Learning Blog",
+      "tags": [
+        "ai",
+        "aws"
+      ],
+      "published_ts": 1795207051.0,
+      "published": "2026-11-20T20:37:31+00:00",
+      "score": 5,
+      "reason": "内容涉及生成式AI的自动化风险评估方案，属于生成式AI落地的合规相关实践，可为公司生成式AI业务的风险管控提供参考"
+    },
+    {
+      "title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
+      "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+      "summary": "Google is bringing \"Computer Use\" to Gemini for Mac, letting the AI operate desktop apps, local files, and websites in an isolated background window with a live preview while users keep working. The article Google&#039;s Gemini can now run Mac apps and finish desktop chores in the background while you keep working appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1795200631.0,
+      "published": "2026-11-20T18:50:31+00:00",
+      "score": 5,
+      "reason": "谷歌Gemini新增桌面端操作能力，属于AI Agent相关产品动态，可为公司探索端侧AI Agent应用场景提供参考"
+    },
+    {
+      "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+      "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+      "summary": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent&#039;s Collective Wisdom feature turns one employee&#039;s AI trick into the whole team&#039;s skill appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1795168791.0,
+      "published": "2026-11-20T09:59:51+00:00",
+      "score": 5,
+      "reason": "该新闻涉及AI Agent相关功能落地，属于战略关注的AI Agent领域，可参考团队级AI能力复用的产品设计思路。"
+    },
+    {
+      "title": "Have you heard? GTA’s $3.79B day, e.l.f.’s record-breaking GRWM, and OnlyFans’ new hire.",
+      "url": "https://www.tubefilter.com/2026/11/20/have-you-heard-gta-elf-cosmetics-kane-parsons/",
+      "summary": "Each week, we handpick a selection of stories to give you a snapshot of trends, updates, business moves, and more from around the creator industry. This week, a beloved couple has a new channel on YouTube, a vaunted exec has a new gig, and a much-memed creator is making bank (and hitting bookshelves). Creator commotion Welcome back to YouTube, Matthew and Stephanie Patrick. The man known as MatPat and his wife Stephanie haven't shared many videos since they sold their Theorist brand nearly four years ago. But these crazy kids couldn't stay offline forever, so they're back with PatChat, a new c",
+      "source": "Tubefilter",
+      "tags": [
+        "video",
+        "creator"
+      ],
+      "published_ts": 1795222647.0,
+      "published": "2026-11-21T00:57:27+00:00",
+      "score": 5,
+      "reason": "该新闻属于创作者产业相关动态，和短视频、内容社区的创作者生态领域相关，可为我们的内容生态运营提供行业趋势参考。"
+    },
+    {
+      "title": "YouTube bows out of World Cup rights race; Netflix might step up",
+      "url": "https://www.tubefilter.com/2026/11/20/youtube-fifa-world-cup-streaming-rights-netflix-bid/",
+      "summary": "YouTube was an official &#8220;Preferred Platform&#8221; for the 2026 FIFA World Cup, and it worked to make the partnership a high scorer. It tapped creators to film promo content, then brought them pitchside to film dozens of videos at the tournament&#8217;s top matches around the world. It also exercised the broadcast rights that came along [&#8230;] Visit Tubefilter for more great stories.",
+      "source": "Tubefilter",
+      "tags": [
+        "video",
+        "creator"
+      ],
+      "published_ts": 1795212320.0,
+      "published": "2026-11-20T22:05:20+00:00",
+      "score": 5,
+      "reason": "该新闻涉及海外头部短视频平台YouTube的体育内容版权布局动态，属于短视频内容领域的行业重要动向，有参考价值。"
+    },
+    {
+      "title": "Vibecoding an inference chip",
+      "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+      "summary": "Article URL: https://ankitg.me/blog/vibecoding-inference-chip/ Comments URL: https://news.ycombinator.com/item?id=50579297 Points: 141 # Comments: 58",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795198516.0,
+      "published": "2026-11-20T18:15:16+00:00",
+      "score": 5,
+      "reason": "该内容涉及AI推理芯片相关技术讨论，属于AI基础设施相关领域，可为我方AI相关算力优化方向提供参考。"
+    },
+    {
+      "title": "After Nvidia, will AMD be a target as China’s ‘2nd-choice’ supplier for AI chips?",
+      "url": "https://www.scmp.com/tech/tech-war/article/3375249/after-nvidia-will-amd-be-target-chinas-second-choice-ai-chips",
+      "summary": "Short sellers have targeted Advanced Micro Devices (AMD) over alleged connections to Chinese firms blacklisted by Washington, erasing more than 10 per cent off its value in a matter of hours and fuelling speculation over whether it could be the next chip company in the crosshairs after Nvidia. AMD shares plunged more than 7 per cent in regular trading on Thursday and slid another 3.4 per cent after hours, following a report from US investment firm Hunterbrook Capital disclosing a short position...",
+      "source": "SCMP Tech",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1795177809.0,
+      "published": "2026-11-20T12:30:09+00:00",
+      "score": 5,
+      "reason": "该新闻涉及AI芯片供应链的潜在变动，AI芯片是大模型业务的核心算力支撑，相关动态具备一定参考价值。"
+    },
+    {
+      "title": "Nothing 首款 AI 原生硬件设备定档 12 月 8 日亮相：无屏幕设计、预计主打会议记录用途",
+      "url": "https://www.ithome.com/1/030/379.htm",
+      "summary": "IT之家 11 月 21 日消息，Nothing 发文，预热旗下首款 AI 原生硬件设备将于 12 月 8 日正式亮相。这款产品将采用无屏幕设计，定位为面向日常办公与生产力场景的 AI 工具。 从 此前公布的预热图片 来看，这款设备采用小巧的矩形机身，表面使用拉丝金属材质，并配有实体按键。其中一个面积较大的按键标有“Talk”字样，另一个按键则带有录音标识，机身上还提供红色与绿色 LED 状态指示灯，可以看出该产品预计主打会议记录用途。 Nothing 首席执行官裴宇此前曾表示，当前 AI 技术面临的一大问题是缺乏对用户日常生活的理解。尽管大模型已经具备较强的处理能力，但用户在会议、交谈等场景中产生的信息，往往无法及时成为 AI 能够使用的上下文。因此，Nothing 希望通过专门的硬件设备，让 AI 更自然地融入日常工作。此外，裴宇还透露“相应产品没有屏幕，也不是一款软件应用”。",
+      "source": "IT之家",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795246130.0,
+      "published": "2026-11-21T07:28:50+00:00",
+      "score": 5,
+      "reason": "该新闻是AI原生硬件产品发布的相关动态，属于AI应用产品领域，可作为行业AI硬件落地趋势的参考信息。"
+    },
+    {
+      "title": "马斯克称FSD V15下个月将全面推送",
+      "url": "https://36kr.com/newsflashes/4079212995089289?f=rss",
+      "summary": "特斯拉CEO埃隆·马斯克在X平台上发帖称，FSD V15版本下个月将全面推送。他写道：“SFT（有监督微调）与其说是“微调”，倒不如说是“用电锯理发”！这种流程本应直接整合进基础训练阶段。而且，还要专门搞个“系统提示词”（system prompt），简直荒谬！模型默认的行为表现就该足够合理才对。上述观点在特斯拉的AI（虽然还称不上“超级”AI）上已经得到了体现。它是目前地球上最高效的AI。FSD V15下个月将全面推送。它一定会带来非凡的体验。”（新浪财经）",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795247402.0,
+      "published": "2026-11-21T07:50:02+00:00",
+      "score": 5,
+      "reason": "该新闻涉及特斯拉FSD相关的AI大模型技术观点，属于生成式AI领域的行业动态，可为我们了解前沿AI技术思路提供参考。"
+    },
+    {
+      "title": "源杰科技独家直投芯钬量子A++轮融资",
+      "url": "https://36kr.com/newsflashes/4079020257924233?f=rss",
+      "summary": "11月20日晚，上海芯钬量子科技有限公司宣布完成A++轮融资，由源杰科技独家直投。此前，公司天使轮、A轮及A+轮分别由慧眼资本、京东方显智链和交银资本投资。本轮融资后，芯钬量子将围绕工业AI与多物理场仿真能力的深度融合持续加大投入。芯钬量子表示，未来还将探索量子计算、超导、光子芯片、自旋电子及拓扑物态等前沿领域的应用需求。（界面新闻）",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795235638.0,
+      "published": "2026-11-21T04:33:58+00:00",
+      "score": 5,
+      "reason": "该新闻涉及工业AI相关的融资动态，属于AI应用领域范畴，可作为前沿AI产业布局的参考信息。"
+    },
+    {
+      "title": "给 Gemini 道歉，请自觉排队",
+      "url": "https://www.ifanr.com/1690572?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "Gemini 4 真的越来越好用了。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "tags": [
+        "cn",
+        "product"
+      ],
+      "published_ts": 1795165393.0,
+      "published": "2026-11-20T09:03:13+00:00",
+      "score": 5,
+      "reason": "内容涉及谷歌Gemini大模型的迭代进展，属于AI大模型领域重要动态，可参考头部大模型的优化方向。"
+    },
+    {
+      "title": "阿里云，开始赚AI的钱了",
+      "url": "https://www.tmtpost.com/8213152.html",
+      "summary": "阿里云，开始赚AI的钱了",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795236285.0,
+      "published": "2026-11-21T04:44:45+00:00",
+      "score": 5,
+      "reason": "该内容涉及AI商业化动态，属于AI大模型相关领域，可作为行业AI商业化趋势的参考信息。"
+    },
+    {
+      "title": "“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多",
+      "url": "https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795200094.0,
+      "published": "2026-11-20T18:41:34+00:00",
+      "score": 5,
+      "reason": "该内容涉及海外新AI模型的能力升级动态，属于AI大模型相关领域，可作为行业技术进展的参考信息。"
+    },
+    {
+      "title": "黎曼猜想的AI证明，98%是对的",
+      "url": "https://www.huxiu.com/article/4907375.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795238719.0,
+      "published": "2026-11-21T05:25:19+00:00",
+      "score": 5,
+      "reason": "该新闻涉及AI在科研领域的应用突破，属于AI相关技术进展，具备一定行业参考价值。"
+    },
+    {
+      "title": "曝黎曼猜想被证明，Claude 立大功",
+      "url": "https://www.huxiu.com/article/4907358.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795232369.0,
+      "published": "2026-11-21T03:39:29+00:00",
+      "score": 5,
+      "reason": "该新闻涉及大模型Claude在科研领域的能力突破，属于AI大模型应用相关进展，具备一定行业参考价值。"
+    },
+    {
+      "title": "2026.47: Down in DC",
+      "url": "https://stratechery.com/2026/down-in-dc/",
+      "summary": "The best Stratechery content from the week of November 16, 2026, including obituaries and exceptionalism, arguments about agents, and Ben gets a Duo.",
+      "source": "Stratechery",
+      "tags": [
+        "strategy"
+      ],
+      "published_ts": 1795201797.0,
+      "published": "2026-11-20T19:09:57+00:00",
+      "score": 5,
+      "reason": "该新闻涉及AI Agent相关行业讨论，属于我方关注的AI应用领域，可提供海外行业前沿观点参考。"
+    },
+    {
+      "title": "Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia’s Fate",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
+      "summary": "Anthropic's $81B IPO, AI stocks enter a correction, Huang resigns from Nvidia, Trump and Xi agree on military AI",
+      "source": "Last Week in AI",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1795250503.0,
+      "published": "2026-11-21T08:41:43+00:00",
+      "score": 5,
+      "reason": "该内容覆盖全球AI行业头部厂商动态、AI资本市场走势，属于AI大模型领域的行业宏观情报，具备一定参考价值。"
+    },
+    {
+      "title": "After Anthropic Euphoria, Nvidia, AMD & the Broader Market Offer a Harsh Reality Check",
+      "url": "https://www.newcomer.co/p/after-anthropic-euphoria-nvidia-amd",
+      "summary": "Plus, Google shows it&#8217;s still at the frontier & prediction markets face mounting legal pressure",
+      "source": "Newcomer",
+      "tags": [
+        "vc",
+        "business"
+      ],
+      "published_ts": 1795189443.0,
+      "published": "2026-11-20T15:44:03+00:00",
+      "score": 5,
+      "reason": "该内容覆盖AI大模型赛道头部厂商、算力芯片领域的行业动态与市场走势，属于我方需要观测的AI行业宏观情报。"
+    },
+    {
+      "title": "NYU's Tristan Buckmaster and Anthropic's Levent Alpöge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution (Peter Hall/Scientific American)",
+      "url": "https://www.techmeme.com/261121/p4#a261121p4",
+      "summary": "Peter Hall / Scientific American : NYU's Tristan Buckmaster and Anthropic's Levent Alp&ouml;ge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution &nbsp; &mdash;&nbsp; Two months after getting scooped by OpenAI, N.Y.U. professor Tristan Buckmaster and Anthropic employee Levent Alp&ouml;ge &hellip;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795242600.0,
+      "published": "2026-11-21T06:30:00+00:00",
+      "score": 4,
+      "reason": "该内容涉及头部大模型厂商相关的AI辅助科研突破，属于AI大模型领域的行业动态。"
+    },
+    {
+      "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
+      "summary": "Announcing the general availability of Amazon Textract Insights, a new generative AI feature of Amazon Textract. Describe the fields you need in natural language, submit a document or a mixed packet, and receive structured results with a confidence score and page-level grounding for each value, with no model training required.",
+      "source": "AWS Machine Learning Blog",
+      "tags": [
+        "ai",
+        "aws"
+      ],
+      "published_ts": 1795206120.0,
+      "published": "2026-11-20T20:22:00+00:00",
+      "score": 4,
+      "reason": "亚马逊推出面向文档处理的生成式AI功能，属于生成式AI应用产品动态，和公司核心内容业务关联度较低"
+    },
+    {
+      "title": "Tencent Announces WorkBuddy Computer Use Beta for Desktop Apps",
+      "url": "https://pandaily.com/tencent-workbuddy-computer-use-public-beta-desktop-apps",
+      "summary": "WorkBuddy’s Computer Use beta targets desktop apps without APIs, with client-version requirements, system permissions and supervision cautions.",
+      "source": "Pandaily",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1795242522.0,
+      "published": "2026-11-21T06:28:42+00:00",
+      "score": 4,
+      "reason": "该新闻涉及AI Agent类桌面应用能力落地，属于战略关注的AI应用范畴，可参考相关产品的设计思路。"
+    },
+    {
+      "title": "YouTubers won big at the first Clio Creator Awards",
+      "url": "https://www.tubefilter.com/2026/11/20/youtubers-won-clio-creator-awards-2026-ishowspeed-michelle-khare-mrbeast-dhar-mann/",
+      "summary": "YouTubers IShowSpeed, Michelle Khare, MrBeast, Dhar Mann, Spaceskits, Jordan Howlett, Kylie Kelce, and fern all took home prizes from the inaugural Clio Creator Awards. An offshoot of the long-running Clio Awards, which launched in 1959 to honor excellence in advertising around the world, the Clio Creator Awards are presented by YouTube and backed by Influential, [&#8230;] Visit Tubefilter for more great stories.",
+      "source": "Tubefilter",
+      "tags": [
+        "video",
+        "creator"
+      ],
+      "published_ts": 1795218104.0,
+      "published": "2026-11-20T23:41:44+00:00",
+      "score": 4,
+      "reason": "该新闻涉及海外短视频平台创作者奖项动态，属于内容创作者生态相关信息，可作为行业参考。"
+    },
+    {
+      "title": "首款鸿蒙 AI 手机发布：华为全新子品牌 OSTA 星芒有一个「增援未来计划」",
+      "url": "https://www.ifanr.com/1690642?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "在手机里打开了一个关于 AI 的「平行宇宙」 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "tags": [
+        "cn",
+        "product"
+      ],
+      "published_ts": 1795166225.0,
+      "published": "2026-11-20T09:17:05+00:00",
+      "score": 4,
+      "reason": "内容涉及鸿蒙AI手机相关AI产品动态，属于AI应用领域信息，可关注端侧AI的落地进展。"
+    },
+    {
+      "title": "让AI清理我的8490条浏览器书签，删了5484条",
+      "url": "https://www.huxiu.com/article/4907368.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795234403.0,
+      "published": "2026-11-21T04:13:23+00:00",
+      "score": 4,
+      "reason": "该新闻属于AI工具的实用应用案例，属于AI应用相关范畴，可为字节探索AI辅助内容管理类功能提供参考。"
+    },
+    {
+      "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+      "url": "https://latent.space/p/formal-verification/",
+      "summary": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
+      "source": "Latent Space",
+      "tags": [
+        "ai",
+        "engineering"
+      ],
+      "published_ts": 1795209521.0,
+      "published": "2026-11-20T21:18:41+00:00",
+      "score": 4,
+      "reason": "该内容介绍AI辅助形式化验证技术用于对抗低质内容，属于AI内容治理相关的技术方向，对我方平台内容质量管控有潜在参考意义。"
+    },
+    {
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
+      "summary": "Article URL: http://ricapar.net/ClawDOS/ Comments URL: https://news.ycombinator.com/item?id=50586292 Points: 46 # Comments: 13",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795239481.0,
+      "published": "2026-11-21T05:38:01+00:00",
+      "score": 3,
+      "reason": "该新闻属于AI Agent类产品的小众落地案例，属于战略关注的AI Agent范畴，参考价值有限。"
+    },
+    {
+      "title": "早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验",
+      "url": "https://www.ifanr.com/1690759?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 三星任命手机和存储业务新负责人 · 5499 元起，华为星芒发布首款阔直板手机 OSTA O1 Pro · ColorOS 17 上线跨品牌一碰传 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "tags": [
+        "cn",
+        "product"
+      ],
+      "published_ts": 1795220708.0,
+      "published": "2026-11-21T00:25:08+00:00",
+      "score": 3,
+      "reason": "标题提及Claude大模型相关动态，属于AI大模型领域信息，可关注头部大模型的技术进展情况。"
+    },
+    {
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater. [...] Claude and I have had a great time together with",
+      "source": "Simon Willison",
+      "tags": [
+        "ai",
+        "engineering"
+      ],
+      "published_ts": 1795192248.0,
+      "published": "2026-11-20T16:30:48+00:00",
+      "score": 3,
+      "reason": "该内容提及使用Claude大模型辅助完成数学猜想证明，属于AI大模型应用案例，但和我方内容生态相关度较低。"
+    }
+  ]
+}
