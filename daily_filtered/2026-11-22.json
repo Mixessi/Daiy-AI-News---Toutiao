@@ -1,0 +1,798 @@
+{
+  "date": "2026-11-22",
+  "count": 58,
+  "generated_at": "2026-11-22T09:00:04.145521+00:00",
+  "items": [
+    {
+      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+      "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+      "summary": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are freely available. The article Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1795252644.0,
+      "published": "2026-11-21T09:17:24+00:00",
+      "score": 10,
+      "reason": "该内容是字节跳动自身主导的AI大模型训练技术突破与开源AI Agent发布，直接关系到本司全产品线的AI技术底座升级，属于极高价值的核心相关信息。"
+    },
+    {
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "source": "TechCrunch",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795276800.0,
+      "published": "2026-11-21T16:00:00+00:00",
+      "score": 9,
+      "reason": "该新闻涉及微短剧（即短剧）领域使用AI生成演员数字人脸的行业新趋势，直接关联红果短剧的业务赛道，可为我方短剧业务探索AI降本新路径、预判行业监管风险提供重要参考。"
+    },
+    {
+      "title": "Edge AI Daily 早报（11月22日）",
+      "url": "https://www.tmtpost.com/8213684.html",
+      "summary": "英伟达同时面临治理追问、加州传票与SEC调查传闻，AI芯片估值经历重估；亚马逊拟以最高75亿美元收购Decart，AWS将LLM缓存推向集群。谷歌调整TPU出货并研究Agent记忆迁移，OpenAI把对抗性蒸馏防护推进API层。Anthropic黎曼猜想主张待验证，IPO定价为模型公司提供估值参照。Meta Muse用户破千万，AI脱衣应用引发参议员质询；特斯拉FSD V15与马斯克上海行受关注；GrapheneOS指控谷歌限制Android开源生态。",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795309568.0,
+      "published": "2026-11-22T01:06:08+00:00",
+      "score": 9,
+      "reason": "该内容覆盖LLM缓存、Agent记忆迁移、生成式AI应用、大模型API防护等多个AI大模型与AI应用领域的前沿行业动态，对相关技术布局和行业趋势判断有很高参考价值。"
+    },
+    {
+      "title": "重控制、轻渲染，达瓦科技的 AI 视频工业路线",
+      "url": "http://www.geekpark.net/news/374303",
+      "summary": "&nbsp; 头图来源：极客公园 今年以来，视频生成模型的进步肉眼可见，AI 短剧、换脸、场景合成在各个平台越来越多，但一个现实问题始终存在：生成一条满意的视频，往往要反复「抽卡」，算力和时间成本都不低；而一旦进入专业影视管线，今天的模型能承担的工业级工作仍然有限。 关于这个问题，行业有两种思路。一种堆参数、扩算力，相信通用大模型终会跨过工业门槛；另一种扎进真实片场，从具体需求自下而上生长。达瓦科技走的是后一条路径。 达瓦科技总部位于重庆永川，团队从 2014 年开始运营科技影视片场，2023 年成立达瓦科技，转向 AI 模型，今年已连续完成 Pre-A 轮、A 轮融资，累计融资约 5 亿元人民币。 他们选择的路线是「重控制、轻渲染」：自研控制层基座模型 Latent Stage，把对人物、动作、镜头、灯光、场景的理解和控制单独做成一层，再交给渲染层出画面。围绕这条路线，公司有两款产品：面向专业内容团队、做离线生成的 FilmOS，以及在单张消费级显卡上就能实时运行的世界模型 Scenes AI。 这套架构的底气来自数据。达瓦在真实片场中积累了约 180TB 的结构化「过程数据」，记录的不只是成片画面，还有从剧本、机位、灯光到动作捕捉的完整拍摄过程。 以下为极客公园创始人张鹏与达瓦科技 CTO 朱子威和 CPO 李宗兴对谈实录，由极客公园整理。 01 从科技片场出发，做「控制层」 ",
+      "source": "极客公园",
+      "tags": [
+        "cn",
+        "product"
+      ],
+      "published_ts": 1795313037.0,
+      "published": "2026-11-22T02:03:57+00:00",
+      "score": 9,
+      "reason": "该新闻涉及AI视频生成、AI短剧相关的行业技术路线与头部公司融资动态，直接命中我方红果短剧相关的短剧业务战略方向，参考价值很高。"
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "source": "TechCrunch",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795280400.0,
+      "published": "2026-11-21T17:00:00+00:00",
+      "score": 8,
+      "reason": "该新闻聚焦可嵌入短信场景的主流AI Agent产品，属于我方重点关注的AI Agent应用领域，可为今日头条等产品探索AI交互新形态提供参考。"
+    },
+    {
+      "title": "Thinking Machines wows with Inkling 2 Mini looped transformer model that runs locally on laptops",
+      "url": "https://venturebeat.com/technology/thinking-machines-wows-with-inkling-2-mini-looped-transformer-model-that-runs-locally-on-laptops",
+      "summary": "Thinking Machines Lab, the San Francisco-based AI startup started and led by former OpenAI chief technology officer Mira Murati, is challenging the dominant paradigm of cloud-based AI frontier models with the release yesterday of Inkling 2 Mini, an open-weights multimodal model engineered to run offline on a 32GB MacBook Pro or a single desktop GPU. Read more",
+      "source": "VentureBeat",
+      "tags": [
+        "ai",
+        "tech"
+      ],
+      "published_ts": 1795285776.0,
+      "published": "2026-11-21T18:29:36+00:00",
+      "score": 8,
+      "reason": "该内容是前OpenAI CTO推出的可本地运行的开源多模态大模型产品，属于生成式AI领域的重要行业动态，可为我方端侧AI内容生成、推荐相关技术选型提供参考。"
+    },
+    {
+      "title": "China Plans to Strengthen AI Token Standards in Computing Push",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/china-plans-to-strengthen-ai-token-standards-in-computing-push",
+      "summary": "China’s National Data Administration will improve standards on the measurement and billing of artificial intelligence tokens and quality assessment, as Beijing guides the development of the growing industry.",
+      "source": "Bloomberg Technology",
+      "tags": [
+        "tech",
+        "business"
+      ],
+      "published_ts": 1795255889.0,
+      "published": "2026-11-21T10:11:29+00:00",
+      "score": 8,
+      "reason": "该新闻是国内针对AI Token的监管标准政策动向，属于AI领域重要监管政策，对我们旗下涉及AI内容生成、大模型相关业务的合规布局有重要参考价值。"
+    },
+    {
+      "title": "Nvidia researchers argue huge AI context windows are a dead end",
+      "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+      "summary": "Nvidia researchers argue that language models often don't need their full context windows—which are slow, expensive, and prone to errors—and propose an alternative. In tests, periodic summaries and targeted keyword search usually matched full-context results at a fraction of the cost. The team even proposes a new class of models that works with short notes instead of long context. The article Nvidia researchers argue huge AI context windows are a dead end appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1795278225.0,
+      "published": "2026-11-21T16:23:45+00:00",
+      "score": 8,
+      "reason": "该内容涉及AI大模型上下文窗口的技术方向新研究结论，可为本司大模型相关技术优化、内容生成与推荐场景的降本增效提供参考。"
+    },
+    {
+      "title": "AI智能体为何会在相互聊天中自创语言",
+      "url": "https://www.huxiu.com/article/4907444.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795313411.0,
+      "published": "2026-11-22T02:10:11+00:00",
+      "score": 8,
+      "reason": "该内容聚焦AI智能体的技术特性研究，属于我们重点关注的AI Agent领域，可为我们布局相关AI应用提供前沿技术参考。"
+    },
+    {
+      "title": "智能体 AI 架构：当前挑战与未来机遇",
+      "url": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795258800.0,
+      "published": "2026-11-21T11:00:00+00:00",
+      "score": 8,
+      "reason": "该新闻聚焦智能体AI架构的挑战与机遇，属于战略覆盖的AI Agent核心领域，可为我方AI相关产品研发提供行业参考。"
+    },
+    {
+      "title": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
+      "url": "http://www.geekpark.net/news/374301",
+      "summary": "&nbsp; 头图来源：ChatGPT 生成 &nbsp; 11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和混元团队的研究员现身 Reddit LocalLLaMA 社区，开启了混元团队史上第一场面向全球开发者的公开 AMA。 图片来源：x 两小时内，姚顺雨和混元团队解答了 300 余条开发者提问，从底层架构取舍到长期路线规划，从量化落地经验到开源生态适配，几乎覆盖了当前开源大模型领域所有核心争议与关切。 过去不到一个月，混元刚刚完成一轮高密度产品发布&mdash;&mdash;11 月 4 日推出的 Hy4 首次跻身全球最强开源模型之列，拿下 Agent Arena 开源模型榜首、Artificial Analysis 中国模型第二的成绩；一周后，定位「极致性价比」的 Hy4 flash 快速跟进，单任务成本仅为 Hy4 的二十分之一，上线首日 Token 调用量便突破 50 万亿。 如果把时间倒回九个月前&mdash;&mdash; 今年 2 月，混元才刚刚完成预训练与强化学习基础设施的全面重建。从重建底座到连发两款标杆级模型，九个月、平均每两个月一个大版本的迭代速度，背后是「preview 先行、正式版跟进」的闭环研发逻辑：把真实业务场景的反馈直接注入研发链路，在解决实际问题中完成能力跃迁。 模型路线上，团队走的是双线并行的思路，既相信规模化的潜力，会",
+      "source": "极客公园",
+      "tags": [
+        "cn",
+        "product"
+      ],
+      "published_ts": 1795312588.0,
+      "published": "2026-11-22T01:56:28+00:00",
+      "score": 8,
+      "reason": "该新闻涉及腾讯混元4大模型的技术路线、Agent相关进展等生成式AI核心领域动态，可为我方内容类AI大模型的技术迭代与落地提供行业参考。"
+    },
+    {
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to [&#8230;]",
+      "source": "The Verge AI",
+      "tags": [
+        "ai",
+        "tech"
+      ],
+      "published_ts": 1795273200.0,
+      "published": "2026-11-21T15:00:00+00:00",
+      "score": 7,
+      "reason": "该新闻涉及头部大模型企业Anthropic的IPO动态，属于AI大模型领域的重要行业公司动态，可为我方大模型相关业务布局提供行业参考。"
+    },
+    {
+      "title": "How AI Is Reshaping China's Industrial Policy",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/how-ai-is-reshaping-china-s-industrial-policy-video",
+      "summary": "Can Chinese tech companies help the country achieve technological self-reliance while keeping up in the AI arms race? On this episode, we speak with Kyle Chan, a fellow at the Brookings Institution’s John L. Thornton China Center and author of the High Capacity newsletter, about Beijing’s response to the global AI boom and the tensions between Chinese companies’ commercial ambitions and the government’s long-term plans. He explains how companies draw on shared expertise and supply chains to expand across industries including smartphones, robotics, EVs and semiconductors — and we also discuss H",
+      "source": "Bloomberg Technology",
+      "tags": [
+        "tech",
+        "business"
+      ],
+      "published_ts": 1795252337.0,
+      "published": "2026-11-21T09:12:17+00:00",
+      "score": 7,
+      "reason": "该新闻涉及中国AI产业相关的产业政策导向，属于AI领域关键行业动态，对我们判断国内AI业务发展环境有参考意义。"
+    },
+    {
+      "title": "Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week (Financial Times)",
+      "url": "https://www.techmeme.com/261121/p8#a261121p8",
+      "summary": "Financial Times : Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week &nbsp; &mdash;&nbsp; Acquisition would help AWS compete with Nvidia in race for computing power&nbsp; &mdash;&nbsp; Amazon is nearing a $7.5bn deal to buy start-up Decart &hellip;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795283701.0,
+      "published": "2026-11-21T17:55:01+00:00",
+      "score": 7,
+      "reason": "该新闻是巨头大额收购AI初创公司的重要行业动态，反映全球AI领域的产业整合趋势，对我们判断AI赛道竞争格局有参考价值。"
+    },
+    {
+      "title": "Rhodium: China's biggest tech companies are set to double capex to $139B in 2026 with AI lab revenue under 8% of it, a gap that may matter more than chip curbs (New York Times)",
+      "url": "https://www.techmeme.com/261121/p7#a261121p7",
+      "summary": "New York Times : Rhodium: China's biggest tech companies are set to double capex to $139B in 2026 with AI lab revenue under 8% of it, a gap that may matter more than chip curbs &nbsp; &mdash;&nbsp; While Anthropic and other Silicon Valley A.I. giants are raising tens of billions in capital, Chinese rivals are struggling to keep pace financially.",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795273801.0,
+      "published": "2026-11-21T15:10:01+00:00",
+      "score": 7,
+      "reason": "该新闻涉及国内头部科技企业AI相关资本开支的行业数据，反映国内AI产业的投入现状与发展阶段，对我们规划AI相关业务布局有行业参考意义。"
+    },
+    {
+      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+      "summary": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding. The API is changing as well, since editing a conversation's history can discard reasoning content and lower response quality. The article OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1795267955.0,
+      "published": "2026-11-21T13:32:35+00:00",
+      "score": 7,
+      "reason": "OpenAI发布的大模型提示词优化技巧，可为本司旗下内容生成、AI写作等相关AI应用的效果优化提供参考。"
+    },
+    {
+      "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+      "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+      "summary": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text. On Artificial Analysis's Intelligence Index, it ties with Qwen3.8 27B at roughly six times lower cost. The article New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop appeared first on The Decoder .",
+      "source": "The Decoder",
+      "tags": [
+        "ai"
+      ],
+      "published_ts": 1795257182.0,
+      "published": "2026-11-21T10:33:02+00:00",
+      "score": 7,
+      "reason": "新发布的轻量化开源大模型具备低资源运行、循环推理的特性，可为本司端侧AI内容生成、AI写作等场景的技术选型提供参考。"
+    },
+    {
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "url": "https://www.pandex.io",
+      "summary": "Article URL: https://www.pandex.io Comments URL: https://news.ycombinator.com/item?id=50593481 Points: 83 # Comments: 16",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795294061.0,
+      "published": "2026-11-21T20:47:41+00:00",
+      "score": 7,
+      "reason": "该内容是针对AI Agent的欧洲相关监管法规，属于战略覆盖的AI领域监管政策，对相关业务出海合规有参考意义。"
+    },
+    {
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "summary": "Article URL: https://github.com/ShinMegamiBoson/lookatmyquant Comments URL: https://news.ycombinator.com/item?id=50591853 Points: 447 # Comments: 112",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795284139.0,
+      "published": "2026-11-21T18:02:19+00:00",
+      "score": 7,
+      "reason": "该内容是大模型轻量化部署的相关技术进展，属于战略覆盖的AI大模型领域，对端侧大模型落地有参考价值。"
+    },
+    {
+      "title": "Claude 的黎曼猜想证明获 Lean 官方认证，马斯克直呼惊人成就",
+      "url": "https://www.ifanr.com/1690820?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "AI 恐怖如斯 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "tags": [
+        "cn",
+        "product"
+      ],
+      "published_ts": 1795311314.0,
+      "published": "2026-11-22T01:35:14+00:00",
+      "score": 7,
+      "reason": "该新闻是大模型Claude在数学领域取得重大技术突破的事件，属于AI大模型技术进展，可为大模型相关技术迭代方向提供参考。"
+    },
+    {
+      "title": "Anthropic万亿上市，搅动的却是半导体江湖",
+      "url": "https://www.tmtpost.com/8213769.html",
+      "summary": "大买主登陆公开市场，芯片、代工与存储环节都在随之调整。",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795328204.0,
+      "published": "2026-11-22T06:16:44+00:00",
+      "score": 7,
+      "reason": "Anthropic是头部大模型企业，其上市事件属于AI大模型领域的重要行业动态，可为大模型赛道估值、行业格局判断提供参考。"
+    },
+    {
+      "title": "丘成桐等数学家发声当晚，AI证明黎曼猜想获得了独立验证",
+      "url": "https://www.huxiu.com/article/4907474.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795323557.0,
+      "published": "2026-11-22T04:59:17+00:00",
+      "score": 7,
+      "reason": "该内容涉及AI在科研领域的技术突破进展，属于AI技术相关动态，可为我方AI大模型相关技术迭代提供参考。"
+    },
+    {
+      "title": "少了短剧和达人，韩束还能打吗",
+      "url": "https://www.huxiu.com/article/4907465.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795320752.0,
+      "published": "2026-11-22T04:12:32+00:00",
+      "score": 7,
+      "reason": "该内容涉及短剧行业相关商业动态，属于我方红果短剧业务的相关行业信息，具备行业参考价值。"
+    },
+    {
+      "title": "行业在喊数据不够，但 80% 的数据可能死于“只奖励走通”",
+      "url": "https://www.huxiu.com/article/4907443.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795313004.0,
+      "published": "2026-11-22T02:03:24+00:00",
+      "score": 7,
+      "reason": "该内容讨论AI行业训练数据的核心痛点，对我们优化内容生成、推荐类AI大模型的训练效果有较高参考意义。"
+    },
+    {
+      "title": "智能体身份国际标准化：体系布局与研制实践｜AICon北京",
+      "url": "https://www.infoq.cn/article/721YPdyIZ1D8xz20D22C?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795341600.0,
+      "published": "2026-11-22T10:00:00+00:00",
+      "score": 7,
+      "reason": "该新闻涉及AI智能体身份的国际标准化布局，属于战略覆盖的AI Agent相关领域，可为我方AI相关产品的合规与布局提供参考。"
+    },
+    {
+      "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+      "summary": "Community Wisdom 306",
+      "source": "Lenny's Newsletter",
+      "tags": [
+        "product"
+      ],
+      "published_ts": 1795279796.0,
+      "published": "2026-11-21T16:49:56+00:00",
+      "score": 7,
+      "reason": "该新闻涉及多Agent处理、AI生成内容去AI感等相关实践经验，属于战略覆盖的AI Agent、内容生成领域，对我方内容生成类产品优化有参考意义。"
+    },
+    {
+      "title": "资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段",
+      "url": "http://www.geekpark.net/news/374302",
+      "summary": "&nbsp; 头图来源：腾讯 &nbsp; 腾讯的 AI 故事，正在进入一个有些沉重的阶段。 11 月 18 日，腾讯发布 2026 年第三季度财报。本季度营收 2073.4 亿元，同比增长 8%；Non-IFRS 经营利润 681 亿元，同比下降 6%；Non-IFRS 归母净利润 665 亿元，同比下降 6%。 图片来源：腾讯财报 本季度，腾讯资本开支达到 814 亿元，同比增长 527%，单季支出已经超过 2025 年全年；研发投入 323.6 亿元，同比增长 42%。大规模算力采购和预付款之下，自由现金流为负 691 亿元；若剔除算力采购预付款，自由现金流仍有 169 亿元。 单看收入，这依旧是一份稳健的财报。但把 AI 拆出来，曲线的分叉比上一季度更明显：若剔除混元、元宝、CodeBuddy、WorkBuddy、小微等新 AI 产品的收入、成本与开支，腾讯本季度 Non-IFRS 经营利润为 833 亿元，同比增长 8%，经营利润率 40%，和去年同期持平。 也就是说，老业务的盈利能力没有出问题，但新 AI 业务在这个季度对 Non-IFRS 经营利润造成了约 152 亿元的净影响，上一季度这个数字是 105 亿元。整体利润增速，就这样被拉到了负值区间。 腾讯把越来越多的当期现金，换成了 GPU、模型、Agent 和下一代入口。 一、「AI 折价」：152 亿口径差，和 ",
+      "source": "极客公园",
+      "tags": [
+        "cn",
+        "product"
+      ],
+      "published_ts": 1795312728.0,
+      "published": "2026-11-22T01:58:48+00:00",
+      "score": 7,
+      "reason": "该新闻披露了腾讯在AI领域的大规模投入动态，属于我方核心竞品的AI业务重要公司动态，可为我方相关业务战略决策提供行业参照。"
+    },
+    {
+      "title": "Even the fastest AI clusters can be held back by their release pipelines",
+      "url": "https://venturebeat.com/orchestration/even-the-fastest-ai-clusters-can-be-held-back-by-their-release-pipelines",
+      "summary": "A firmware rollout I was running had been moving zone by zone for six days when it stopped itself. The page always comes as a silent vibration first, but at 1:14 AM it feels like a fire alarm. In one zone, the share of hosts that rebooted uncleanly during the update had crossed the safety threshold, so the automation froze the rollout and flagged it for a person. Read more",
+      "source": "VentureBeat",
+      "tags": [
+        "ai",
+        "tech"
+      ],
+      "published_ts": 1795300240.0,
+      "published": "2026-11-21T22:30:40+00:00",
+      "score": 6,
+      "reason": "该内容涉及AI大模型集群的发布管线性能瓶颈问题，属于AI大模型基础设施相关的重要技术实践信息，可为我方大模型相关技术优化提供参考。"
+    },
+    {
+      "title": "Wall Street Confronts AI Reality Check",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/wall-street-confronts-ai-reality-check-video",
+      "summary": "Bloomberg US equities reporter Natalia Kniazhevich tells Bloomberg This Weekend that Anthropic’s record IPO failed to reverse deteriorating market sentiment as investors grapple with Nvidia turmoil, AI spending concerns and selling by systematic funds. Speaking with hosts David Gura and Christina Ruffini, Kniazhevich explains why Goldman Sachs’ Panic Index has reached 9 out of 10 and what heavy positioning, weak liquidity and a wave of potential new stock issuance could mean for markets. (Source: Bloomberg)",
+      "source": "Bloomberg Technology",
+      "tags": [
+        "tech",
+        "business"
+      ],
+      "published_ts": 1795272630.0,
+      "published": "2026-11-21T14:50:30+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI行业的资本市场动态，反映当前全球AI产业的投资环境变化，对我们布局AI相关业务有行业参考意义。"
+    },
+    {
+      "title": "Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines (Mike Pearl/Gizmodo)",
+      "url": "https://www.techmeme.com/261122/p4#a261122p4",
+      "summary": "Mike Pearl / Gizmodo : Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines &nbsp; &mdash;&nbsp; FSD v15 was released to some vehicles on Saturday.&nbsp; Its visualization system may be the most remarkable part.",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795329616.0,
+      "published": "2026-11-22T06:40:16+00:00",
+      "score": 6,
+      "reason": "该新闻涉及实时AI视频生成技术突破，属于生成式AI技术相关进展，对我们旗下短剧、内容生成类业务的技术迭代有潜在参考价值。"
+    },
+    {
+      "title": "Sources: AI server suppliers like Dell, HPE, Lenovo, and Supermicro are demanding substantially higher prices from buyers, months after contracts were signed (Financial Times)",
+      "url": "https://www.techmeme.com/261122/p2#a261122p2",
+      "summary": "Financial Times : Sources: AI server suppliers like Dell, HPE, Lenovo, and Supermicro are demanding substantially higher prices from buyers, months after contracts were signed &nbsp; &mdash;&nbsp; Dell, HPE, Lenovo and Supermicro demand more for equipment, with the increased costs hitting trading firms",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795326601.0,
+      "published": "2026-11-22T05:50:01+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI服务器供应端涨价的产业链动态，属于AI基础设施相关重要行业信息，对我们评估AI相关业务的算力成本变化有参考意义。"
+    },
+    {
+      "title": "Researchers used canary credentials in requests to AI routers like OpenRouter and Vercel, even under \"ZDR\" policies, and saw \"privacy\" often broken, keys stolen (Dan Goodin/Ars Technica)",
+      "url": "https://www.techmeme.com/261121/p10#a261121p10",
+      "summary": "Dan Goodin / Ars Technica : Researchers used canary credentials in requests to AI routers like OpenRouter and Vercel, even under &ldquo;ZDR&rdquo; policies, and saw &ldquo;privacy&rdquo; often broken, keys stolen &nbsp; &mdash;&nbsp; Researchers planted 2 million digital tripwires in requests sent through a sprawling network of AI services &hellip;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795291802.0,
+      "published": "2026-11-21T20:10:02+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI服务路由的隐私安全漏洞问题，属于AI应用的合规与风险相关重要信息，对我们旗下AI相关产品的隐私安全防护有警示参考意义。"
+    },
+    {
+      "title": "Meta ads is now available in AWS Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
+      "summary": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.",
+      "source": "AWS Machine Learning Blog",
+      "tags": [
+        "ai",
+        "aws"
+      ],
+      "published_ts": 1795312753.0,
+      "published": "2026-11-22T01:59:13+00:00",
+      "score": 6,
+      "reason": "该内容涉及Meta广告的AI自然语言运营能力，和信息流广告、推荐相关的AI应用有关，对我方信息流业务的广告工具体系有参考意义。"
+    },
+    {
+      "title": "Data Processing Incidents on Inference Providers",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "summary": "Article URL: https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/ Comments URL: https://news.ycombinator.com/item?id=50595554 Points: 129 # Comments: 50",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795313654.0,
+      "published": "2026-11-22T02:14:14+00:00",
+      "score": 6,
+      "reason": "该内容涉及AI推理服务商的数据处理事故相关通报，可为本司AI相关业务的推理服务稳定性、数据安全保障提供风险参考。"
+    },
+    {
+      "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
+      "url": "https://tasklet.ai/careers",
+      "summary": "Article URL: https://tasklet.ai/careers Comments URL: https://news.ycombinator.com/item?id=50593679 Points: 0 # Comments: 0",
+      "source": "Hacker News (front)",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795295468.0,
+      "published": "2026-11-21T21:11:08+00:00",
+      "score": 6,
+      "reason": "该内容涉及AI Agent基础设施相关的招聘信息，属于战略覆盖的AI Agent领域，可关注相关技术团队动向。"
+    },
+    {
+      "title": "Netflix 日区订阅涨价，高级版套餐月费突破 2500 日元",
+      "url": "https://www.ithome.com/1/030/605.htm",
+      "summary": "IT之家 11 月 22 日消息，Netflix 日本区时隔约两年再次调整订阅价格，这次三个套餐均迎来涨价，IT之家随附月费信息如下： 广告版标准：890 日元 （现汇率约合 37.5 元人民币） → 990 日元 （现汇率约合 41.7 元人民币） 标准版：1,590 日元 （现汇率约合 66.9 元人民币） → 1,790 日元 （现汇率约合 75.3 元人民币） 高级版：2,290 日元 （现汇率约合 96.4 元人民币） → 2,590 日元 （现汇率约合 109 元人民币） IT之家注意到，今年以来 Netflix 的股价已下跌超 30%，投资者对公司增长放缓的担忧有所加剧，YouTube 等免费服务正在吸引更多用户。 财务方面，Netflix 已连续三个季度出现营收增速放缓，并预计当前季度的营收增速将进一步下降。公司还下调了今年的广告销售预期，预计收入将比此前预测低约 3 亿美元（IT之家注：现汇率约合 20.04 亿元人民币），并将原因归结为部分新广告产品的推出进度慢于预期。据路透社 10 月 20 日报道，Netflix 已将 2026 年广告收入预期从 30 亿美元（现汇率约合 200.43 亿元人民币）下调至约 27 亿美元（现汇率约合 180.39 亿元人民币）。",
+      "source": "IT之家",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795334085.0,
+      "published": "2026-11-22T07:54:45+00:00",
+      "score": 6,
+      "reason": "该新闻为海外头部流媒体平台Netflix的订阅涨价动态，可作为长视频/流媒体行业竞争态势参考，为番茄、红果等内容产品的海外商业化布局提供行业参照。"
+    },
+    {
+      "title": "跨境收款之后，中国公司盯上智能体支付的新生意",
+      "url": "https://www.tmtpost.com/8213773.html",
+      "summary": "中国公司正在通过智能体支付，从赚通道费走向把经营能力捆绑进企业的日常工作流。",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795335556.0,
+      "published": "2026-11-22T08:19:16+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI智能体支付的新兴赛道动态，属于AI Agent相关的产业新动向，可为AI应用相关的业务拓展方向提供参考。"
+    },
+    {
+      "title": "可灵为何开始发力“图片”？",
+      "url": "https://www.tmtpost.com/8212803.html",
+      "summary": "两家头部AI公司几乎前后脚更新图像模型。",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795309326.0,
+      "published": "2026-11-22T01:02:06+00:00",
+      "score": 6,
+      "reason": "该内容涉及头部AI公司更新图像生成模型，属于生成式AI应用领域的产品动态，可为AI内容生成相关业务布局提供参考。"
+    },
+    {
+      "title": "2026年了，AI能有什么用？",
+      "url": "https://www.tmtpost.com/8213527.html",
+      "summary": "AI能批量生成，不等于能出彩",
+      "source": "钛媒体",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795260100.0,
+      "published": "2026-11-21T11:21:40+00:00",
+      "score": 6,
+      "reason": "该新闻涉及AI内容生成相关讨论，与内容生成类AI应用方向相关，可为旗下内容产品的AI生成能力优化提供参考思路。"
+    },
+    {
+      "title": "丘成桐回应AI辅助证明黎曼猜想",
+      "url": "https://36kr.com/newsflashes/4080470183253125?f=rss",
+      "summary": "近日，美国人工智能企业Anthropic的数学家，宣称与自家研发的大模型Claude合作，证明了黎曼猜想。对此，丘成桐在接受采访时回应：这是一个很兴奋的时代，也是很危险的时代，我认为还是数学家占主导的，将数学整个平台提升到另一个水平。找到真理有很多不同的方法，我们还是要鼓励的。",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795325448.0,
+      "published": "2026-11-22T05:30:48+00:00",
+      "score": 6,
+      "reason": "该新闻涉及Anthropic旗下大模型Claude的前沿应用探索，属于AI大模型相关领域，可作为行业大模型技术进展参考。"
+    },
+    {
+      "title": "Claude宣称攻克黎曼猜想数小时后，斯坦福数学家公布纯人类证明",
+      "url": "https://36kr.com/newsflashes/4080260946875269?f=rss",
+      "summary": "北京时间11月22日，据科技媒体The Decoder报道，围绕数学界最著名的未解难题之一——黎曼猜想，一场人工智能与人类数学家的“证明竞赛”正在上演。Anthropic数学家莱文特·阿尔佩格（Levent Alpge）宣布，他与Claude合作找到了广义黎曼猜想的证明。仅数小时后，斯坦福大学研究人员也公开了一���完全由人类独立完成的竞争性证明草稿。 不过，两项成果目前均有待数学界进一步验证。",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795317354.0,
+      "published": "2026-11-22T03:15:54+00:00",
+      "score": 6,
+      "reason": "该新闻涉及Anthropic大模型Claude参与数学难题证明的行业动态，属于AI大模型相关领域，具备行业参考价值。"
+    },
+    {
+      "title": "中国AI在海外：掌声很响，账单谁付？",
+      "url": "https://www.huxiu.com/article/4907475.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795324504.0,
+      "published": "2026-11-22T05:15:04+00:00",
+      "score": 6,
+      "reason": "该内容聚焦中国AI出海相关话题，属于AI领域出海相关动态，可为我方相关内容产品出海布局提供参考。"
+    },
+    {
+      "title": "Pi创始人曝现代开发奇观：系统崩了，一屋子工程师都在问Claude怎么修",
+      "url": "https://www.huxiu.com/article/4907462.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795319109.0,
+      "published": "2026-11-22T03:45:09+00:00",
+      "score": 6,
+      "reason": "该内容涉及AI大模型Claude在开发场景的实际应用案例，属于AI应用相关动态，可为我方AI相关产品的场景拓展提供参考。"
+    },
+    {
+      "title": "算力中间商：卖时间的已上市，卖位置的正在被调查",
+      "url": "https://www.huxiu.com/article/4907449.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795315907.0,
+      "published": "2026-11-22T02:51:47+00:00",
+      "score": 6,
+      "reason": "该内容涉及AI产业上游算力中间商的行业动态，算力是支撑大模型、内容生成等核心业务的基础资源，对我们相关业务的成本与供应链布局有参考价值。"
+    },
+    {
+      "title": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
+      "url": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795255200.0,
+      "published": "2026-11-21T10:00:00+00:00",
+      "score": 6,
+      "reason": "该新闻涉及Agent持续进化的知识工程实践，属于战略覆盖的AI Agent相关领域，具备一定参考价值。"
+    },
+    {
+      "title": "GPT-6.2 Astra and Sol: The System Card",
+      "url": "https://thezvi.wordpress.com/2026/11/21/gpt-6-2-astra-and-sol-the-system-card/",
+      "summary": "We have to stop meeting like this. Alas, we will keep meeting like this. It is time, once again, to do the reading. As per usual, I will focus on things to the extent they are new and important. There &#8230; Continue reading &#8594;",
+      "source": "Don't Worry About the Vase (Zvi)",
+      "tags": [
+        "ai",
+        "analysis"
+      ],
+      "published_ts": 1795273933.0,
+      "published": "2026-11-21T15:12:13+00:00",
+      "score": 6,
+      "reason": "该新闻涉及OpenAI新一代大模型相关的系统卡解读，属于战略覆盖的AI大模型领域，可为我方大模型相关技术跟进提供参考。"
+    },
+    {
+      "title": "Australia Spy Chief Warns of Data Center, AI Risks, Age Reports",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/australia-spy-chief-warns-of-data-center-ai-risks-age-reports",
+      "summary": "Australia’s spy chief said that data centers and artificial intelligence risk exposing the nation to foreign interference and malicious state actors, according to an interview in The Age Sunday.",
+      "source": "Bloomberg Technology",
+      "tags": [
+        "tech",
+        "business"
+      ],
+      "published_ts": 1795315051.0,
+      "published": "2026-11-22T02:37:31+00:00",
+      "score": 5,
+      "reason": "该内容是境外监管方针对AI领域的风险警示类政策相关动态，属于AI领域的重要监管风向信息，可为我方出海相关AI业务合规布局提供参考。"
+    },
+    {
+      "title": "Current and former officials from the US and other countries describe the Chinese spy agency MSS' campaign to help Chinese companies acquire advanced AI chips (New York Times)",
+      "url": "https://www.techmeme.com/261122/p5#a261122p5",
+      "summary": "New York Times : Current and former officials from the US and other countries describe the Chinese spy agency MSS' campaign to help Chinese companies acquire advanced AI chips &nbsp; &mdash;&nbsp; China's espionage agency has been running a secret campaign to help the country's companies acquire advanced A.I. chips &hellip;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795330841.0,
+      "published": "2026-11-22T07:00:41+00:00",
+      "score": 5,
+      "reason": "该新闻涉及AI芯片相关的行业地缘动态，属于AI产业链相关重要外部环境信息，可作为行业背景参考。"
+    },
+    {
+      "title": "Qingmao Intelligence Plans a 10,000-Card Ascend 950DT Token Network for 2027",
+      "url": "https://pandaily.com/qingmao-intelligence-ascend-950dt-token-factory-joint-operations-plan",
+      "summary": "Qingmao Intelligence targets a 10,000-card Ascend 950DT joint-operations network in 2027, with a longer-term 100,000-card goal.",
+      "source": "Pandaily",
+      "tags": [
+        "china",
+        "tech"
+      ],
+      "published_ts": 1795314529.0,
+      "published": "2026-11-22T02:28:49+00:00",
+      "score": 5,
+      "reason": "该内容涉及万卡级AI算力网络的建设规划，可为我方内容生成、大模型相关业务的算力布局提供行业参考。"
+    },
+    {
+      "title": "我国首批可信数据空间创新发展试点取得阶段性进展，已在 13 个城市、22 个行业、28 家企业落地",
+      "url": "https://www.ithome.com/1/030/593.htm",
+      "summary": "IT之家 11 月 22 日消息，据央视新闻报道，作为数据流通利用的新载体， 我国首批可信数据空间创新发展试点取得阶段性进展 。 据介绍，可信数据空间是一类新的数据基础设施，在确保数据安全前提下，重在提升数据流通和开发利用水平，培育安全可信、开放协同、互利共赢的数据开发应用生态。 最新数据显示，我国首批可信数据空间创新发展试点自 2025 年启动以来，现已覆盖工业制造、交通物流、医疗健康等重点行业， 带动形成 457 个高质量数据集、136 个人工智能垂直模型 ，助力物流多式联运、碳足迹核算互认、新材料研发、车桩网协同调度等一批高价值场景落地应用。 IT之家查询获悉，目前， 我国首批可信数据空间创新发展试点已经在 13 个城市、22 个行业、28 家企业落地 ，持续服务产业发展和民生需求。",
+      "source": "IT之家",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795332335.0,
+      "published": "2026-11-22T07:25:35+00:00",
+      "score": 5,
+      "reason": "该新闻提到试点落地形成136个人工智能垂直模型，属于AI大模型相关的产业进展，可为内容类AI模型的发展环境提供参考。"
+    },
+    {
+      "title": "澳大利亚情报主管警示数据中心与AI潜藏风险",
+      "url": "https://36kr.com/newsflashes/4080472194175876?f=rss",
+      "summary": "澳大利亚情报机构负责人表示，数据中心与人工智能可能让该国遭到外国势力干预，面临境外恶意主体的威胁。报道援引澳大利亚安全情报组织局长迈克・伯吉斯的说法，他提出数据中心存在隐性所有权的隐患，他国掌控这类基础设施，能够从物理或虚拟层面接触相关技术。伯吉斯称，AI与数据中心行业“热度、机遇和威胁并存”。这位安全主管此前已经警告过境外政府发起的网络威胁持续上升。",
+      "source": "36氪",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795329050.0,
+      "published": "2026-11-22T06:30:50+00:00",
+      "score": 5,
+      "reason": "该新闻涉及AI领域的安全风险监管相关动态，可为我方AI相关业务的合规风险防控提供参考。"
+    },
+    {
+      "title": "逃不出的AI泡沫",
+      "url": "https://www.huxiu.com/article/4907478.html?f=rss",
+      "summary": "",
+      "source": "虎嗅",
+      "tags": [
+        "cn",
+        "business"
+      ],
+      "published_ts": 1795325868.0,
+      "published": "2026-11-22T05:37:48+00:00",
+      "score": 5,
+      "reason": "该内容围绕AI行业发展相关讨论展开，属于AI领域行业动态，可为我方AI相关业务布局提供行业环境参考。"
+    },
+    {
+      "title": "Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southeast Asia to China (Stu Woo/Wall Street Journal)",
+      "url": "https://www.techmeme.com/261122/p1#a261122p1",
+      "summary": "Stu Woo / Wall Street Journal : Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southeast Asia to China &nbsp; &mdash;&nbsp; Defendant in case involving chip smuggling worked with Jensen Huang's romantic partner&nbsp; &mdash;&nbsp; SINGAPORE&mdash;Jensen Huang's romantic partner &hellip;",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795326301.0,
+      "published": "2026-11-22T05:45:01+00:00",
+      "score": 4,
+      "reason": "该新闻涉及AI芯片跨境流通相关行业地缘事件，属于AI产业链外围动态，参考价值有限。"
+    },
+    {
+      "title": "Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China (Financial Times)",
+      "url": "https://www.techmeme.com/261121/p9#a261121p9",
+      "summary": "Financial Times : Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China &nbsp; &mdash;&nbsp; Chinese executive in romantic relationship with former Nvidia CEO Jensen Huang had connections to the lucrative trade moving chips to China",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795287301.0,
+      "published": "2026-11-21T18:55:01+00:00",
+      "score": 4,
+      "reason": "该新闻涉及AI芯片流通相关行业事件，属于AI产业链外围动态，和我们核心业务关联度较低。"
+    },
+    {
+      "title": "Inference now drives two-thirds of AI workloads, changing where chips get deployed",
+      "url": "https://siliconangle.com/2026/11/21/inference-two-thirds-ai-workloads-chip-deployment-positron-sc26/",
+      "summary": "AI spending is shifting from giant training clusters toward smaller, quickly built sites, and modular data centers are becoming a natural home for inference workloads. Power, cooling and memory supply now shape where tokens get generated as much as raw chip performance does. Inference-first chipmakers want to capture that shift. Positron AI Inc., which raised [&#8230;] The post Inference now drives two-thirds of AI workloads, changing where chips get deployed appeared first on SiliconANGLE .",
+      "source": "SiliconANGLE AI",
+      "tags": [
+        "ai",
+        "enterprise"
+      ],
+      "published_ts": 1795285706.0,
+      "published": "2026-11-21T18:28:26+00:00",
+      "score": 4,
+      "reason": "该内容涉及AI推理 workload 的行业趋势变化，和大模型内容生成、推荐等我方核心AI应用的底层算力部署相关，有一定参考价值。"
+    },
+    {
+      "title": "《以撒的结合：忏悔 +》最新“罪恶城”更新引争议，玩家称游戏音乐系 AI 工具生成",
+      "url": "https://www.ithome.com/1/030/591.htm",
+      "summary": "IT之家 11 月 22 日消息，据外媒 kotaku 报道，《以撒的结合：忏悔 +（The Binding of Isaac: Repentance+）》最新的“罪恶城”免费更新疑似使用了 AI 生成的背景音乐，引发 Steam 玩家集中差评。 具体来看，本次更新主要是为了致敬《GTA6》，玩家在更新游戏后只需在开始挑战前输入代码“V1CE BSMT”，就能进入一个以罪恶城为主题的特别版本，其中包含专属武器和背景音乐。 然而，有玩家发现该特别模式中的音乐疑似由 AI 音乐生成工具 Suno 制作，相应音频文件保留了 Suno 生成工具的元数据，玩家可以通过 VLC 等工具查看文件注释信息，例如名为 drivingsong1.ogg 的文件就包含以下记录： comment: made with suno; created=2026-10-30T17:53:41Z; id= cd5a5b55-bead-4cb9-949d-09ed1f917dce 这一发现迅速引发玩家不满。有玩家在《以撒的结合》Reddit 社区发帖质疑，开发团队使用 AI 生成音乐相当敷衍，不如不推出更新。 目前，游戏已临时更新移除了 AI 生成的音乐，不过截至报道发布时，游戏创作者 Edmund McMillen 和发行商兼联合开发商 Nicalis 尚未就使用 AI 音乐一事正式承担责任，也没有解释这些内容究竟",
+      "source": "IT之家",
+      "tags": [
+        "cn",
+        "tech"
+      ],
+      "published_ts": 1795332206.0,
+      "published": "2026-11-22T07:23:26+00:00",
+      "score": 4,
+      "reason": "该新闻涉及AI生成音乐引发玩家争议的事件，可为平台内容生态中AI生成内容的合规、用户反馈相关规则制定提供参考。"
+    },
+    {
+      "title": "Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches \"zero espionage\" executive girlfriends (Wired)",
+      "url": "https://www.techmeme.com/261121/p11#a261121p11",
+      "summary": "Wired : Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches &ldquo;zero espionage&rdquo; executive girlfriends &nbsp; &mdash;&nbsp; The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech workers.",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795306202.0,
+      "published": "2026-11-22T00:10:02+00:00",
+      "score": 3,
+      "reason": "该新闻提及AI companion应用，属于AI应用范畴，但和我们核心业务关联度较低，参考价值有限。"
+    },
+    {
+      "title": "An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness (Cristina Criddle/Financial Times)",
+      "url": "https://www.techmeme.com/261121/p6#a261121p6",
+      "summary": "Cristina Criddle / Financial Times : An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness &nbsp; &mdash;&nbsp; The in-house philosopher on the problem of consciousness and what it might feel like to be an AI agent",
+      "source": "Techmeme",
+      "tags": [
+        "tech"
+      ],
+      "published_ts": 1795260601.0,
+      "published": "2026-11-21T11:30:01+00:00",
+      "score": 3,
+      "reason": "该内容涉及AI大模型相关的AGI与人类-AI关系前沿讨论，属于AI领域前沿动态，但和我方核心业务关联度较低。"
+    }
+  ]
+}
